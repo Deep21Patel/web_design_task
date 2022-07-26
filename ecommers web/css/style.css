@@ -4,8 +4,6 @@ body{
 	
 }
 .header{
-	
-
 	height: 30px;
 	width: 100%;
 	background: black ;
@@ -52,7 +50,6 @@ body{
 
 .header .info{
 	height: 30px;
-
 	width: 16.66%;
 	
 }
@@ -540,7 +537,7 @@ font-family: 'Cormorant SC',monospace;
 .twoimage .p1 .sbox .fg h3{
 
 color: red;
-margin-left: 40%;
+margin-left: 35%;
 font-size: 30px;
 padding: 30px;
 
@@ -624,7 +621,7 @@ padding: 30px;
 .twoimage .p2 .pbox .fd h3{
 
 color: red;
-margin-left: 40%;
+margin-left: 35%;
 font-size: 30px;
 padding: 30px;
 
@@ -918,19 +915,106 @@ height: 300px;
 
 	height: 400px;
 	width: 50%;
-	background: red;
-
+	background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg);
+	background-size: cover;
+	position: relative;
+	transition: 1s;
+	overflow: hidden;
+	
 
 }
+.fourimage .c1::before{
 
+	content: "";
+			height: 400px;
+			width: 100%;
+	 		background-color: black;
+   			 opacity: .1;
+			position: absolute;
+			left: -100%;
+			top: -100%;
+			transition: .5s;
+			z-index: 1;
+}
+.fourimage .c1:hover::before{
+
+	position: absolute;
+			left: 0%;
+			top: 0%;
+
+}
+.fourimage .c1::after{
+
+	position: absolute;
+	left: 100%;
+	top: 100%;
+	content: "";
+	height: 400px;
+	width: 100%;
+	 background-color: black;
+
+		opacity: .1;
+	transition: .5s;
+}
+.fourimage .c1:hover::after {
+
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
 
 
 .fourimage .c2 {
 
 	height: 400px;
 	width: 50%;
-	background: #3b5998;	
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg);	
+	background-size: cover;		
+	position: relative;
+	transition: 1s;
+	overflow: hidden;
+	
 }
+.fourimage .c2::before{
+
+	content: "";
+			height: 400px;
+			width: 100%;
+	 		background-color: black;
+   			 opacity: .1;
+			position: absolute;
+			left: -100%;
+			top: -100%;
+			transition: .5s;
+			z-index: 1;
+}
+.fourimage .c2:hover::before{
+
+	position: absolute;
+			left: 0%;
+			top: 0%;
+
+}
+.fourimage .c2::after{
+
+	position: absolute;
+	left: 100%;
+	top: 100%;
+	content: "";
+	height: 400px;
+	width: 100%;
+	 background-color: black;
+
+		opacity: .2;
+	transition: .5s;
+}
+.fourimage .c2:hover::after {
+
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+
 
 .con{
 
@@ -973,11 +1057,60 @@ text-align: center;
 	margin-top: 50px;
 	box-shadow: 0 0 30px black;
 }
- .photo{
+ .j1 .photo{
 
 	height: 150px;
 	width:100%;
-	background: #fff;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg);
+	background-size: cover;
+}
+.j2 .photo{
+
+	height: 150px;
+	width:100%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m2.jpg);
+	background-size: cover;
+}
+.j3 .photo{
+
+	height: 150px;
+	width:100%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m3.jpg);
+	background-size: cover;
+}
+.j4 .photo{
+
+	height: 150px;
+	width:100%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m4.jpg);
+	background-size: cover;
+}
+.o1 .photo{
+
+	height: 150px;
+	width:100%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b5.jpg);
+	background-size: cover;
+}
+.o2 .photo{
+
+	height: 150px;
+	width:100%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b8.jpg);
+	background-size: cover;
+}
+.o3 .photo{
+	height: 150px;
+	width:100%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b7.jpg);
+	background-size: cover;
+}
+.o4 .photo{
+
+	height: 150px;
+	width:100%;
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b6.jpg);
+	background-size: cover;
 }
  .lable{
 
@@ -1513,78 +1646,4 @@ margin-left: 10px;
 
 	color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
