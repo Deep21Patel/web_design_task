@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            background: linear-gradient(45deg,rgb(255, 54, 87),white,rgb(255, 54, 87));
+           
+        
+        }
+        .main{
+
+            height: 620px;
+            width: 100%;
+            background:;
+            position: relative;
+        }
+        .main .round1{
+
+            height: 300px;
+            width: 300px;
+            background: pink;
+            border-radius: 50%;
+            filter: blur(10px);
+            position: relative;
+            z-index: -1;
+        }
+        .main .round1 .round2{
+
+            height: 400px;
+            width: 400px;
+            background:lightblue;
+            filter: blur(70px);
+            border-radius: 50%;
+            position: absolute ;
+            left: 300%;
+            top: -20%;
+ 
+}
+ 
+.main .round3{
+    height: 300px;
+            width: 300px;
+            background:pink;
+            border-radius: 50%;
+            filter: blur(70px);
+            position: absolute;
+            top: 10%;
+            left: -50px;
+            z-index: -1;
+            
+
+}
+ .round4{
+
+    height: 100px;
+    width: 100px;
+    background:rgb(248, 103, 0);
+    border-radius: 50%;
+     padding: 30px;
+     z-index: 1;
+     margin-top: -70px;
+     margin-left: 300px;
+     position: relative;
+ 
+}
+.round4 .round5{
+
+    height: 200px;
+    width: 200px;
+    background:rgb(72, 72, 254);
+    border-radius: 50%;
+    position: absolute;
+    left: 300px;
+    top:190px;
+    position: relative;
+   
+    
+}
+.round4 .round5 .round6{
+
+height: 150px;
+width: 150px;
+background:rgb(72, 72, 254);
+border-radius: 50%;
+position: absolute;
+left: 330px;
+top:-450px
+
+
+
+}
+.main .card1{
+
+    height: 550px;
+    width: 300px;
+    background:transparent;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: -100%;
+    border-radius: 20px;
+    backdrop-filter: blur(7px) saturate(200%) contrast(40%) brightness(140%);
+}
+.main .card2{
+
+height: 550px;
+width: 300px;
+background: transparent;
+position: absolute;
+top: -100%;
+left:280%;
+border-radius: 20px;
+backdrop-filter: blur(7px) saturate(200%) contrast(40%) brightness(140%);
+
+}
+.card1 .logo{
+
+    height:50px ;
+    background:;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.card1 .img{
+
+height:200px ;
+background:;
+}
+.card1 .lable{
+   
+text-align: center;
+height:100px ;
+background:;
+}
+.card1 .btn1{
+
+height:50px ;
+background:;
+text-align: center;
+line-height: 50px;
+}
+.card1 .btn1 .bt{
+
+    border: none;
+    background:linear-gradient(45deg, blue,red);
+    padding: 10px 70px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.card1 .btn2{
+
+height:50px ;
+background:;
+text-align: center;
+line-height: 50px;
+}
+.card1 .btn2 button{
+
+border: none;
+background:linear-gradient(45deg, blue,red);
+padding: 10px 60px;
+border-radius: 30px;
+color: #fff;
+font-size: 15px;
+font-weight: bold;
+}
+.card1 .social{
+
+height:0px ;
+background:;
+text-align: center;
+
+}
+.card1 .social p{
+
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.card1 .social .sc{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+.card1 .social .sc .red{
+
+height:30px ;
+
+width:30px ;
+background: red;
+border-radius: 50%;
+
+}
+.card1 .social .sc .blue{
+
+height:30px ;
+
+width:30px ;
+background:blue;
+border-radius: 50%;
+margin-left: 10px;
+
+}
+.card1 .social .sc .green{
+
+height:30px ;
+
+width:30px ;
+background:green;
+border-radius: 50%;
+margin-left: 10px;
+}
+.card2 .logo{
+
+height: 50px;
+background:;
+margin:30px ;
+font-weight: bold;
+}
+.card2 .had{
+
+height: 100px;
+background:;
+text-align: center;
+}
+.card2 .in1{
+
+height: auto;
+background:;
+margin: 30px;
+font-size: 20px;
+}
+.card2 .in1 .name{
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: ;
+}
+.card2 .in2{
+
+height: auto;
+background:;
+margin: 30px;
+font-size: 20px;
+}
+.card2 .in2 .pass{
+
+background: transparent;
+border: none;
+border-bottom: 1px solid black;
+outline: none;
+margin: ;
+}
+.card2 .login{
+
+height: 100px;
+background:;
+text-align: center;
+}
+.card2 .login button{
+    border: none;
+background:linear-gradient(45deg, blue,red);
+padding: 10px 60px;
+border-radius: 30px;
+color: #fff;
+font-size: 15px;
+font-weight: bold;
+}
+.card2 .sing{
+
+height: 200px;
+background:;
+text-align: center;
+}
+
+
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="round1">
+            <div class="round2">
+                <div class="round5"></div>
+            </div>
+           
+        </div>
+        
+       
+        <div class="round3">
+            
+        </div>
+        <div class="round4">
+
+            <div class="round5">
+                <div class="round6"></div>
+            </div>
+            <div class="card1">
+
+                <div class="logo">LOGO</div>
+                <div class="img"><img src="..\\C:\\Users\\lc\\Downloads\\aa.png" alt=""></div>
+                <div class="lable">
+                   <div class="hed">
+                    <h3 style="margin: 0;">Hello!</h3>
+                    <p>Welecome to our application,best place to manage your schedule </p>
+                   </div>
+                </div>
+                <div class="btn1">
+                    <button class="bt">login</button>
+                </div>
+                <div class="btn2">
+                    <button>Sing Up</button>
+                </div>
+                <div class="social">
+                    <p style="margin: 0;">our via social media</p>
+                    <div class="sc">
+                    <div class="red"></div>
+                    <div class="blue"></div>
+                    <div class="green"></div></div>
+                </div>
+
+            </div>
+            <div class="card2">
+                
+               <div class="logo">LOGO</div>
+               <div class="had">
+                <h2 style="margin: 0;">Welecome Back!</h2>
+               </div>
+               <div class="in1">
+                <P style="margin: 0;">Username</P>
+                <input class="name" type="text" required>
+                
+               </div>
+                <div class="in2">
+                    <p style="margin: 0;">Password</p>
+                    <input class="pass" type="password" required>
+                </div>
+                <div class="login">
+                    <button>login Now</button>
+                </div>
+                <div class="sing">
+                    Don't have an account?<a href="#">Sing UP</a> 
+                </div>
+
+            </div>
+           
+        </div>
+       
+        
+
+    </div>
+</body>
+</html>
