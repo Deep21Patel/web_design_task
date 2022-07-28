@@ -1,3 +1,4 @@
+
 *{box-sizing: border-box; margin:0; padding:0;}
 body{
 
@@ -554,9 +555,7 @@ padding: 30px;
 
 }
 /*.p1:hover .sbox{
-
 	
-
 }*/
 @keyframes deep
 {
@@ -564,7 +563,6 @@ padding: 30px;
 	from{transform: translatex(0px) ; transition: 4s;}
 }
 /*@keyframes deep1{
-
 	0%{opacity: 1;}
 	50%{opacity: 0.5;}
 	100%{opacity: 0;}
@@ -638,9 +636,7 @@ padding: 30px;
 
 }
 /*.p1:hover .sbox{
-
 	
-
 }*/
 @keyframes deep
 {
@@ -648,7 +644,6 @@ padding: 30px;
 	from{transform: translatex(0px) ; transition: 4s;}
 }t
 /*@keyframes deep1{
-
 	0%{opacity: 1;}
 	50%{opacity: 0.5;}
 	100%{opacity: 0;}
