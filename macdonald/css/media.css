@@ -1,0 +1,70 @@
+/* header start */
+@media (max-width:1100px)
+{
+    .header{display: flex;}
+    
+   
+    .header .part1{width: 33.33%;height: 200px; background-size: cover;}
+    .header .part2{width: 33.33%;height: 200px;}
+    .header .part3{width: 33.33%;height: 200px;}
+    .header .part2 .up{display: none;}
+    .header .part2 .down{display: none;}
+}
+@media (max-width:900px)
+{
+    .header{display: flex;}
+   
+    .header .part1{width: 33.33%;height: 180px; background-size: cover;}
+    .header .part2{width: 33.33%;height: 180px;}
+    .header .part3{width: 33.33%;height: 180px;}
+    .header .part2 .up{display: none;}
+    .header .part2 .down{display: none;}
+      .con .img{width: 100%;}
+    .con .dis{width: 100%;}
+    .con2 .img2{width: 100%;}
+    .con2 .dis2{width: 100%;}
+    .con3 .img3{width: 100%;}
+    .con3 .dis3{width: 100%;}
+}
+@media (max-width:700px)
+{
+    .header{display: flex;}
+    
+   
+    .header .part1{width: 33.33%;height: 140px; background-size: cover;}
+    .header .part2{width: 33.33%;height: 140px;}
+    .header .part3{width: 33.33%;height: 140px;}
+    .header .part2 .up{display: none;}
+    .header .part2 .down{display: none;}
+    .con .img{width: 100%;}
+    .con .dis{width: 100%;}
+    .con2 .img2{width: 100%;}
+    .con2 .dis2{width: 100%;}
+    .con3 .img3{width: 100%;}
+    .con3 .dis3{width: 100%;}
+}
+@media (max-width:500px)
+{
+    .header{display: flex;}
+    
+    .header .part1{width: 33.33%;height: auto; background-size: cover;}
+    .header .part2{width: 33.33%;height: 100px;}
+    .header .part3{width: 33.33%;height: auto;}
+    .header .part3 button{padding: 10px;
+        font-size: 15px;
+        border-radius: ;
+        background: yellow;
+        border: none;
+        margin-top: 20px;
+        margin-left: 20px;
+        cursor: pointer;}
+
+    .header .part2 .up{display: none;}
+    .header .part2 .down{display: none;}
+    .con .img{width: 100%;}
+    .con .dis{width: 100%;}
+    .con2 .img2{width: 100%;}
+    .con2 .dis2{width: 100%;}
+    .con3 .img3{width: 100%;}
+    .con3 .dis3{width: 100%;}
+}

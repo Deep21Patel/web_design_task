@@ -1,0 +1,252 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+
+body 
+{
+    overflow-x: hidden ;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background:#fff;
+    box-shadow: 0 0 10px black;
+ 
+
+}
+.header .part1{
+    height:150px;
+    background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png);
+    width: 20%;
+    background-size:cover ;
+}
+
+.header .part2{
+    height: 150px;
+   
+    width:60%;
+}
+.header .part2 .up{
+
+    height: 75px;
+    width: 100%;
+   
+    display: flex;
+}
+
+.header .up .sub1{
+    height:75px ;
+    width: 50%;
+
+}
+
+.header .up .sub2{
+    height:75px ;
+    width: 50%;
+  ;
+}
+
+.header .part2 .up .sub1 ul{
+    padding-top: 30px;
+    margin-left: 20px;
+}
+ 
+.header .part2 .up .sub1 li{
+
+	list-style: none;
+	display: inline;
+	margin: 0 20px 0 0px;
+    margin-top: 30px;
+}
+
+.header .part2 .up .sub1 li a{
+
+    text-decoration: none;
+	color:black;
+	font-weight: ;
+	font-size: 15px;
+
+}
+
+
+.part2 .down{
+
+    height: 75px;
+    width: 100%;
+    background:;
+}
+
+
+.down ul{
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.down li{
+
+	list-style: none;
+	display: inline;
+	margin: 0 20px 0 0px;
+    margin-top: 30px;
+}
+.down li a{
+
+    text-decoration: none;
+	color:black;
+	font-weight: ;
+	font-size: 18px;
+
+}
+.part3 button{
+
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: yellow;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.header .part3{
+    height: auto;
+    background:;
+    width: 20%;
+}
+.con{
+    height: auto;
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.con .img{
+ 
+    height: auto;
+    width: 60%;
+
+}
+.con .img img{
+ margin: 50px 60px;
+}
+.con .dis{
+
+    height: auto;
+    width: 40%;
+    
+
+}
+.con .d{
+
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.con h1{
+
+    margin-left:50px;
+}
+.con p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.con .dis button{
+    padding: 6px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border: none;
+    background: yellow;
+    border-radius: 10px;
+}
+.con2 {
+
+    height: auto;
+    width: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+.con2 .img2 {
+
+    height: auto;
+    width: 60%;
+
+}
+.con2 .img2 img{
+    margin: 50px 60px;
+    
+   }
+
+.con2 .dis2 {
+
+    height: 400px;
+    width: 40%;
+
+}
+
+.con2 .dis2 h1{
+
+    margin-left:50px;
+    margin-top: 30px;
+}
+.con2 .dis2 p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.con2 .dis2 button{
+    padding: 6px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border: none;
+    background: yellow;
+    border-radius: 10px;
+}
+.con3 {
+
+    height: auto;
+    width: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+.con3 .img3 {
+
+    height: auto;
+    width: 60%;
+
+}
+.con3 .img3 img{
+    margin: 50px 60px;
+    
+   }
+
+.con3 .dis3 {
+
+    height: 400px;
+    width: 40%;
+
+}
+
+.con3 .dis3 h1{
+
+    margin-left:50px;
+    margin-top: 30px;
+}
+.con3 .dis3 p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.con3 .dis3 button{
+    padding: 6px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border: none;
+    background: yellow;
+    border-radius: 10px;
+}
