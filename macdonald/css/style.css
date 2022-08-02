@@ -22,8 +22,14 @@ body
 
 .header .part2{
     height: 150px;
-   
+   background-color:#fff;
     width:60%;
+}
+
+.bar{
+    
+    display: none;
+   
 }
 .header .part2 .up{
 
@@ -249,4 +255,272 @@ body
     border: none;
     background: yellow;
     border-radius: 10px;
+}
+.con4 {
+
+    height: auto;
+    width: 100%;
+  
+    display: flex;
+    flex-wrap: wrap;
+}
+.con4 .img4 {
+
+    height: auto;
+    width: 60%;
+
+}
+.con4 .img4 img{
+    margin: 50px 60px;
+    
+   }
+
+.con4 .dis4 {
+
+    height: 400px;
+    width: 40%;
+
+}
+
+.con4 .dis4 h1{
+
+    margin-left:50px;
+    margin-top: 30px;
+}
+.con4 .dis4 p{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.con4 .dis4 button{
+    padding: 6px;
+    margin-top: 50px;
+    margin-left: 50px;
+
+    border: none;
+    background: yellow;
+    border-radius: 10px;
+}
+.footer{
+
+    height: 500px;
+    width: 100%;
+    background:;
+}
+.footer .blank{
+
+    height:50px ;
+    background:#fff;
+}
+.dd{
+
+    height: 450px;
+    background:#fff;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.dd .g1, .g2, .g3, .g4{
+    height: auto;
+   
+    display: none;
+    padding-left: 50px;
+
+}
+.dd .g1,  h3 a{
+
+    color:black;
+    text-decoration: none;
+    
+    
+
+
+}
+.dd .g2{display: none;
+}
+.dd .g3{display: none;
+}
+.dd .g4{display: none;
+}
+.dd .d1{
+
+    height: 450px;
+    width: 25%;
+   
+    padding-left: 8%;
+    padding-top: 100px;
+    
+}
+.dd .d1 h3{
+
+    font-weight: bold;
+}
+.dd .d1 ul{
+
+    margin-top: 30px;
+    
+
+}
+.dd .d1 li{
+
+    list-style: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.dd .d1 li a{
+
+    text-decoration: none;
+    color:black
+}
+
+.dd .d2{
+
+    height: 450px;
+    width: 25%;
+   
+    padding-left: 8%;
+    padding-top: 100px;
+    
+}
+.dd .d2 h3{
+
+    font-weight: bold;
+}
+.dd .d2 ul{
+
+    margin-top: 30px;
+    
+
+}
+.dd .d2 li{
+
+    list-style: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.dd .d2 li a{
+
+    text-decoration: none;
+    color:black
+}
+
+.dd .d3{
+
+    height: 450px;
+    width: 25%;
+
+    padding-left: 8%;
+    padding-top: 100px;
+    
+}
+.dd .d3 h3{
+
+    font-weight: bold;
+}
+.dd .d3 ul{
+
+    margin-top: 30px;
+    
+
+}
+.dd .d3 li{
+
+    list-style: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.dd .d3 li a{
+
+    text-decoration: none;
+    color:black
+}
+.dd .d4{
+
+    height: 450px;
+    width: 25%;
+    background:;
+    padding-left: 8%;
+    padding-top: 100px;
+    
+}
+.dd .d4 h3{
+
+    font-weight: bold;
+}
+.dd .d4 ul{
+
+    margin-top: 30px;
+    
+
+}
+.dd .d4 li{
+
+    list-style: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.dd .d4 li a{
+
+    text-decoration: none;
+    color:black
+}
+.social{
+
+    height: 100PX;
+    background:#fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.social .left{
+
+    height: 100px;
+    width: 50%;
+ 
+}
+.social .right{
+
+    height: 100px;
+    width: 50%;
+   
+    display: flex;
+    
+    
+}
+.social .left .soci{
+
+    line-height: 100px;
+    text-align: center;
+}
+.soci i{
+
+    font-size: 40px;
+    margin-left: 40px;
+}
+.social .right .play{
+
+    height: 50px;
+    width: 160px;
+    background:url(https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/app_store_badge.png);
+    background-size:100% 100%;
+    margin-left: 35%;
+    margin-top: 20px ;
+    
+
+}
+.social .right .app{
+
+    height: 50px;
+    width: 160px;
+    background:url(https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/google_play_badge.png);
+    background-size:100% 100%;
+    margin-top: 20px ;
+    
+
+}
+.copy{
+
+    height: 200px;
+    width: 100%;
+    background:#fff;
+    text-align: center;
 }

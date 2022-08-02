@@ -7,7 +7,18 @@
     .header .part1{width: 33.33%;height: 200px; background-size: cover;}
     .header .part2{width: 33.33%;height: 200px;}
     .header .part3{width: 33.33%;height: 200px;}
-    .header .part2 .up{display: none;}
+    .header .part2 .up .sub1{display: none;}
+    .header .part2 .up .sub2{display: none;}
+    .bar{
+        
+        display: block;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 50px;
+        }
+
+
     .header .part2 .down{display: none;}
 }
 @media (max-width:900px)
@@ -17,14 +28,59 @@
     .header .part1{width: 33.33%;height: 180px; background-size: cover;}
     .header .part2{width: 33.33%;height: 180px;}
     .header .part3{width: 33.33%;height: 180px;}
-    .header .part2 .up{display: none;}
+    .header .part2 .up .sub1{display: none;}
+    .header .part2 .up .sub2{display: none;}
+    .bar{
+        
+        display: block;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 50px;
+        }
     .header .part2 .down{display: none;}
+    
+
+
       .con .img{width: 100%;}
     .con .dis{width: 100%;}
     .con2 .img2{width: 100%;}
     .con2 .dis2{width: 100%;}
     .con3 .img3{width: 100%;}
     .con3 .dis3{width: 100%;}
+    .con4 .img4{width: 100%;}
+    .con4 .dis4{width: 100%;}
+    .footer .blank{width: 100%;}
+
+    .footer .dd .d1{display: none; }
+    .footer .dd .d2{display: none;}
+    .footer .dd .d3{display: none;}
+    .footer .dd .d4{display: none;}
+    .footer .dd .g1{
+                   
+                    display: block;
+                    width: 100%;
+                }
+                .footer .dd .g2{
+                    height: auto;
+                
+                    display: block;
+                    width: 100%;
+                }
+                .footer .dd .g3{
+                    height: auto;
+                  
+                    display: block;
+                    width: 100%;
+                }
+                .footer .dd .g4{
+                    height: auto;
+                
+                    display: block;
+                    width: 100%;
+                }
+                
+    
 }
 @media (max-width:700px)
 {
@@ -34,14 +90,51 @@
     .header .part1{width: 33.33%;height: 140px; background-size: cover;}
     .header .part2{width: 33.33%;height: 140px;}
     .header .part3{width: 33.33%;height: 140px;}
-    .header .part2 .up{display: none;}
+    .header .part2 .up .sub1{display: none;}
+    .header .part2 .up .sub2{display: none;}
+    .bar{
+        
+        display: block;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 50px;
+        }
     .header .part2 .down{display: none;}
+    
+
     .con .img{width: 100%;}
     .con .dis{width: 100%;}
     .con2 .img2{width: 100%;}
     .con2 .dis2{width: 100%;}
     .con3 .img3{width: 100%;}
     .con3 .dis3{width: 100%;}
+    .con4 .img4{width: 100%;}
+    .con4 .dis4{width: 100%;}
+    .footer .blank{width: 100%;background:;}
+  
+    .footer .dd .d1{display: none;}
+    .footer .dd .d2{display: none;}
+    .footer .dd .d3{display: none;}
+    .footer .dd .d4{display: none;}
+    .social .left{width: 50%; }
+     .soci i{font-size: 20px;}
+    .social .right{width: 50%;}
+    .social .right .app{height: 40px;width: 100px;
+        background:url(https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/app_store_badge.png);
+        background-size:100% 100%;                    
+    
+    }
+    .social .right .play{height: 40px;width: 100px;
+        background:url(https://www.mcdonalds.com/content/dam/sites/usa/nfl/logo/app_store_badge.png);
+        background-size:100% 100%;                    
+    
+    }
+    
+   
+
+    
+
 }
 @media (max-width:500px)
 {
@@ -59,12 +152,36 @@
         margin-left: 20px;
         cursor: pointer;}
 
-    .header .part2 .up{display: none;}
+        .header .part2 .up .sub1{display: none;}
+        .header .part2 .up .sub2{display: none;}
+        .bar{
+            
+            display: block;
+            font-size: 40px;
+            text-align: center;
+            margin-top: 40px;
+            margin-left: 50px;
+            }
     .header .part2 .down{display: none;}
+
+
+
     .con .img{width: 100%;}
     .con .dis{width: 100%;}
     .con2 .img2{width: 100%;}
     .con2 .dis2{width: 100%;}
     .con3 .img3{width: 100%;}
     .con3 .dis3{width: 100%;}
+    .con4 .img4{width: 100%;}
+    .con4 .dis4{width: 100%;}
+    .footer .blank{width: 100%;}
+   
+    .footer .dd .d1{display: none; }
+    .footer .dd .d2{display: none;}
+    .footer .dd .d3{display: none;}
+    .footer .dd .d4{display: none;}
+    .social .left{width: 100%;}
+    .social .right{width: 100%;}
+    .copy{width: 100%;}
+
 }
