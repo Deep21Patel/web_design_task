@@ -477,14 +477,26 @@ font-family: 'Cormorant SC',monospace;
 	border: none;
 	cursor: pointer;
 	transition: 1s;
+	position: relative;
 }
- .btn2 button:hover{
+.image .btn2 button::before {
 
-	background: black;
-	color: white;
-	transform: scale(1.3);
+	content: '';
+	position: absolute;
+	border: #25ffcd solid 6px;
+	top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .3s;
+ 
 }
-
+.image .btn2 button:hover:before{
+	top: -12px;
+  right: -12px;
+  bottom: -12px;
+  left: -12px;
+}
 
 .twoimage{
 
@@ -1038,6 +1050,7 @@ text-align: center;
 	display: flex;
 	
 	
+	
 
 }
 .co .con1 .nb{
@@ -1057,57 +1070,364 @@ text-align: center;
 
 	height: 150px;
 	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg);
-	background-size: cover;
+	background: white;
+	position: relative;
 }
+
+.j1 .photo .front{
+	height: 150px;
+			width: 100%;
+			background: #25cdff;
+			position: absolute;
+			
+			transition: 1s;
+			backface-visibility: hidden;
+}
+.j1 .photo .back{
+	height: 150px;
+			width: 100%;
+			background: pink;
+			position: absolute;
+			
+			transition: 1s;
+			backface-visibility: hidden;
+}
+.j1 .photo .front
+
+		{
+			transform: rotateY(180deg);
+
+		}
+.j1 .photo .back
+		{
+			transform: rotateY(0deg);
+
+		}
+		.j1 .photo:hover .back 
+		{
+			transform: rotateY(180deg);
+		}
+		.j1 .photo:hover .front 
+		{
+			transform: rotateY(0deg);
+		}
 .j2 .photo{
 
 	height: 150px;
 	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m2.jpg);
-	background-size: cover;
+	background: white;
+	position: relative;
+	
 }
+.j2 .photo .front{
+	height: 150px;
+			width: 100%;
+			background: #25cdff;
+			position: absolute;
+			
+			transition: 1s;
+			backface-visibility: hidden;
+}
+.j2 .photo .back{
+	height: 150px;
+			width: 100%;
+			background: pink;
+			position: absolute;
+			
+			transition: 1s;
+			backface-visibility: hidden;
+}
+.j2 .photo .front
+
+		{
+			transform: rotateY(180deg);
+
+		}
+.j2 .photo .back
+		{
+			transform: rotateY(0deg);
+
+		}
+		.j2 .photo:hover .back 
+		{
+			transform: rotateY(180deg);
+		}
+		.j2 .photo:hover .front 
+		{
+			transform: rotateY(0deg);
+		}
+		
 .j3 .photo{
 
 	height: 150px;
 	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m3.jpg);
-	background-size: cover;
+	background: white;
+	position: relative;
+	
 }
-.j4 .photo{
-
+.j3 .photo .front{
 	height: 150px;
-	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m4.jpg);
-	background-size: cover;
+			width: 100%;
+			background: #25cdff;
+			position: absolute;
+			
+			transition: 1s;
+			backface-visibility: hidden;
 }
+.j3 .photo .back{
+	height: 150px;
+			width: 100%;
+			background: pink;
+			position: absolute;
+			
+			transition: 1s;
+			backface-visibility: hidden;
+}
+.j3 .photo .front
+
+		{
+			transform: rotateY(180deg);
+
+		}
+.j3 .photo .back
+		{
+			transform: rotateY(0deg);
+
+		}
+		.j3 .photo:hover .back 
+		{
+			transform: rotateY(180deg);
+		}
+		.j3 .photo:hover .front 
+		{
+			transform: rotateY(0deg);
+		}
+		
+		.j4 .photo{
+
+			height: 150px;
+			width:100%;
+			background: white;
+			position: relative;
+			
+		}
+		.j4 .photo .front{
+			height: 150px;
+					width: 100%;
+					background: #25cdff;
+					position: absolute;
+					
+					transition: 1s;
+					backface-visibility: hidden;
+		}
+		.j4 .photo .back{
+			height: 150px;
+					width: 100%;
+					background: pink;
+					position: absolute;
+					
+					transition: 1s;
+					backface-visibility: hidden;
+		}
+		.j4 .photo .front
+		
+				{
+					transform: rotateY(180deg);
+		
+				}
+		.j4 .photo .back
+				{
+					transform: rotateY(0deg);
+		
+				}
+				.j4 .photo:hover .back 
+				{
+					transform: rotateY(180deg);
+				}
+				.j4 .photo:hover .front 
+				{
+					transform: rotateY(0deg);
+				}
 .o1 .photo{
 
-	height: 150px;
-	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b5.jpg);
-	background-size: cover;
-}
-.o2 .photo{
+					height: 150px;
+					width:100%;
+					background: white;
+					position: relative;
+					
+				}
+				.o1 .photo .front{
+					height: 150px;
+							width: 100%;
+							background: #25cdff;
+							position: absolute;
+							
+							transition: 1s;
+							backface-visibility: hidden;
+				}
+				.o1 .photo .back{
+					height: 150px;
+							width: 100%;
+							background: pink;
+							position: absolute;
+							
+							transition: 1s;
+							backface-visibility: hidden;
+				}
+				.o1 .photo .front
+				
+						{
+							transform: rotateY(180deg);
+				
+						}
+				.o1 .photo .back
+						{
+							transform: rotateY(0deg);
+				
+						}
+						.o1 .photo:hover .back 
+						{
+							transform: rotateY(180deg);
+						}
+						.o1 .photo:hover .front 
+						{
+							transform: rotateY(0deg);
+						}
+						.o2 .photo{
 
-	height: 150px;
-	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b8.jpg);
-	background-size: cover;
-}
-.o3 .photo{
-	height: 150px;
-	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b7.jpg);
-	background-size: cover;
-}
-.o4 .photo{
+							height: 150px;
+							width:100%;
+							background: white;
+							position: relative;
+							
+						}
+						.o2 .photo .front{
+							height: 150px;
+									width: 100%;
+									background: #25cdff;
+									position: absolute;
+									
+									transition: 1s;
+									backface-visibility: hidden;
+						}
+						.o2 .photo .back{
+							height: 150px;
+									width: 100%;
+									background: pink;
+									position: absolute;
+									
+									transition: 1s;
+									backface-visibility: hidden;
+						}
+						.o2 .photo .front
+						
+								{
+									transform: rotateY(180deg);
+						
+								}
+						.o2 .photo .back
+								{
+									transform: rotateY(0deg);
+						
+								}
+								.o2 .photo:hover .back 
+								{
+									transform: rotateY(180deg);
+								}
+								.o2 .photo:hover .front 
+								{
+									transform: rotateY(0deg);
+								}
+								.o3 .photo{
 
-	height: 150px;
-	width:100%;
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/b6.jpg);
-	background-size: cover;
-}
+									height: 150px;
+									width:100%;
+									background: white;
+									position: relative;
+									
+								}
+								.o3 .photo .front{
+									height: 150px;
+											width: 100%;
+											background: #25cdff;
+											position: absolute;
+											
+											transition: 1s;
+											backface-visibility: hidden;
+								}
+								.o3 .photo .back{
+									height: 150px;
+											width: 100%;
+											background: pink;
+											position: absolute;
+											
+											transition: 1s;
+											backface-visibility: hidden;
+								}
+								.o3 .photo .front
+								
+										{
+											transform: rotateY(180deg);
+								
+										}
+								.o3 .photo .back
+										{
+											transform: rotateY(0deg);
+								
+										}
+								.o3 .photo:hover .back 
+										{
+											transform: rotateY(180deg);
+										}
+								.o3 .photo:hover .front 
+										{
+											transform: rotateY(0deg);
+										}
+										.o4 .photo{
+
+											height: 150px;
+											width:100%;
+											background: white;
+											position: relative;
+											
+										}
+										.o4 .photo .front{
+											height: 150px;
+													width: 100%;
+													background: #25cdff;
+													position: absolute;
+													
+													transition: 1s;
+													backface-visibility: hidden;
+										}
+										.o4 .photo .back{
+											height: 150px;
+													width: 100%;
+													background: pink;
+													position: absolute;
+													
+													transition: 1s;
+													backface-visibility: hidden;
+										}
+										.o4 .photo .front
+										
+												{
+													transform: rotateY(180deg);
+										
+												}
+										.o4 .photo .back
+												{
+													transform: rotateY(0deg);
+										
+												}
+												.o4 .photo:hover .back 
+												{
+													transform: rotateY(180deg);
+												}
+												.o4 .photo:hover .front 
+												{
+													transform: rotateY(0deg);
+												}
  .lable{
 
 	height: 50px;
@@ -1124,12 +1444,24 @@ text-align: center;
 	border: none;
 	cursor: pointer;
 	transition: 1s;
+	position: relative;
 }
-.lable .btn3 button:hover{
+.lable .btn3 button::before{
+	content: '';
+	position: absolute;
+	border:#25ffcd solid 4px;
+	top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: .3s;
 
-	transform: scale(.5);
-	background: black;
-	color: white;
+}
+.lable .btn3 button:hover:before{
+	top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
 }
 .con .con1 .j2{
 
@@ -1270,8 +1602,27 @@ text-align: center;
 	padding: 15px;
 	height: 50px;
 	width: 50px;
-	background: black;
-	animation: dq1 2s infinite;
+	background:black;
+	position: relative;
+	transform: perspective(1px) translateZ(0);
+	overflow: hidden;
+
+}
+.gun i::before{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background:#2fdab8;
+	transition: .3s;
+	transform: scale(0);
+}
+.gun :hover:before{
+
+	transform: scale(2);
 }
 .gun .f1{
 
