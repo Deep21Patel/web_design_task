@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#999));
+            display:table-cell;
+            vertical-align:middle;
+        }
+        .round1{
+            height: 500px;
+            width: 500px;
+            background:black;
+            margin: 100px auto;
+            border-radius: 50%;
+            position: relative;
+            animation: deep 1s linear infinite;
+          
+        }
+        .round2{
+            height: 450px;
+            width: 450px;
+            background: white;
+            margin: 100px auto;
+            border-radius: 50%;
+            position: absolute;
+            left: 26px;
+            top: -75px;
+            animation: deep1 2s linear infinite;
+           
+        }
+          .round3{
+            height: 400px;
+            width: 400px;
+            background: black;
+         
+            border-radius: 50%;
+            position: absolute;
+            left: 26px;
+            top: 25px;
+            animation: deep2 3s linear infinite;
+           
+        }
+        /* .round4{
+            height: 350px;
+            width: 350px;
+            background:white;
+            margin: 100px auto;
+            border-radius: 50%;
+            position: absolute;
+            left: 25px;
+            top: -75px;
+           
+        }
+        .round5{
+            height: 300px;
+            width: 300px;
+            background:black
+         
+            border-radius: 50%;
+            position: absolute;
+            left: 25px;
+            top: -75px;
+           
+        } */ */
+        @keyframes deep{
+
+       
+        to{
+            background: white;
+        }
+    }
+        @keyframes deep1{
+
+        to{
+            background:black;
+        }
+}
+@keyframes deep2{
+
+    
+        to{
+            background: white;
+        }
+
+}
+       /* .round1{
+            height: 500px;
+            width: 500px;
+            background: red;
+            margin: 100px auto;
+            border-radius: 50%;
+        } */
+    </style>
+</head>
+<body>
+    <div class="round1">
+        <div class="round2">
+            <div class="round3">
+                <div class="round4">
+                    <div class="round5">
+                        <div class="round6">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

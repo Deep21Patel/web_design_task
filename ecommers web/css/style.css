@@ -1072,6 +1072,7 @@ text-align: center;
 	width:100%;
 	background: white;
 	position: relative;
+	overflow: hidden;
 }
 
 .j1 .photo .front{
@@ -1091,6 +1092,150 @@ text-align: center;
 			
 			transition: 1s;
 			backface-visibility: hidden;
+}
+.j1 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.j1 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
+}
+.j2 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.j2 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
+}
+.j3 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.j3 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
+}
+.j4 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.j4 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
+}
+.o1 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.o1 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
+}
+.o2 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.o2 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
+}
+.o3 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.o3 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
+}
+.o4 .photo .quick{
+
+	height: 30px;
+	width: 100%;
+	background:black;
+	position: absolute;
+	top: -90px;
+	z-index: 1;
+	transition: 1s;
+	opacity: 0;
+	color: white;
+	padding-left: 30px;
+	padding-top: 8px;
+}
+.o4 .photo:hover .quick{
+	top: 120px;
+	opacity: 1;
 }
 .j1 .photo .front
 
@@ -1117,6 +1262,7 @@ text-align: center;
 	width:100%;
 	background: white;
 	position: relative;
+	overflow: hidden;
 	
 }
 .j2 .photo .front{
@@ -1163,6 +1309,7 @@ text-align: center;
 	width:100%;
 	background: white;
 	position: relative;
+	overflow: hidden;
 	
 }
 .j3 .photo .front{
@@ -1209,6 +1356,7 @@ text-align: center;
 			width:100%;
 			background: white;
 			position: relative;
+			overflow: hidden;
 			
 		}
 		.j4 .photo .front{
@@ -1255,6 +1403,8 @@ text-align: center;
 					background: white;
 					position: relative;
 					
+	overflow: hidden;
+					
 				}
 				.o1 .photo .front{
 					height: 150px;
@@ -1299,6 +1449,7 @@ text-align: center;
 							width:100%;
 							background: white;
 							position: relative;
+							overflow: hidden;
 							
 						}
 						.o2 .photo .front{
@@ -1344,6 +1495,7 @@ text-align: center;
 									width:100%;
 									background: white;
 									position: relative;
+									overflow: hidden;
 									
 								}
 								.o3 .photo .front{
@@ -1389,6 +1541,7 @@ text-align: center;
 											width:100%;
 											background: white;
 											position: relative;
+											overflow: hidden;
 											
 										}
 										.o4 .photo .front{

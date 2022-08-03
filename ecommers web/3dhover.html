@@ -6,21 +6,139 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .main{
+   coupons,.banner-bootom-w3-agileits,.new_arrivals_agile_w3ls_info{
+   padding:4em 0;
+}
+.w3layouts_mail_grid {
+    padding: 0 1em;
+}
+.w3layouts_mail_grid_left1{
+	float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.w3layouts_mail_grid_left1 i{
+	font-size: 1.3em;
+    color: #fff;
+    line-height: 3.2em;
+}
+.w3layouts_mail_grid_left2{
+	float:right;
+	width:70%;
+	    text-align: left;
+}
+.w3layouts_mail_grid_left2 h3{
+    font-size: 0.9em;
+    color: #2fdab8;
+    margin: 0em 0 0.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.w3layouts_mail_grid_left2 a{
+	text-decoration:none;
+	color: #545454;
+	font-size:14px;
+}
+.w3layouts_mail_grid_left2 a:hover{
+	color:#212121;
+}
+.w3layouts_mail_grid_left2 p{
+color: #545454;
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+.agile_newsletter_footer {
+    border-top: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+    padding: 1em 0;
+    margin-top: 3em;
+}
+.hvr-radial-out {
 
-            height: 400px;
-            width: 400px;
-            background: red;
-            margin: 100px auto;
-            transition: 2s;
-        }
-        .main:hover{
 
-                }        }
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  overflow: hidden;
+  background:red;
+
+
+  position: relative;
+
+  
+}
+
+.hvr-radial-out:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:#2fdab8;
+  transition: 1s;
+  transform: scale(0);
+ 
+ 
+}
+.hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
+  color: white;
+}
+.hvr-radial-out:hover:before{
+ 
+  transform: scale(2);
+}
+    
 
     </style>
 </head>
 <body>
-  <div class="main"></div>  
+	<div class="coupons">
+		<div class="coupons-grids text-center">
+			<div class="w3layouts_mail_grid">
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+						<i class="fa fa-truck" aria-hidden="true"></i>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>FREE SHIPPING</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+						<i class="fa fa-headphones" aria-hidden="true"></i>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>24/7 SUPPORT</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur</p>
+					</div>
+				</div>
+				<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+						<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>MONEY BACK GUARANTEE</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur</p>
+					</div>
+				</div>
+					<div class="col-md-3 w3layouts_mail_grid_left">
+					<div class="w3layouts_mail_grid_left1 hvr-radial-out">
+						<i class="fa fa-gift" aria-hidden="true"></i>
+					</div>
+					<div class="w3layouts_mail_grid_left2">
+						<h3>FREE GIFT COUPONS</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+
+		</div>
+</div>
+
 </body>
 </html>
