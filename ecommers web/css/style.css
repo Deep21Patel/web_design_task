@@ -90,14 +90,14 @@ body{
 	left:10%;
 	top: 30%;
 	width: 70%;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: white;
-  outline: none;
-  padding-top: 10px ;
-  padding-bottom: 10px;	
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	outline: none;
+	padding-top: 10px ;
+	padding-bottom: 10px;	
   }
 
 
@@ -1114,7 +1114,6 @@ text-align: center;
 	opacity: 1;
 }
 .j2 .photo .quick{
-
 	height: 30px;
 	width: 100%;
 	background:black;
@@ -1220,6 +1219,10 @@ text-align: center;
 .o3 .photo:hover .quick{
 	top: 120px;
 	opacity: 1;
+}
+.o3 .photo .quick:hover{
+
+	background: #25ffcd;
 }
 .o4 .photo .quick{
 
@@ -1598,7 +1601,7 @@ text-align: center;
 	background: #25ffcd;
 	border: none;
 	cursor: pointer;
-	transition: 1s;
+
 	position: relative;
 }
 .lable .btn3 button::before{
@@ -1606,10 +1609,10 @@ text-align: center;
 	position: absolute;
 	border:#25ffcd solid 4px;
 	top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: .3s;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	transition: .3s;
 
 }
 .lable .btn3 button:hover:before{
