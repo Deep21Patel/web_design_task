@@ -437,18 +437,116 @@ background: black;
 background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-3.jpg.pagespeed.ic.CIkQ6RKCvH.webp);
    background-size: 100% 100%;
    margin-right: 30px;
+
+   
+}
+.content .right_part .three_img .img_f .p1{
+
+   height: 120px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-2.jpg.pagespeed.ic.ik3v_MP9Cw.webp);
+   background-size: 100% 100%;
+}
+.content .right_part .three_img .img_f .l1{
+
+   height: 30px;
+   background:#fff;
+   text-align: center;
+   line-height: 30px;
+}
+.content .right_part .three_img .img_s .p1{
+
+   height: 120px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-2.jpg.pagespeed.ic.ik3v_MP9Cw.webp);
+   background-size: 100% 100%;
+}
+.content .right_part .three_img .img_s .l1{
+
+   height: 30px;
+   background: #fff;
+   text-align: center;
+   line-height: 30px;
+}
+.content .right_part .three_img .img_t .p1{
+
+   height: 120px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-1.jpg.pagespeed.ic.uuCpznCEjB.webp);
+   background-size: 100% 100%;
+}
+.content .right_part .three_img .img_t .l1{
+
+   height: 30px;
+   background:#fff;
+   text-align: center;
+   line-height: 30px;
 }
 .content .right_part .three_img .img_s{
    height:150px ;
    width: 150px;
-   background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-2.jpg.pagespeed.ic.ik3v_MP9Cw.webp);
-   background-size: 100% 100%;
+  
    margin-right: 30px;
+
 }
 .content .right_part .three_img .img_t{
    height:150px ;
    width: 150px;
-   background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-1.jpg.pagespeed.ic.uuCpznCEjB.webp);
-   background-size: 100% 100%;
+  
    margin-right: 30px;
+}
+.show_bg{
+ 
+    height:auto;
+    width: 100%;
+    background:url(https://preview.colorlib.com/theme/kusina/images/xbg_4.jpg.pagespeed.ic.YD6O78EK5U.webp);
+    background-size:cover;
+ 
+   
+    
+}
+.show_bg .show_bg1{
+
+   height:auto;
+   width: 80%;
+   background:transparent;
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 120px;
+
+
+
+   
+}
+ .show_bg .show_bg1 .show_bg_1{
+
+   height:300px;
+   width: 25%;
+   background: transparent;
+}
+.show_bg .show_bg1 .show_bg_2{
+
+   height:300px;
+   width: 25%;
+   background: transparent;
+}
+.show_bg .show_bg1 .show_bg_3{
+
+   height: 300px;
+   width: 25%;
+   background: transparent;
+}
+.show_bg .show_bg1 .show_bg_4{
+
+   height: 300px;
+   width: 25%;
+   background: transparent;
+}
+.show_bg .show_bg1 h1{
+
+   text-align: center;
+   line-height: 200px;
+  
+} 
+.show_bg .show_bg1 h4{
+
+   text-align: center;
+   line-height: -100px;
 }
