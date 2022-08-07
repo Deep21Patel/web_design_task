@@ -97,9 +97,25 @@
                 text-align: center;
                 line-height: -100px;
              }
-            
-          
-
+             .main .food .food1{width: 100%;margin-left: 0;}
+     .main .food .food1 .food_a{width: 50%;}
+     .main .food .food1 .food_b{width: 50%;}
+     .main .food .food1 .food_c{width: 50%;}
+     .main .food .food1 .food_d{width: 50%;}
+     .main .food .food1 .food_e{width: 50%;}
+     .main .food .food1 .food_f{width: 50%;}
+     .seaf .seaf_d{width:100%;margin:0;}
+     .seaf .seaf_d .seaf_1{width: 50%;background-size: 100% 100%;}
+     .seaf .seaf_d .seaf_2{width: 50%;background-size: 100% 100%;}
+     .seaf .seaf_d .seaf_3{width: 50%;background-size: 100% 100%;}
+     .seaf .seaf_d .seaf_4{width: 50%;background-size: 100% 100%;}
+     .seaf .seaf_d .seaf_1 .photo_a{background-size: 100% 100%;}
+     .seaf .seaf_d .seaf_2 .photo_a{background-size: 100% 100%;}
+     .seaf .seaf_d .seaf_3 .photo_a{background-size: 100% 100%;}
+     .seaf .seaf_d .seaf_4 .photo_a{background-size: 100% 100%;}
+     .last_top .center{width: 100%;margin:0;}
+     .last_top .center .f1{width:40%;}
+     .last_top .center .s1{width: 60%;}
 }
 
 @media (max-width:900px)
@@ -193,8 +209,24 @@
             text-align: center;
             line-height: -100px;
          }
-        
-      
+         .main .food .food1{width: 100%;margin-left: 0;}
+         .main .food .food1 .food_a{width: 50%;}
+         .main .food .food1 .food_b{width: 50%;}
+         .main .food .food1 .food_c{width: 50%;}
+         .main .food .food1 .food_d{width: 50%;}
+         .main .food .food1 .food_e{width: 50%;}
+         .main .food .food1 .food_f{width: 50%;}
+         .seaf .seaf_d{width:100%;margin:0;}
+         .seaf .seaf_d .seaf_1{width: 50%;background-size: 100% 100%;}
+         .seaf .seaf_d .seaf_2{width: 50%;background-size: 100% 100%;}
+         .seaf .seaf_d .seaf_3{width: 50%;background-size: 100% 100%;}
+         .seaf .seaf_d .seaf_4{width: 50%;background-size: 100% 100%;}
+         .last_top .center{width: 100%;margin:0;}
+         .last_top .center .f1{width:40%;background-size:100% 100%;}
+         .last_top .center .s1{width: 60%;}
+         
+
+
 }
 
 
@@ -217,6 +249,20 @@
     .show_bg .show_bg1 .show_bg_2{width: 100%;}
     .show_bg .show_bg1 .show_bg_3{width: 100%;}
     .show_bg .show_bg1 .show_bg_4{width: 100%;} 
+    .main .food .food1 .food_a{width: 100%;}
+    .main .food .food1 .food_b{width: 100%;}
+    .main .food .food1 .food_c{width: 100%;}
+    .main .food .food1 .food_d{width: 100%;}
+    .main .food .food1 .food_e{width: 100%;}
+    .main .food .food1 .food_f{width: 100%;}
+    .seaf .seaf_d{width:100%;margin:0;}
+    .seaf .seaf_d .seaf_1{width: 50%;background-size: 100% 100%;}
+    .seaf .seaf_d .seaf_2{width: 50%;background-size: 100% 100%;}
+    .seaf .seaf_d .seaf_3{width: 50%;background-size: 100% 100%;}
+    .seaf .seaf_d .seaf_4{width: 50%;background-size: 100% 100%;}
+    .last_top .center{width: 100%;margin: 0;}
+    .last_top .center .f1{width:100%;background-size:100% 100%;}
+    .last_top .center .s1{width: 100%;}
 
    
     }
@@ -234,5 +280,22 @@
      .show_bg .show_bg1 .show_bg_1{width: 100%;}
      .show_bg .show_bg1 .show_bg_2{width: 100%;}
      .show_bg .show_bg1 .show_bg_3{width: 100%;}
-     .show_bg .show_bg1 .show_bg_4{width: 100%;} 
-}
+     .show_bg .show_bg1 .show_bg_4{width: 100%;}
+     .main .food .food1{width: 100%;margin-left: 0;}
+     .main .food .food1 .food_a{width: 100%;}
+     .main .food .food1 .food_b{width: 100%;}
+     .main .food .food1 .food_c{width: 100%;}
+     .main .food .food1 .food_d{width: 100%;}
+    .main .food .food1 .food_e{width: 100%;}
+    .main .food .food1 .food_f{width: 100%;}
+    .seaf .seaf_d{width:100%;margin:0;}
+    .seaf .seaf_d .seaf_1{width: 100%;background-size: 100% 100%;}
+    .seaf .seaf_d .seaf_2{width: 100%;background-size: 100% 100%;}
+    .seaf .seaf_d .seaf_3{width: 100%;background-size: 100% 100%;}
+    .seaf .seaf_d .seaf_4{width: 100%;background-size: 100% 100%;}
+    .last_top .center{width: 100%;margin: 0;}
+    .last_top .center .f1{width: 100%;}
+    .last_top .center .s1{width: 100%;}
+
+
+    }

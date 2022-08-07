@@ -434,7 +434,7 @@ background: black;
 .content .right_part .three_img .img_f{
    height:150px ;
    width: 150px;
-background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-3.jpg.pagespeed.ic.CIkQ6RKCvH.webp);
+   background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-3.jpg.pagespeed.ic.CIkQ6RKCvH.webp);
    background-size: 100% 100%;
    margin-right: 30px;
 
@@ -549,4 +549,1249 @@ background:url(https://preview.colorlib.com/theme/kusina/images/xmenu-3.jpg.page
 
    text-align: center;
    line-height: -100px;
+}
+.main{
+
+   height:auto;
+   width: 100%;
+   background:#fff;
+}
+.main .header3{
+
+   height: 150px;
+   width: 100%;
+   background:;
+   
+}
+.main .header3 h1{
+
+   font-size: 40px;
+   text-align: center;
+   line-height: 150px;
+}
+.main .food{
+   height:auto;
+   background:#fff;
+}
+.main .food .food1{
+
+   height:auto;
+   width: 80%;
+   background:#fff;
+   margin-left:10%;
+   display: flex;
+   flex-wrap: wrap;
+}
+.main .food .food1 .food_a{
+
+   height: 500px;
+   background:;
+   width: 33.33%;
+}
+.main .food .food1 .food_a .item1{
+
+   height: 125px;
+   width: 100%;
+   background:#fff;
+}
+.main .food .food1 .food_a .item2{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+ 
+}
+.main .food .food1 .food_a .item2 .left_a{
+
+  height: 125px;
+  width: 30%;
+  background:#fff;
+}
+.main .food .food1 .food_a .item2 .left_a .dish{
+
+   height: 90px;
+   width: 90px;
+   background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+   background-size: 100% 100%;
+   border-radius: 50%;
+}
+
+.main .food .food1 .food_a .item2 .right_a{
+
+   height: 125px;
+   width: 70%;
+   background:;
+ }
+
+ .main .food .food1 .food_a .item2 .right_a .up{
+
+   height: 70px;
+   background:#fff;
+ }
+ .main .food .food1 .food_a .item2 .right_a .down{
+
+   height: 55px;
+   background:#fff;
+   
+
+ }
+.main .food .food1 .food_a .item3{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_a .item3 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_a .item3 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_a .item3 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_a .item3 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_a .item3 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_a .item4{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_a .item4 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_a .item4 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_a .item4 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_a .item4 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_a .item4 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+
+.main .food .food1 .food_b{
+
+   height: 500px;
+   background:;
+   width: 33.33%;
+}
+.main .food .food1 .food_b .item1{
+
+   height: 125px;
+   width: 100%;
+   background: #fff;
+}
+.main .food .food1 .food_b .item2{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_b .item2 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_b .item2 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_b .item2 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_b .item2 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_b .item2 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_b .item3{
+
+   height: 125px;
+   width: 100%;
+   background: ;
+   display: flex;
+}
+.main .food .food1 .food_b .item3 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_b .item3 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_b .item3 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_b .item3 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_b .item3 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_b .item4{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_b .item4 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_b .item4 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_b .item4 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_b .item4 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_b .item4 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_c{
+
+   height: 500px;
+   background:;
+   width: 33.33%;
+}
+.main .food .food1 .food_c .item1{
+
+   height: 125px;
+   width: 100%;
+   background:#fff;
+}
+.main .food .food1 .food_c .item2{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_c .item2 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_c .item2 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_c .item2 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_c .item2 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_c .item2 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_c .item3{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_c .item3 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_c .item3 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_c .item3 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_c .item3 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_c .item3 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_c .item4{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_c .item4 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_c .item4 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_c .item4 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_c .item4 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_c .item4 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+  .main .food .food1 .food_d{
+
+   height: 500px;
+   width: 33.33%;
+   background: pink;
+
+  }
+  .main .food .food1 .food_d .item1{
+
+   height: 125px;
+   width: 100%;
+   background:#fff;
+}
+.main .food .food1 .food_d .item2{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_d .item2 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_d .item2 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_d .item2 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+
+ 
+  .main .food .food1 .food_d .item2 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_d .item2 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_d .item3{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_d .item3 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_d .item3 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_d .item3 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_d .item3 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_d .item3 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_d .item4{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_d .item4 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_d .item4 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_d .item4 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_d .item4 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_d .item4 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+
+  .main .food .food1 .food_e{
+
+   height: 500px;
+   width: 33.33%;
+   background: blue;
+
+  }
+  .main .food .food1 .food_f .item1{
+
+   height: 125px;
+   width: 100%;
+   background:#fff;
+}
+.main .food .food1 .food_f .item2{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_f .item2 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_f .item2 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_f .item2 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_f .item2 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_f .item2 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_f .item3{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_f .item3 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_f .item3 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_f .item3 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_f .item3 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_f .item3 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_f .item4{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_f .item4 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_f .item4 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_f .item4 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_f .item4 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_f .item4 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+
+  .main .food .food1 .food_f{
+
+   height: 500px;
+   width: 33.33%;
+   background:gray;
+
+  }
+  .main .food .food1 .food_e .item1{
+
+   height: 125px;
+   width: 100%;
+   background:#fff;
+}
+.main .food .food1 .food_e .item2{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_e .item2 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_e .item2 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_e .item2 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_e .item2 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_e .item2 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_e .item3{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_e .item3 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_e .item3 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_e .item3 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_e .item3 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_e .item3 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+.main .food .food1 .food_e .item4{
+
+   height: 125px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.main .food .food1 .food_e .item4 .left_a{
+
+   height: 125px;
+   width: 30%;
+   background:#fff;
+ }
+ .main .food .food1 .food_e .item4 .left_a .dish{
+ 
+    height: 90px;
+    width: 90px;
+    background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+    background-size: 100% 100%;
+    border-radius: 50%;
+ }
+ 
+ .main .food .food1 .food_e .item4 .right_a{
+ 
+    height: 125px;
+    width: 70%;
+    background:;
+  }
+ 
+  .main .food .food1 .food_e .item4 .right_a .up{
+ 
+    height: 70px;
+    background:#fff;
+  }
+  .main .food .food1 .food_e .item4 .right_a .down{
+ 
+    height: 55px;
+    background:#fff;
+    
+ 
+  }
+
+/* .main .food .food1 .bark,.dinner,.desert, h1{
+
+   text-align: center;
+   line-height: 90px;
+} */
+.main .food .food1 .brak{
+
+   height: 90px;
+   width: 33.33%;
+   background: ;
+}
+.main .food .food1 .brak .item1{
+
+   height: 100px;
+   width: 100%;
+   background: ;
+}
+.main .food .food1 .brak .item2{
+
+   height: 100px;
+   width: 100%;
+   background: ;
+}
+.main .food .food1 .brak .item3{
+
+   height: 100px;
+   width: 100%;
+   background:;
+}
+.main .food .food1 .dinner{
+
+   height: 90px;
+   width: 33.33%;
+   background:;
+}
+.main .food .food1 .dinner .item1{
+
+   height: 100px;
+   width: 100%;
+   background:;
+}
+.main .food .food1 .dinner .item2{
+
+   height: 100px;
+   width: 100%;
+   background:;
+}
+.main .food .food1 .dinner .item3{
+
+   height: 100px;
+   width: 100%;
+   background:;
+}
+.main .food .food1 .desert{
+   
+
+   height: 90px;
+   width: 33.33%;
+   background:;
+}
+.main .food .food1 .desert .item1{
+
+   height: 100px;
+   width: 100%;
+   background:;
+}
+.main .food .food1 .desert .item2{
+
+   height: 100px;
+   width: 100%;
+   background:;
+}
+.main .food .food1 .desert .item3{
+
+   height: 100px;
+   width: 100%;
+   background:;
+}
+.view {
+
+   height: 200px;
+   width: 100%;
+   opacity: ;
+   background:#fff;
+   
+}
+.view button{
+
+   padding: 30px;
+   margin-left: 45%;
+   margin-top: 60px;
+   background: black;
+   color: white;
+   font-size: 20px;
+   border: none;
+}
+.blink{
+
+   height: auto;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xbg_5.jpg.pagespeed.ic.jh4hEpFZBx.webp);
+   background-size: cover;
+}
+.blink .mon{
+
+   height:auto;
+   background:transparent;
+   width: 40%;
+   margin: auto;
+   
+}
+.blink .mon .imfg{
+
+   height: 150px;
+   width: 100%;
+   background:;
+   margin-top: 30px;
+   
+
+   
+}
+.blink .mon .imfg .imgf{
+
+   height: 150px;
+   width: 150px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp);
+   background-size: 100% 100%;
+   margin: auto;
+   border-radius: 50%;
+
+
+
+
+   
+}
+.blink .mon .deep{
+
+   
+}
+.seaf{
+
+   height:auto;
+   background:#fff;
+}
+.seaf .hadf{
+
+   height:200px;
+   background:#fff;
+}
+.seaf .seaf_d{
+
+   height:auto ;
+   width: 80%;
+   background:;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.seaf .seaf_d .seaf_1{
+
+   height: 500px;
+   width: 25%;
+   background:;
+
+
+  
+}
+.seaf .seaf_d .seaf_1 .sef_i
+{
+   height: 400px;
+   width: 80%;
+   margin: 50px auto;
+   background:#fff;
+}
+.seaf .seaf_d .seaf_1 .photo_a{
+
+   height: 250px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xchef-4.jpg.pagespeed.ic.vGWCRxGu3_.webp);
+   background-size: 100% 100%;
+}
+.seaf .seaf_d .seaf_1 .name{
+
+   height: 100px;
+   background:#fff;
+   padding-top: 20px;
+   margin-left: 20px;
+}
+.seaf .seaf_d .seaf_1 .soc{
+
+   height: 50px;
+   background:#fff;
+}
+.seaf .seaf_d .seaf_2{
+
+   height: 500px;
+   width: 25%;
+   background:;
+
+
+}
+.seaf .seaf_d .seaf_2 .sef_i
+{
+   height: 400px;
+   width: 80%;
+   margin: 50px auto;
+   background:#fff;
+}
+.seaf .seaf_d .seaf_2 .photo_a{
+
+   height: 250px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xchef-2.jpg.pagespeed.ic.Etg484-F2U.webp);
+   background-size: 100% 100%;
+}
+.seaf .seaf_d .seaf_2 .name{
+
+   height: 100px;
+   background:#fff;
+   padding-top: 20px;
+   margin-left: 20px;
+}
+.seaf .seaf_d .seaf_2 .soc{
+
+   height: 50px;
+   background:#fff;
+}
+.seaf .seaf_d .seaf_3{
+
+   height: 500px;
+   width: 25%;
+   background:;
+
+   
+}
+.seaf .seaf_d .seaf_3 .sef_i
+{
+   height: 400px;
+   width: 80%;
+   margin: 50px auto;
+   background:#fff;
+}
+.seaf .seaf_d .seaf_3 .photo_a{
+
+   height: 250px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xchef-1.jpg.pagespeed.ic.5R4FWxFRBv.webp);
+   background-size: 100% 100%;
+}
+.seaf .seaf_d .seaf_3 .name{
+
+   height: 100px;
+   background:#fff;
+   padding-top: 20px;
+   margin-left: 20px;
+}
+.seaf .seaf_d .seaf_3 .soc{
+
+   height: 50px;
+   background:#fff;
+}
+.seaf .seaf_d .seaf_4{
+
+   height: 500px;
+   width: 25%;
+   background:;
+   
+  
+}
+.seaf .seaf_d .seaf_4 .sef_i
+{
+   height: 400px;
+   width: 80%;
+   margin: 50px auto;
+   background:#fff;
+}
+.seaf .seaf_d .seaf_4 .photo_a{
+
+   height: 250px;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xchef-3.jpg.pagespeed.ic.Ysj290Ums6.webp);
+   background-size: 100% 100%;
+}
+.seaf .seaf_d .seaf_4 .name{
+
+   height: 100px;
+   background:#fff;
+   padding-top: 20px;
+   margin-left: 20px;
+}
+.seaf .seaf_d .seaf_4 .soc{
+
+   height: 50px;
+   background:#fff;
+}
+.last_top{
+
+   height:auto;
+   background:#fff;
+}
+.last_top .center{
+
+   height:auto;
+   width: 70%;
+   background:;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+}
+.last_top .f1{
+
+   height:500px;
+   width: 50%;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xchef-1.jpg.pagespeed.ic.5R4FWxFRBv.webp);
+   background-size:100% 100%;
+  
+}
+.last_top .center .s1{
+
+   height:500px;
+   width: 50%;
+   background:#fff;
+  
+}
+.last_top .center .s1 .h_name{
+
+   height: 100px;
+   padding-top: 20px;
+   background:#fff;
+   margin-left: 20px;
+}
+.last_top .center .s1 .form{
+
+   height: 300px;
+   width: 100%;
+   background:#fff;
+   display: flex;
+}
+.last_top .center .s1 .form .lform{
+
+   height: 300px;
+   width: 50%;
+   background:;
+}
+.last_top .center .s1 .form .lform h3{ 
+
+   margin-left: 50px;
+   margin:10px;
+}
+.last_top .center .s1 .form .lform input[type=text] {
+
+   padding: 12px;
+   margin-left: 20px;
+
+   border: 1px solid rgb(247, 22, 60);
+
+}
+.last_top .center .s1 .form .rform h3{ 
+
+   margin-left: 40px;
+   margin:10px;
+}
+.last_top .center .s1 .form .rform input[type=text] {
+
+   padding: 12px;
+   margin-left: 20px;
+
+   border: 1px solid rgb(247, 22, 60);
+
+}
+.last_top .center .s1 .form .rform{
+
+   height: 300px;
+   width: 50%;
+   background:;
+}
+.last_top .center .s1 .btn5{
+
+   height: 100px;
+   background:#fff;
+   padding-top: 20px;
+}
+.last_top .center .s1 .btn5 button{
+
+   padding: 20px;
+   font-size: 20px;
+   background: rgb(247, 22, 60);
+   font-weight: bold;
+   color: #fff;
+   border: none;
+   margin-left: 30px;
+   border-radius:10px;
+  
+}
+.footer
+{
+   height: 400px;
+   background: black;
 }
