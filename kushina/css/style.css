@@ -1792,6 +1792,239 @@ background: black;
 }
 .footer
 {
-   height: 400px;
-   background: black;
+   height: auto;
+   background:black;
+}
+.ggg{
+
+   height: 100px;
+   background:black;
+}
+.footer .footer_main{
+
+   height: auto;
+   width: 80%;
+   margin: auto;
+   background: coral;
+   display: flex;
+   flex-wrap: wrap;
+}
+.footer .footer_main .footer_1{
+
+   height: 300px;
+   width: 25%;
+   background:black;
+
+}
+.footer .footer_main .footer_1 .h_name{
+
+      height: 100px;
+      width: 100%;
+      background:;
+
+}
+.footer .footer_main .footer_1 .h_name h1{
+
+   text-align: center;
+   line-height: 100px;
+   color: gray;
+}
+.footer .footer_main .footer_1 .cont{
+
+   height: 100px;
+   background:;
+   width: 100%;
+}
+.footer .footer_main .footer_1 .cont h4{
+
+   text-align: center;
+   color: gray;
+   
+}
+.footer .footer_main .footer_1 .social_1{
+
+   height: 100px;
+   background:;
+   width: 100%;
+}
+.footer .footer_main .footer_1 .social_1 .sc{
+
+   text-align: center;
+   font-size: 30px;
+   line-height: 100px;
+   color:gray;
+}
+.footer .footer_main .footer_2{
+
+   height: 300px;
+   width: 25%;
+   background:black;
+
+}
+.footer .footer_main .footer_2 .h_name h1{
+
+   text-align: center;
+   line-height: 100px;
+   color: gray;
+}
+.footer .footer_main .footer_2 .main_f{
+
+   height: 200px;
+   width: 100%;
+   background:;
+   display: flex;
+}
+.footer .footer_main .footer_2 .main_f .l_main{
+
+   height: 200px;
+   width: 50%;
+   background:;
+}
+.footer .footer_main .footer_2 .main_f .l_main h4{
+
+ color: gray;
+}
+.footer .footer_main .footer_2 .main_f .r_main{
+
+   height: 200px;
+   width: 50%;
+   background:;
+}
+.footer .footer_main .footer_2 .main_f .r_main h4{
+
+   color: gray;
+
+}
+.footer .footer_main .footer_3{
+
+   height: 300px;
+   width: 25%;
+   background:black;
+
+}
+.footer .footer_main .footer_3 .h_name h1{
+
+   text-align: center;
+   line-height: 100px;
+   color: gray;
+}
+.footer .footer_main .footer_3 .cont{
+
+   height: 100px;
+   background:;
+   width: 100%;
+}
+.footer .footer_main .footer_3 .cont h4{
+
+   text-align: center;
+   color: gray;
+   
+}
+.footer .footer_main .footer_3 .email{
+
+   height: 50px;
+   width: 100%;
+   background:;
+}
+.footer .footer_main .footer_3 .email input[type=text]{
+
+  padding: 15px;
+  width: 100%;
+  border: none;
+  background: rgb(14, 12, 12);
+  
+}
+.footer .footer_main .footer_3 .scr{
+
+   height: 50px;
+   width: 100%;
+   background:;
+}
+.footer .footer_main .footer_3 .scr button{
+
+   padding: 15px;
+   width: 100%;
+   border: none;
+   background:rgb(209, 0, 35);
+   color: white;
+   
+ }
+.footer .footer_main .footer_4{
+
+   height: 300px;
+   width: 25%;
+   background:black;
+
+}
+.footer .footer_main .footer_4 .h_name h1{
+
+   text-align: center;
+   line-height: 100px;
+   color: gray;
+}
+.footer .footer_main .footer_4 .intsta{
+
+   height: 200px;
+   width: 100%;
+   background: coral;
+   margin-left: 20px;
+}
+
+.footer .footer_main .footer_4 .intsta .up_p{
+
+   height: 100px;
+   width: 100%;
+   background:blue;
+   display: flex;
+}
+.footer .footer_main .footer_4 .intsta .up_p .ig1{
+
+   height: 100px;
+   width: 33.33%;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xwine-3.jpg.pagespeed.ic.nAZWSLEoMr.webp);
+   background-size: 100% 100%;
+}.footer .footer_main .footer_4 .intsta .up_p .ig2{
+
+   height: 100px;
+   width: 33.33%;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xwine-1.jpg.pagespeed.ic.FGmClkByJK.webp);
+   background-size: 100% 100%;
+}.footer .footer_main .footer_4 .intsta .up_p .ig3{
+
+   height: 100px;
+   width: 33.33%;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xwine-3.jpg.pagespeed.ic.nAZWSLEoMr.webp);
+   background-size: 100% 100%;
+}
+
+.footer .footer_main .footer_4 .intsta .down_p{
+
+   height: 100px;
+   width: 100%;
+   background:gray;
+   display: flex;
+}
+.footer .footer_main .footer_4 .intsta .down_p .ig1{
+
+   height: 100px;
+   width: 33.33%;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xwine-1.jpg.pagespeed.ic.FGmClkByJK.webp);
+   background-size: 100% 100%;
+}.footer .footer_main .footer_4 .intsta .down_p .ig2{
+
+   height: 100px;
+   width: 33.33%;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xwine-3.jpg.pagespeed.ic.nAZWSLEoMr.webp);
+   background-size: 100% 100%;
+}.footer .footer_main .footer_4 .intsta .down_p .ig3{
+
+   height: 100px;
+   width: 33.33%;
+   background:url(https://preview.colorlib.com/theme/kusina/images/xwine-1.jpg.pagespeed.ic.FGmClkByJK.webp);
+   background-size: 100% 100%;
+}
+.black
+{
+   height: 200px;
+   background:black;
 }
