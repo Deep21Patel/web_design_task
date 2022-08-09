@@ -47,7 +47,7 @@
 
    height: 200px;
    width: 100%;
-   background:#fff;
+   background:;
    
 }
 .header .part1 .lable .blink1 .had h1{
@@ -56,65 +56,131 @@
    padding-top: 40px;
    font-size: 40px;
 }
-.header .part1 .lable .blink1 .had p{
-
-   margin-left: 50px;
-   padding-top: 20px;
-   font-size: 20px;
-}
-.header .part1 .lable .blink1 .img{
-
-      height: 150px;
-      width: 100%;
-      background:#fff;
-      display: flex;
-      justify-content: center;
-      margin-top: 40px;
-}
-.header .part1 .lable .blink1 .img1,.img2,.img3{
-
-   height: 150px;
-   width: 150px;
-   background:#fff;
-   border-radius: 50%;
-   margin-right: 50px;
-   overflow: hidden;
-   margin-top: 30px;
-}
-.header .part1 .lable .blink1 .lab{
+.header .part1 .lable .blink1 .pdd{
 
    height: 50px;
-   background: #fff;
-   text-align: center;
-   padding-left: 45px;
-   padding-top: 20px;
-   
+   background:;
+   padding-left:50px;
 }
-.lab b{
+.header .part1 .lable .blink1 .three_i{
 
-   margin-right: 100px;
+height: 200px;
+width: 100%;
+background:;
+display: flex;
+
 }
-.header .part1 .lable .blink1 .btn button{
+.header .part1 .lable .blink1 .three_i .one_i{
+
+   height: 200px;
+   width:30%;
+   background:;
+   margin: auto;
+}
+.header .part1 .lable .blink1 .three_i .one_i .food_img{
+
+   height: 150px;
+   width: 100%;
+   background:;
+   padding-top: 20px;
+
+}
+.header .part1 .lable .blink1 .three_i .one_i .food_img .ihj{
+
+   height: 120px;
+   width: 120px;
+   background:url(https://technext.github.io/kusina/images/breakfast-3.jpg);
+   background-size: 100% 100%;
+   border-radius: 50%;
+   margin: auto;
+   padding:;
+}
+.header .part1 .lable .blink1 .three_i .one_i .lable_e{
+
+   height: 50px;
+   background:;
+}
+.header .part1 .lable .blink1 .three_i .two_i{
+
+   height: 200px;
+   width:30%;
+   background:;
+   margin: auto;
+
+}
+.header .part1 .lable .blink1 .three_i .two_i .food_img{
+
+   height: 150px;
+   width: 100%;
+   background:;
+   padding-top: 20px;
+
+}
+.header .part1 .lable .blink1 .three_i .two_i .food_img .ihj{
+
+   height: 120px;
+   width: 120px;
+   background:url(https://technext.github.io/kusina/images/breakfast-2.jpg);
+   background-size:100% 100%;
+  
+   border-radius: 50%;
+   margin: auto;
+}
+.header .part1 .lable .blink1 .three_i .two_i .lable_e{
+
+   height: 50px;
+   background:;
+}
+.header .part1 .lable .blink1 .three_i .thr_i{
+
+   height: 200px;
+   margin: auto;
+
+   width:30%;
+   background:;
+}
+.header .part1 .lable .blink1 .three_i .thr_i .food_img{
+
+   height: 150px;
+   width: 100%;
+   background:;
+   padding-top: 20px;
+
+}
+.header .part1 .lable .blink1 .three_i .thr_i .food_img .ihj{
+
+   height: 120px;
+   width: 120px;
+   background:url(https://technext.github.io/kusina/images/breakfast-1.jpg);
+   background-size:100% 100%;
+   border-radius: 50%;
+   margin: auto;
+   padding:;
+}
+.header .part1 .lable .blink1 .three_i .thr_i .lable_e{
+
+   height: 50px;
+   background: ;
+}
+.header .part1 .lable .blink1 .btn_i{
+
+   height: 80px;
+   background:;
+   text-align: center;
+}
+.header .part1 .lable .blink1 .btn_i button{
 
    padding: 20px;
-   background: purple;
-   
-   margin-left: 60px;
-   margin-top: 20px;
-   color: white;
-   font-weight: bold;
-  border: none;
-  cursor: pointer;
-  border-radius: 30px;
-  margin-top: 50px;
-
+   background: rgb(247, 22, 60);
+   cursor: pointer;
+   font-size: 20px;
+   border: none;
 }
-.header .part1 .lable .blink1 .btn button :hover{
+.header .part1 .lable .blink1 .btn_i .button:hover{
 
-   background: black;
-
-   
+   transform: scale(1.3);
 }
+
 .header .part1 .lable .blink2{
 
    height:530px ;
@@ -138,66 +204,133 @@
    padding-top: 40px;
    font-size: 40px;
 }
-.header .part1 .lable .blink2 .had p{
+.header .part1 .lable .blink2 .pdd{
 
-   margin-left: 50px;
-   padding-top: 20px;
-   font-size: 20px;
-} 
- .header .part1 .lable .blink2 .img{
+   height: 50px;
+   background:;
+   padding-left:50px;
+}
+.header .part1 .lable .blink2 .three_i{
+
+height: 200px;
+width: 100%;
+background:;
+display: flex;
+
+}
+.header .part1 .lable .blink2 .three_i .one_i{
+
+   height: 200px;
+   width:30%;
+   background:;
+   margin: auto;
+}
+.header .part1 .lable .blink2 .three_i .one_i .food_img{
 
    height: 150px;
    width: 100%;
-   background:#fff;
-   display: flex;
-   justify-content: center;
-   margin-top: 40px;
-}
-.header .part1 .lable .blink2 .img1,.img2,.img3{
-
-height: 150px;
-width: 150px;
-background:blue;
-border-radius: 50%;
-margin-right: 50px;
-overflow: hidden;
-margin-top: 30px;
+   background:;
+   padding-top: 20px;
 
 }
-.header .part1 .lable .blink2 .lab{
+.header .part1 .lable .blink2 .three_i .one_i .food_img .ihj{
 
-height: 50px;
-background: #fff;
-text-align: center;
-padding-left: 45px;
-padding-top: 20px;
+   height: 120px;
+   width: 120px;
+   background:url(https://technext.github.io/kusina/images/insta-2.jpg);
+   background-size: 100% 100%;
+   border-radius: 50%;
+   margin: auto;
+   padding:;
+}
+.header .part1 .lable .blink2 .three_i .one_i .lable_e{
+
+   height: 50px;
+   background:;
+}
+.header .part1 .lable .blink2 .three_i .two_i{
+
+   height: 200px;
+   width:30%;
+   background:;
+   margin: auto;
 
 }
-.lab b{
+.header .part1 .lable .blink2 .three_i .two_i .food_img{
 
-margin-right: 100px;
-}
-.header .part1 .lable .blink2 .btn button{
-
-padding: 20px;
-background: rgb(209, 0, 35);
-
-margin-left: 60px;
-margin-top: 20px;
-color: white;
-font-weight: bold;
-border: none;
-border-radius: 30px;
-margin-top: 50px;
+   height: 150px;
+   width: 100%;
+   background:;
+   padding-top: 20px;
 
 }
-.header .part1 .lable .blink2 .btn button :hover{
+.header .part1 .lable .blink2 .three_i .two_i .food_img .ihj{
 
-background: black;
+   height: 120px;
+   width: 120px;
+   background:url(https://technext.github.io/kusina/images/menu-1.jpg);
+   background-size:100% 100%;
+  
+   border-radius: 50%;
+   margin: auto;
+}
+.header .part1 .lable .blink2 .three_i .two_i .lable_e{
 
+   height: 50px;
+   background:;
+}
+.header .part1 .lable .blink2 .three_i .thr_i{
 
-} 
-@keyframes dp {
+   height: 200px;
+   margin: auto;
+
+   width:30%;
+   background:;
+}
+.header .part1 .lable .blink2 .three_i .thr_i .food_img{
+
+   height: 150px;
+   width: 100%;
+   background:;
+   padding-top: 20px;
+
+}
+.header .part1 .lable .blink2 .three_i .thr_i .food_img .ihj{
+
+   height: 120px;
+   width: 120px;
+   background:url(https://technext.github.io/kusina/images/lunch-4.jpg);
+   background-size:100% 100%;
+   border-radius: 50%;
+   margin: auto;
+   padding:;
+}
+.header .part1 .lable .blink2 .three_i .thr_i .lable_e{
+
+   height: 50px;
+   background: ;
+}
+.header .part1 .lable .blink2 .btn_i{
+
+   height: 80px;
+   background:;
+   text-align: center;
+}
+.header .part1 .lable .blink2 .btn_i button{
+
+   padding: 20px;
+   background: rgb(247, 22, 60);
+   cursor: pointer;
+   font-size: 20px;
+   border: 1px solid  rgb(247, 22, 60) ;
+   
+}
+.header .part1 .lable .blink2 .btn_i .button:hover{
+
+   background: transparent;
+}
+
+ @keyframes dp {
 
    0%{opacity: 1;}
    100%{opacity: 0;}
@@ -373,17 +506,17 @@ background: black;
 
    height: 200px;
    width: 100%;
-   background:;
+   background:pink;
    position: absolute;
    opacity: 0;
     animation: dp1 6s linear infinite; 
 }
-/* .header .part2 .lable_1 .img_1{
+ .header .part2 .lable_1 .img_1{
 
       height: 50px;
       width: 100%;
       background: black;
-} */
+} 
 .content
 {
 
