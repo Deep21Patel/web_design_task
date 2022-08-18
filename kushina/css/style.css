@@ -506,7 +506,7 @@ display: flex;
 
    height: 200px;
    width: 100%;
-   background:pink;
+   background:;
    position: absolute;
    opacity: 0;
     animation: dp1 6s linear infinite; 

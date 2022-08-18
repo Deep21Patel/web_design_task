@@ -1,0 +1,142 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.header{
+
+    height: 70px;
+    background: red;
+    display:flex;
+}
+.header .logo{
+
+    height: 70px;
+    background: white;
+    width: 20%;
+}
+.header .logo_a{
+
+    height:70px;
+    width: 90%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/logo@2x.png);
+    background-size:100% 100%;
+    margin: auto;
+}
+.header .detial{
+
+    height: 100px;
+    width: 80%;
+    background: yellow;
+    display: flex;
+}
+.header .detial .ditial1{
+    height: 100px;
+    width: 25%;
+ }
+.header .detial .ditial1 .center{
+
+    height: 100px;
+    width: 70%;
+    background:purple;
+    margin: auto;
+    display: flex;
+    
+}
+
+.header .detial .ditial1 .icon {
+
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+    
+}
+.header .detial .ditial1 .icon .round{
+    height:50px;
+    width: 50px;
+    background: coral;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+}
+.header .detial .ditial1 .icon .round:hover{
+
+    background: red;
+}
+.header .detial .ditial1 .icon .round .font{
+    height: 50px;
+    width: 50px;
+    background:;
+    position:absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+.header .detial .ditial1 .icon .round .font{
+
+    transform: rotatey(180deg);
+}
+.header .detial .ditial1 .icon .round .bake{
+
+    height: 50px;
+    width: 50px;
+    background:;
+    position:absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+
+}
+.header .detial .ditial1 .icon .round:hover .font{
+
+    transform: rotatey(0deg);
+}
+.header .detial .ditial1 .icon .round:hover .bake{
+
+    transform: rotatey(180deg);
+}
+.header .detial .a{
+
+    display: flex;
+}
+.header .detial .a .icon_1{
+
+    height: 100px;
+    width: 30%;
+    background:blue;
+}
+.header .detial .info{
+
+    height: 100px;
+    width: 70%;
+    background:coral;
+}
+.header .detial .b{
+
+    display: flex;
+}
+.header .detial .b .icon_1{
+
+    height: 100px;
+    width: 30%;
+    background:blue;
+}
+.header .detial .b .info{
+
+    height: 100px;
+    width: 70%;
+    background:coral;
+}
+.header .detial .c{
+
+    display: flex;
+}
+.header .detial .c .icon_1{
+
+    height: 100px;
+    width: 30%;
+    background:blue;
+}
+.header .detial .c .info{
+
+    height: 100px;
+    width: 70%;
+    background:coral;
+}
