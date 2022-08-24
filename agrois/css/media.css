@@ -1,1 +1,294 @@
-@media(max-width)
+
+@media (max-width:1100px)
+{
+    .header .logo{width: 30%;}
+    .header .detial{width: 70%;}
+    .header .detial .detial_1{width: 33.33%;}
+    .header .detial .detial_2{width: 33.33%;}
+    .header .detial .detial_3{width: 33.33%;}
+    .header .detial .detial_4{width: 33.33%;}
+    .nav .left_nav ul{
+
+        display: flex;
+        margin-left: 30px;
+        margin-top: 30px;
+        
+    }
+    .detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 0%;top:60%;}
+   .ser_a{height:700px;background: #fff;}
+    .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+    .ser_a .ser-c .ser-1{width: 48%;margin-left:20px;}
+    .ser_a .ser-c .ser-2{width: 48%;margin-left: 20px;}
+    .ser_a .ser-c .ser-3{width: 48%;margin-left: 20px;margin-top: 100px;}
+    .ser_a .ser-c .ser-4{width: 48%;margin-left: 20px;margin-top: 100px;}
+    .ser_a .ser-c .ser-1 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height: 500px;background: red;}
+    .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 50%;}
+    .ex_po .ex_c .ex-2{width: 50%;}
+    .ex_po .ex_c .ex-3{width: 50%;}
+    .ex_po .ex_c .ex-4{width: 50%;}
+
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 48%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 48%;margin-left: 20px;}
+    .news_a .news_c .news-3{display: none;}
+    .news_a .news_c .news-1 .photo_d .date{left: 30%;}
+
+    
+    
+}
+@media(max-width:1014px){
+    .ser_a{height:700px;background:;}
+   .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+   .ser_a .ser-c .ser-1{width: 100%;margin-left:0;}
+   .ser_a .ser-c .ser-2{width: 100%;margin-left:0;margin-top: 100px;}
+   .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+   .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+   /* .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;} */
+}
+@media(max-width:1000px){
+
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+    .content .center_con .one_c .con_box{left: 40%;}
+    .content .center_con .two_c .con_box{left: 40%;}
+    .content .center_con .three_c .con_box{left: 40%;}
+    .detial_c .center_part{width: 100%;}
+.detial_c .center_part .left_part{width: 100%;}
+
+.detial_c .center_part .right_part{width: 100%;}
+    
+    .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+.content .center_con .three_c{width: 100%;margin-top: 30px;}
+   .content{height:700px;}
+   .detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 15%;top:35%;}
+   .ser_a{height:700px;background:;}
+   .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+   .ser_a .ser-c .ser-1{width: 100%;margin-left:0;}
+   .ser_a .ser-c .ser-2{width: 100%;margin-left:0;margin-top: 100px;}
+   .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+   .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+   .ser_a .ser-c .ser-1 .card .i_con{left: 40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height: 600px;background: blue;}
+    /* .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;}
+ */
+}
+@media (max-width:900px){
+    .header .detial .detial_1{width: 100%;}
+    .header .detial .detial_2{display: none;}
+    .header .detial .detial_3{display: none;}
+    .header .detial .detial_4{display: none;}
+    .nav{display: none;}
+    .bar{display: block;display: flex;}
+    .bar .bar_ser{display: block;}
+    .bar .bar_b{display: block;}
+    .bar .bar_buy{display: block;}
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+    .content .center_con .one_c .con_box{left: 40%;}
+    .content .center_con .two_c .con_box{left: 40%;}
+    .content .center_con .three_c .con_box{left: 40%;}
+    
+    
+    .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+.content .center_con .three_c{width: 100%;margin-top: 30px;}
+.content{height:700px;}
+.detial_c .center_part{width: 100%;}
+.detial_c .center_part .left_part{width: 100%;}
+
+.detial_c .center_part .right_part{width: 100%;}
+.detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 15%;top:35%;}
+.ser_a{height:1500px;background:;}
+    .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+    .ser_a .ser-c .ser-1{width: 100%;margin-left:0;}
+    .ser_a .ser-c .ser-2{width: 100%;margin-left:0;margin-top: 100px;}
+    .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-1 .card .i_con{left: 45%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left: 45%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:45%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:45%;}
+    .record_a{height: 600px;background: red;}
+    .record_a .rec_a{width: 80%;left:10%;top:10%;}
+   
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 50%;}
+    .ex_po .ex_c .ex-2{width: 50%;}
+    .ex_po .ex_c .ex-3{width: 50%;}
+    .ex_po .ex_c .ex-4{width: 50%;}
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .market .market_c .market-b .detial_mark .dm-1 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-3 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-3 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-1 .part-e h1{font-size: 20px;}
+    .news_a {padding-top: 20px;}
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 48%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 48%;margin-left: 20px;}
+    .news_a .news_c .news-3{display: none;}
+
+
+}
+@media (max-width:700px){
+    .header .detial .detial_1{width: 100%;}
+    .header .detial .detial_2{display: none;}
+    .header .detial .detial_3{display: none;}
+    .header .detial .detial_4{display: none;}
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+    .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+.content .center_con .three_c{width: 100%;margin-top: 30px;}
+.content{height:700px;}
+.detial_c .center_part{width: 100%;}
+.detial_c .center_part .left_part{width: 100%;}
+
+.detial_c .center_part .right_part{width: 100%;}
+
+
+.detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 10%;top:35%;}
+.ser_a{height:1500px;background:;}
+
+.ser_a .ser-c{width: 100%;}
+    .ser_a .ser-c .ser-1{width: 100%;margin-left: 0;margin-top: 0;}
+    .ser_a .ser-c .ser-2{width: 100%;margin-left: 0;margin-top: 0;}
+    .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 0;}
+    .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 0;}
+    .ser_a .ser-c .ser-1 .card .i_con{left: 40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height:800px;background: red;}
+    .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 100%;}
+    .record_a .rec_a .rec-2{width: 100%;}
+    .record_a .rec_a .rec-3{width: 100%;}
+    .record_a .rec_a .rec-4{width: 100%;}
+    .display .part_c{width: 80%;margin: auto;}
+    .display .part_c .part-1a{width: 100%;font-size:30px;}
+    .display .part_c .part-2a{width: 100%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 100%;}
+    .ex_po .ex_c .ex-2{width: 100%;}
+    .ex_po .ex_c .ex-3{width: 100%;}
+    .ex_po .ex_c .ex-4{width: 100%;}
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .market .market_c .market-b .detial_mark .dm-1 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-3 .part-e{width: 100%;}
+    .news_a {padding-top: 20px;}
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 100%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 100%;margin-left: 0px;margin-top: 20px;}
+    .news_a .news_c .news-3{display: none;}
+
+    
+
+
+   
+}
+@media (max-width:500px){
+
+    .header .detial .detial_1{width: 100%;}
+    .header .detial .detial_2{display: none;}
+    .header .detial .detial_3{display: none;}
+    .header .detial .detial_4{display: none;}
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+        .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+    .content .center_con .three_c{width: 100%;margin-top: 30px;}
+    .detial_c .center_part{width: 100%;}
+    .detial_c .center_part .left_part{width: 100%;}
+    
+    .detial_c .center_part .right_part{width: 100%;}
+    .detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 2%;top:45%;}
+    .ser_a{height:1500px;background:;}
+
+    .ser_a .ser-c{width: 100%;}
+    .ser_a .ser-c .ser-1{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-2{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-1 .card .i_con{left: 40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height: 900px;}
+    .record_a .rec_a{width: 80%;left:10%;top:10%;}
+    .record_a .rec_a .rec-1{width: 100%;}
+    .record_a .rec_a .rec-2{width: 100%;}
+    .record_a .rec_a .rec-3{width: 100%;}
+    .record_a .rec_a .rec-4{width: 100%;}
+    .display .part_c{width: 80%;margin: auto;}
+    .display .part_c .part-1a{width: 100%;font-size:30px;}
+    .display .part_c .part-2a{width: 100%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 100%;}
+    .ex_po .ex_c .ex-2{width: 100%;}
+    .ex_po .ex_c .ex-3{width: 100%;}
+    .ex_po .ex_c .ex-4{width: 100%;}
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+   
+    .market .market_c .market-b .detial_mark .dm-3 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-1 .part-e h1{font-size: 20px;}
+    .news_a {padding-top: 20px;}
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 100%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 100%;margin-left: 0px;margin-top: 20px;}
+    .news_a .news_c .news-3{display: none;}
+    .news_a .news_c .news-1 .photo_d .date{left: 35%;}
+    .news_a .news_c .news-2 .photo_d .date{left: 35%;}
+
+   
+  
+}

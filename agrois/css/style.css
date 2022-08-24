@@ -1,142 +1,1226 @@
-*{margin: 0;padding: 0;box-sizing: border-box;}
+*{box-sizing: border;margin: 0;padding: 0;}
 .header{
 
-    height: 70px;
-    background: red;
-    display:flex;
+    height:auto;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
 }
 .header .logo{
 
-    height: 70px;
-    background: white;
-    width: 20%;
+    height:auto;
+    background:;
+    width:30%;
 }
-.header .logo_a{
+.header .logo .photo{
 
-    height:70px;
-    width: 90%;
+    height: 100px;
     background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/logo@2x.png);
-    background-size:100% 100%;
+    background-size: 100% 100%;
     margin: auto;
+    width: 60%;
 }
 .header .detial{
 
-    height: 100px;
-    width: 80%;
-    background: yellow;
+    height:auto;
+    width: 70%;
+    background-color:;
     display: flex;
+    flex-wrap: wrap;
 }
-.header .detial .ditial1{
+.header .detial .detial_1{
+
+    height:auto;
+    width: 25%;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .detial_1 .social{
+
+    height: 30px;
+    width: 30px;
+    background: red;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.header .detial_1 .social:hover{
+
+    background: yellow;
+}
+.header .detial .detial_2{
+
     height: 100px;
     width: 25%;
- }
-.header .detial .ditial1 .center{
+    display: flex;
+    background: yellow;
+    
+}
+.header .detial .detial_2 .phone
+{
+    height:auto;
+    width: 40%;
+    background:#fff;
+    
+}
+ .header .detial .detial_2 .phone{
+
+  text-align: center;
+  line-height: 100px;
+    color:lightgreen
+}
+.header .detial .detial_2 .phone i{
+
+    font-size: 50px;
+} 
+.header .detial .detial_2 .info{
+
+    height: 100px;
+    width: 60%;
+    background: #fff;
+    border-right: 1px solid black;
+}
+.header .detial .detial_3{
+
+    height:auto;
+    width: 25%;
+    background:;
+    display: flex;
+    
+}
+.header .detial .detial_3 .phone
+{
+    height: 100px;
+    width: 40%;
+    background:#fff;
+    
+}
+ .header .detial .detial_3 .phone{
+
+  text-align: center;
+  line-height: 100px;
+    color:lightgreen
+}
+.header .detial .detial_3 .phone i{
+
+    font-size: 50px;
+} 
+.header .detial .detial_3 .info{
+
+    height: 100px;
+    width: 60%;
+    background:;
+    border-right: 1px solid black;
+}
+.header .detial .detial_4{
+
+    height:auto;
+    width: 25%;
+    background:;
+    display: flex;
+}
+.header .detial .detial_4 .phone
+{
+    height: 100px;
+    width: 40%;
+    background:#fff;
+    
+}
+ .header .detial .detial_4 .phone{
+
+  text-align: center;
+  line-height: 100px;
+    color:lightgreen
+}
+.header .detial .detial_4 .phone i{
+
+    font-size: 50px;
+} 
+.header .detial .detial_4 .info{
+
+    height: 100px;
+    width: 60%;
+    background: #fff;
+}
+.nav
+{
+    height: 100px;
+    background: coral;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav .left_nav{
 
     height: 100px;
     width: 70%;
-    background:purple;
+    background: rgb(216, 213, 213);
+    
+}
+.nav .left_nav ul{
+
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+.nav .left_nav ul li{
+
+    list-style: none;
+    margin-right:40px;
+}
+.nav .left_nav ul li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    
+}
+.nav .left_nav ul li a:hover{
+
+    color: black;
+}
+.nav .right_nav{
+
+    height: 100px;
+    width: 30%;
+    background: pink;
+    display: flex;
+}
+.nav .right_nav .search{
+
+    height: 100px;
+    width: 50%;
+    background: rgb(216, 213, 213);
+    text-align: center;
+    line-height: 100px;
+}
+.nav .right_nav .search i{
+font-size:30px;
+
+}
+.nav .right_nav .buy{
+
+    height: 100px;
+    width: 50%;
+    background: rgb(216, 213, 213);
+    text-align: center;
+    line-height: 100px;
+}
+.nav .right_nav .buy i{
+
+    font-size:30px;
+}
+
+.bar{
+
+    display: none;
+    height: 100px;
+    background:red;
+    display: flex;
+    flex-wrap: wrap;
+    display: none; 
+}
+.bar .bar_ser{
+    
+    height: 100px;
+    width: 33.33%;
+    background: rgb(216, 213, 213);
+    text-align: center;
+    line-height: 100px;
+    display: none;
+}
+.bar .bar_ser i{
+
+    font-size: 50px;
+}
+.bar .bar_b{
+    
+    height: 100px;
+    width: 33.33%;
+    background: rgb(216, 213, 213);
+    display: none;
+    text-align: center;
+    line-height: 100px;
+
+}
+.bar .bar_b{
+
+    font-size: 50px;
+}
+.bar .bar_buy{
+    
+    height: 100px;
+    width: 33.33%;
+    background: rgb(216, 213, 213);
+    display: none;
+    text-align: center;
+    line-height: 100px;
+
+}
+.bar .bar_buy i{
+
+    font-size: 50px;
+}
+.slider{
+
+    height: 500px;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLolqg7-k-zNkc6s6XGJ4DnylXoGsKZEIvfQ&usqp=CAU);
+    background-size: 100% 100%;
+}
+.content{
+
+    height:300px;
+    background:;
+    position: relative;
+}
+.content .center_con{
+
+    height: auto;
+    width: 70%;
+   
+    position: absolute;
+    left:17%;
+    top:-50px;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.content .center_con .one_c{
+
+    height: 200px;
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 0 30px black;
+    margin-right: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.content .center_con .one_c .con_box{
+
+    height:70px;
+    width: 70px;
+    background: red;
+    border-radius: 10px;
+    position: absolute;
+    left:35%;
+    top:80%;
+    
+}
+
+.content .center_con .two_c{
+
+    height: 200px;
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 0 30px black;
+    margin-right: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.content .center_con .two_c .con_box{
+
+    height:70px;
+    width: 70px;
+    background: red;
+    border-radius: 10px;
+    position: absolute;
+    left:35%;
+    top:80%;
+    
+}
+
+.content .center_con .three_c{
+
+    height: 200px;
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 0 30px black;
+    border-radius: 20px;
+    position: relative;
+}
+.content .center_con .three_c .con_box{
+
+    height:70px;
+    width: 70px;
+    background: red;
+    border-radius: 10px;
+    position: absolute;
+    left:35%;
+    top:80%;
+    
+}
+.detial_c{
+
+    height:auto;
+    width: 100%;
+    background:;
+}
+.detial_c .center_part{
+
+    height:auto;
+    width: 80%;
+    background:;
     margin: auto;
     display: flex;
-    
-}
+    flex-wrap: wrap;
 
-.header .detial .ditial1 .icon {
-
-    display: flex;
-    margin-top: 20px;
-    margin-left: 5px;
-    
-    
 }
-.header .detial .ditial1 .icon .round{
-    height:50px;
-    width: 50px;
-    background: coral;
+.detial_c .center_part .left_part{
+
+    height: 800px;
+    width: 50%;
+    background:;
+}
+.detial_c .center_part .left_part .photo_far{
+
+    height: 500px;
+   margin-top: 100px;
+    background:;
+    position: relative;
+}
+.detial_c .center_part .left_part .photo_far .photo_round{
+
+    height: 400px;
+    width: 400px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/image-01.webp);
+    background-size: 100% 100%;
     border-radius: 50%;
-    margin-right: 5px;
-    transition: .5s;
+    margin: auto;
     position: relative;
     overflow: hidden;
 }
-.header .detial .ditial1 .icon .round:hover{
+.detial_c .center_part .left_part .photo_far .photo_round .grass{
 
+    height: 300px;
+    width: 200px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/plants-01.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    left:45%;
+    top: -10%;
+  
+}
+.detial_c .center_part .left_part .photo_round1{
+
+    height: 200px;
+    width: 200px;
+    background: url(https://tplabs.co/agrios/wp-content/uploads/2022/07/image-02.webp);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 10px solid white ;
+    position: absolute;
+    top:66%;
+}
+.detial_c .center_part .left_part .photo_round1 .grass_a{
+
+    height: 400px;
+    width: 300px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/plants-02.svg);
+    background-size: 100% 100%;
+    margin-top:-180%;
+    margin-left: -50%;
+}
+.detial_c .center_part .right_part{
+
+    height: 800px;
+    width: 50%;
+    background:;
+}
+.detial_c .center_part .right_part .veg{
+
+    height: 100px;
+    width: 100%;
+    background: ;
+    margin-top: 20px;
+    display: flex;
+}
+.detial_c .center_part .right_part .veg .left_v{
+
+    height: 100px;
+    width: 50%;
+    background: lightcoral;
+    display: flex;
+}
+.detial_c .center_part .right_part .veg .left_v .logo_v{
+
+height: 100px;
+width: 30%;
+background: red;
+}
+.detial_c .center_part .right_part .veg .left_v .gro{
+
+    height: 100px;
+    width: 70%;
+    background:#fff;
+    }
+.detial_c .center_part .right_part .veg .right_v{
+
+    height: 100px;
+    width: 50%;
+    display: flex;
+    margin-left: 50px;
+    background:pink;
+}
+.detial_c .center_part .right_part .veg .right_v .logo_v{
+
+    height: 100px;
+    width: 30%;
     background: red;
+    }
+    .detial_c .center_part .right_part .veg .right_v .gro{
+    
+        height: 100px;
+        width: 70%;
+        background:#fff;
+        }
+        .detial_c .center_part .right_part button{
+
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: 50px;
+            font-size: 30px;
+            border-radius: 20px;
+            background: greenyellow;
+
+
+        }
+        .work_d{
+
+            height: 400px;
+            background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/wheats.webp);
+            background-size: 100% 100%;
+        }
+    .service{
+
+        height: 400px;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/wheats.webp);
+        background-size: 100% 100%;
+    }
+    .ser_a{
+
+        height: 500px;
+        background:;
+        position: relative;
+
+    }
+    .ser_a .ser-c{
+
+        height: auto;
+        width: 80%;
+        
+        position: absolute;
+        left: 10%;
+        top:-30%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .ser_a .ser-c .ser-1{
+
+        height: 300px;
+        width: 22%;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-01.webp);
+        background-size: 100% 100%;
+        border-radius: 10px;
+        
+    }
+    .ser_a .ser-c .ser-1 .card{
+    
+        height: 100px;
+        width: 80%;
+        background:#fff;
+        margin: auto;
+        margin-top:250px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+    .ser_a .ser-c .ser-1 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+        
+    
+        
+    }
+
+    .ser_a .ser-c .ser-2{
+
+        height: 300px;
+        width: 22%;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-02.webp);
+        background-size: 100% 100%;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .ser_a .ser-c .ser-2 .card{
+    
+        height: 100px;
+        width: 80%;
+        background:#fff;
+        margin: auto;
+        margin-top:250px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+        
+    }
+    .ser_a .ser-c .ser-2 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+        
+    
+        
+    }
+
+    .ser_a .ser-c .ser-3{
+
+        height: 300px;
+        width: 22%;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-03.webp);
+        background-size: 100% 100%;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .ser_a .ser-c .ser-3 .card{
+    
+        height: 100px;
+        width: 80%;
+        background: #fff;
+        margin: auto;
+        margin-top:250px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+    .ser_a .ser-c .ser-3 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+        
+    
+        
+    }
+
+    .ser_a .ser-c .ser-4{
+
+        height: 300px;
+        width: 22%;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-04.webp);
+        background-size: 100% 100%;
+        margin-left: 20px;
+        border-radius: 10px;
+
+    }
+    .ser_a .ser-c .ser-4 .card{
+    
+        height: 100px;
+        width: 80%;
+        background:#fff;
+        margin: auto;
+        margin-top:250px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+    .ser_a .ser-c .ser-4 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+    
+        
+    }
+.record{
+
+    height:auto;
+    background:pink;
 }
-.header .detial .ditial1 .icon .round .font{
-    height: 50px;
-    width: 50px;
+.record_a{
+
+    height:50px;
+    background:#fff;
+    position: relative;
+
+}
+.record_a .rec_a{
+
+    height: auto;
+    width: 80%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/wheats-2.webp);
+    background-size: 100% 100%;
+    position: absolute;
+    left:10%;
+    top:-50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.record_a .rec_a .rec-1{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.record_a .rec_a .rec-2{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.record_a .rec_a .rec-3{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.record_a .rec_a .rec-4{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.display{
+
+    height: 600px;
+    background:url(https://wallpaperaccess.com/full/1605750.jpg);
+    background-size: 100% 100%;
+    padding-top:300px;
+    background-attachment: fixed;
+ 
+}
+.display .part_c{
+
+    height:300px;
+    width: 80%;
     background:;
-    position:absolute;
-    backface-visibility: hidden;
-    transition: 1s;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top: ;
 }
-.header .detial .ditial1 .icon .round .font{
+.display .part_c .part-1a{
 
-    transform: rotatey(180deg);
+    height: 300px;
+    width: 50%;
+    background:;
 }
-.header .detial .ditial1 .icon .round .bake{
+.display .part_c .part-2a{
+
+    height: 300px;
+    width: 50%;
+    background:;
+}
+.display .part_c .part-2a .play{
+
+    height: 150px;
+    width: 150px;
+    background:url(https://cdn.icon-icons.com/icons2/562/PNG/512/play-button_icon-icons.com_53922.png);
+    background-size: 100% 100%;
+    margin:70px auto;
+}
+.disp{
+
+    height: 200px;
+    width:100%;
+    background:#fff;
+}
+.ex_po{
+
+    height:auto;
+    background:#fff;
+}
+.ex_po .ex_c{
+
+    height:auto;
+    width: 95%;
+    background:#fff;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ex_po .ex_c .ex-1{
+
+    height: 500px;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-06-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:20px;
+    margin-left: ;
+}
+.ex_po .ex_c .ex-2{
+
+    height: 500px;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-05-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:20px;
+    
+}
+.ex_po .ex_c .ex-3{
+
+    height: 500px;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-04-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:10px;
+}
+.ex_po .ex_c .ex-4{
+
+    height: 500px;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-03-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:20px;
+}
+.about{
+
+    height:auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/farm-02.webp);
+    background-size: 100% 100%;
+    padding-top: 50px;
+    
+}
+.about .about_c{
+
+    height:auto;
+    width: 80%;
+    background:;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .about_c .about-1{
+
+    height: 600px;
+    width: 40%;
+    background:;
+}
+.about-1 button{
+
+    padding: 20px;
+    margin-left: 99px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: greenyellow;
+    border: none    ;
+}
+.about .about_c .about-2{
+
+    height: 600px;
+    width: 60%;
+    background:;
+}
+.about .about_c .about-2 .about-a{
+
+    height: 290px;
+    width: 100%;
+    background:#fff;
+    margin-top: 10px;
+    border-radius: 30px;
+    display: flex;
+    
+}
+.about .about_c .about-2 .about-a .ab-1{
+
+    height: 290px;
+    width: 70%;
+    background:;
+    
+}
+.about .about_c .about-2 .about-a .ab-1 .ab-a{
+
+    height: 200px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-a .ab-1 .ab-b{
+
+    height: 90px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-a .ab-2{
+
+    height: 290px;
+    width: 30%;
+    background:;
+}
+.about .about_c .about-2 .about-a .ab-2 .image-1{
+
+    height: 150px;
+    background: ;
+    margin-top:60px;
+   
+}
+.about .about_c .about-2 .about-a .ab-2 .image-1 .image-a{
+
+    height: 150px;
+    width: 150px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/avatar-02.webp);
+    background-size: 100% 100%;
+    margin: auto;
+    border-radius: 50%;
+   
+}
+
+.about .about_c .about-2 .about-b{
+
+    height: 290px;
+    width: 100%;
+    background:#fff;
+    margin-top: 5px;
+    border-radius: 30px;
+    display: flex;
+}
+.about .about_c .about-2 .about-b .ab-1{
+
+    height: 290px;
+    width: 70%;
+    background:;
+    
+}
+.about .about_c .about-2 .about-b .ab-1 .ab-a{
+
+    height: 200px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-b .ab-1 .ab-b{
+
+    height: 90px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-b .ab-2{
+
+    height: 290px;
+    width: 30%;
+    background:;
+}
+.about .about_c .about-2 .about-b .ab-2 .image-1{
+
+    height: 150px;
+    background:;
+    margin-top:60px;
+   
+}
+.about .about_c .about-2 .about-b .ab-2 .image-1 .image-a{
+
+    height: 150px;
+    width: 150px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/avatar-01.webp);
+    background-size: 100% 100%;
+    margin: auto;
+    border-radius: 50%;
+   
+}
+.market
+{
+    height: autopx;
+    width: 100%;
+    background:#fff;
+}
+.market .market_c{
+
+    height: auto;
+    width: 80%;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.market .market_c .market-a{
+    height: 600px;
+    width: 40%;
+    background:;
+    padding-top: 40px;
+}
+.market .market_c .market-a .photo_a{
+
+    height: 550px;
+    width: 90%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/farmer.webp);
+    background-size: 100% 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+.market .market_c .market-b{
+    height:auto;
+    width: 60%;
+    background:;
+}
+.market .market_c .market-b .detial_mark{
+
+    height:auto;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 30px;
+    background:;
+}
+
+.market .market_c .market-b .detial_mark .dm-1{
+
+    height:;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+}
+.market .market_c .market-b .detial_mark .dm-1 .part-w{
 
     height: 50px;
-    width: 50px;
+    width: 30%;
     background:;
-    position:absolute;
-    backface-visibility: hidden;
-    transition: 1s;
+}
+.market .market_c .market-b .detial_mark .dm-1 .part-e{
+
+    height: auto;
+    width: 70%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-2{
+
+    height:auto;
+    background:;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.market .market_c .market-b .detial_mark .dm-2 .part-w{
+
+    height: 50px;
+    width: 30%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-2 .part-e{
+
+    height:auto;
+    width: 70%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-3{
+
+    height: 100px;
+    background:;
+     display: flex;
+     display: flex;
+     flex-wrap: wrap;
+}
+.market .market_c .market-b .detial_mark .dm-3 .part-w{
+
+    height: 50px;
+    width: 30%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-3 .part-e{
+
+    height:auto;
+    width: 70%;
+    background:;
+}
+.market .market_c .market-b  button{
+
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    background: greenyellow;
+
 
 }
-.header .detial .ditial1 .icon .round:hover .font{
+.news{
 
-    transform: rotatey(0deg);
+    height: 130px;
+    background:#fff;
 }
-.header .detial .ditial1 .icon .round:hover .bake{
+.news_a{
 
-    transform: rotatey(180deg);
+    height:auto;
+    background:#fff;
+    padding-top: 20px;
 }
-.header .detial .a{
+.news_a .news_c{
 
+    height:auto;
+    width: 80%;
+    margin: auto;
+
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+}
+.news_a .news_c .news-1{
+
+    height: 600px;
+    width: 30%;
+    background:;
+    margin-left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.news_a .news_c .news-1 .photo_d{
+
+    height:350px;
+    width: 100%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-06-370x300.webp);
+    background-size: 100% 100%;
+    position: relative;
+}
+.news_a .news_c .news-1 .photo_d .date{
+
+    height: 30px;
+    width: 100px;
+    background:greenyellow;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+}
+.news_a .news_c .news-2 .photo_d .date{
+
+    height: 30px;
+    width: 100px;
+    background:greenyellow;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+}
+.news_a .news_c .news-3 .photo_d .date{
+
+    height: 30px;
+    width: 100px;
+    background:greenyellow;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+}
+.news_a .news_c .news-1 .come{
+
+    height:100px;
+    width: 100%;
+    background:;
     display: flex;
 }
-.header .detial .a .icon_1{
+.news_a .news_c .news-1 .come .come-1{
 
     height: 100px;
+    width: 50%;
+    background:;
+}
+.news_a .news_c .news-1 .deti_al{
+
+    height:150px;
+    width: 100%;
+    background:;
+}
+.news_a .news_c .news-2{
+
+    height: 600px;
     width: 30%;
-    background:blue;
+    background:;
+    margin-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
 }
-.header .detial .info{
+.news_a .news_c .news-2 .photo_d{
 
-    height: 100px;
-    width: 70%;
-    background:coral;
+    height:350px;
+    width: 100%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-05-370x300.webp);
+    background-size: 100% 100%;
+    position: relative;
 }
-.header .detial .b{
+.news_a .news_c .news-2 .come{
 
+    height:100px;
+    width: 100%;
+    background:;
     display: flex;
 }
-.header .detial .b .icon_1{
+.news_a .news_c .news-2 .come .come-1{
 
     height: 100px;
+    width: 50%;
+    background:;
+}
+.news_a .news_c .news-2 .deti_al{
+
+    height:150px;
+    width: 100%;
+    background:;
+}
+.news_a .news_c .news-3{
+
+    height: 600px;
     width: 30%;
-    background:blue;
+    background:;
+    margin-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
 }
-.header .detial .b .info{
+.news_a .news_c .news-3 .photo_d{
 
-    height: 100px;
-    width: 70%;
-    background:coral;
+    height:350px;
+    width: 100%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-04-370x300.webp);
+    background-size: 100% 100%;
+    position: relative;
 }
-.header .detial .c{
+.news_a .news_c .news-3 .come{
 
+    height:100px;
+    width: 100%;
+    background:;
     display: flex;
 }
-.header .detial .c .icon_1{
+.news_a .news_c .news-3 .come .come-1{
 
     height: 100px;
-    width: 30%;
-    background:blue;
+    width: 50%;
+    background:;
 }
-.header .detial .c .info{
+.news_a .news_c .news-3 .deti_al{
 
-    height: 100px;
-    width: 70%;
-    background:coral;
+    height:150px;
+    width: 100%;
+    background:;
+}
+.background{
+
+    height: 200px;
+    background: white;
 }
