@@ -49,6 +49,18 @@
     .news_a .news_c .news-2{width: 48%;margin-left: 20px;}
     .news_a .news_c .news-3{display: none;}
     .news_a .news_c .news-1 .photo_d .date{left: 30%;}
+    .compny .comp-1{width: 50%;}
+    .compny .comp-2{width: 50%;}
+    .compny .comp-3{width: 50%;}
+    .compny .comp-4{width: 50%;}
+    .footer{padding-top: 20px;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 50%;}
+    .footer .footer_c .footer-2{width: 50%;}
+    .footer .footer_c .footer-3{width: 50%;}
+    .footer .footer_c .footer-4{width: 50%;}
+    
+
 
     
     
@@ -164,6 +176,17 @@
     .news_a .news_c .news-1{width: 48%;margin-left: 0px;}
     .news_a .news_c .news-2{width: 48%;margin-left: 20px;}
     .news_a .news_c .news-3{display: none;}
+    .compny .comp-1{width: 50%;}
+    .compny .comp-2{width: 50%;}
+    .compny .comp-3{width: 50%;}
+    .compny .comp-4{width: 50%;}
+    .footer{padding-top: 20px;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 50%;}
+    .footer .footer_c .footer-2{width: 50%;}
+    .footer .footer_c .footer-3{width: 50%;}
+    .footer .footer_c .footer-4{width: 50%;}
+   
 
 
 }
@@ -225,7 +248,16 @@
     .news_a .news_c .news-1{width: 100%;margin-left: 0px;}
     .news_a .news_c .news-2{width: 100%;margin-left: 0px;margin-top: 20px;}
     .news_a .news_c .news-3{display: none;}
-
+    .compny .comp-1{width: 100%;}
+    .compny .comp-2{width: 100%;}
+    .compny .comp-3{width: 100%;}
+    .compny .comp-4{width: 100%;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 100%;}
+    .footer .footer_c .footer-2{width: 100%;}
+    .footer .footer_c .footer-3{width: 100%;}
+    .footer .footer_c .footer-4{width: 100%;}
+   
     
 
 
@@ -288,7 +320,16 @@
     .news_a .news_c .news-3{display: none;}
     .news_a .news_c .news-1 .photo_d .date{left: 35%;}
     .news_a .news_c .news-2 .photo_d .date{left: 35%;}
-
+    .compny .comp-1{width: 100%;}
+    .compny .comp-2{width: 100%;}
+    .compny .comp-3{width: 100%;}
+    .compny .comp-4{width: 100%;}
+    .footer{padding-top: 20px;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 100%;}
+    .footer .footer_c .footer-2{width: 100%;}
+    .footer .footer_c .footer-3{width: 100%;}
+    .footer .footer_c .footer-4{width: 100%;}
    
   
 }

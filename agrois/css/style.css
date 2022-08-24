@@ -1224,3 +1224,222 @@ background: red;
     height: 200px;
     background: white;
 }
+.compny{
+
+    height:auto;
+    background: coral;
+    display: flex;
+    flex-wrap: wrap;
+}
+.compny .comp-1{
+
+    height: 200px;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-01-1.webp);
+    background-size: 100% 100%;
+}
+.compny .comp-2{
+
+    height: 200px;
+    width: 25%;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-02-1.webp);
+    background-size: 100% 100%;
+
+}
+.compny .comp-3{
+
+    height: 200px;
+    width: 25%;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-04-1.webp);
+    background-size: 100% 100%;
+
+}
+.compny .comp-4{
+
+    height: 200px;
+    width: 25%;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-05-1.webp);
+    background-size: 100% 100%;
+
+}
+.footer{
+
+    height:auto;
+    background: black;
+    padding-top: 20px;
+}
+.footer .footer_c{
+
+    height:auto;
+    background:;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer .footer_c .footer-1{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-1 .logo_a{
+
+    height: 100px;
+    width: 100%;
+    background: url(https://tplabs.co/agrios/wp-content/uploads/2022/07/logo@2x-white-1.webp);
+    background-size:100% 100%;
+}
+.footer .footer_c .footer-1 .soc_ial{
+
+    height: 200px;
+    background:;
+    display:flex;
+}
+.footer .footer_c .footer-1 .soc_ial .social{
+
+    height: 60px;
+    width: 60px;
+    background: gray;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.footer .footer_c .footer-1 .soc_ial .social:hover{
+
+    background: yellow;
+}
+.footer .footer_c .footer-2{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-2 ul{
+
+    margin-left: 50px;
+}
+.footer .footer_c .footer-2 li{
+
+    list-style: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer .footer_c .footer-2 a{
+
+    text-decoration: none;
+    color: gray ;
+    transition: 1s;
+}
+.footer .footer_c .footer-2 a:hover{
+
+    color:yellow;
+}
+.footer .footer_c .footer-3{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-3 .two{
+
+    height: 300px;
+    width: 100%;
+    background:;
+    margin-top:50px;
+}
+.footer .footer_c .footer-3 .two .one_a{
+
+    height: 150px;
+    width: 100%;
+    background:;
+    display: flex;
+}
+.footer .footer_c .footer-3 .two .one_a .hphoto{
+
+    height: 150px;
+    width: 30%;
+    background:;
+}
+.footer .footer_c .footer-3 .two .one_a .hphoto .l1{
+
+    height: 100px;
+    border-radius: 10px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-05-150x150.webp);
+    background-size: 100% 100%;
+}
+.footer .footer_c .footer-3 .two .one_a .foot_d{
+
+    height: 150px;
+    width: 70%;
+    background:;
+}
+
+.footer .footer_c .footer-3 .two .two_a{
+
+    height: 150px;
+    width: 100%;
+    background:;
+    display: flex;
+}
+.footer .footer_c .footer-3 .two .two_a .hphoto{
+
+    height: 150px;
+    width: 30%;
+    background:;
+}
+.footer .footer_c .footer-3 .two .two_a .hphoto .l1{
+
+    height: 100px;
+    border-radius: 10px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-06-150x150.webp);
+    background-size: 100% 100%;
+}
+.footer .footer_c .footer-3 .two .two_a .foot_d{
+
+    height: 150px;
+    width: 70%;
+    background:;
+}
+
+
+
+.footer .footer_c .footer-4{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-4 input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .copy{
+    height: 100px;
+    background:black;
+  }
