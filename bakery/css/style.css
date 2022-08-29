@@ -234,11 +234,421 @@
 
             height: 600px;
             width: 100%;
-            background: coral;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-1{
+
+            height:200px;
+            width: 100%;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-1 .round_a{
+
+            height: 180px;
+            width: 180px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            border: 3px solid darkgoldenrod;
+            margin:auto;
+        }
+        .cake .cake_c .cake-1 .part-2{
+
+            height:200px;
+            width: 100%;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-2 .round_a{
+
+            height: 180px;
+            width: 180px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/danish-1.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            border: 3px solid;
+            margin:auto;
+        }
+        .cake .cake_c .cake-1 .part-3{
+
+            height:200px;
+            width: 100%;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-3 .round_a{
+
+            height: 180px;
+            width: 180px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-3.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            border: 3px solid;
+            margin:auto;
         }
         .cake .cake_c .cake-2{
 
             height: 600px;
             width: 100%;
-            background:lightblue;
+            background:;
+            border: 3px solid;
+            display: flex;
         }
+        .cake .cake_c .cake-2 .left{
+
+            height: 600px;
+            width: 50%;
+            background:;
+        }
+        .cake .cake_c .cake-2 .left button:hover{
+
+            background: ;
+        }
+        .cake .cake_c .cake-2 .right{
+
+            height: 580px;
+            width: 50%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3.jpg);
+            background-size: 100% 100%;
+        }
+        .adv .adv_c .left_part{
+
+            height: 500px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-bakery-mobile.png);
+            background-size: 100% 100%;
+        }
+        .adv .adv_c .right_part{
+
+            height: 500px;
+            background:;
+       
+        }
+        .adv .adv_c .right_part .part_a{
+
+            height:166px;
+            background:;
+       display: flex;
+        
+        }
+        .adv .adv_c .right_part .part_a .left_img{
+
+            height: 166px;
+            width: 30%;
+    
+            background:;
+        }
+        .adv .adv_c .right_part .part_a .left_img .ico_n{
+
+            height: 150px;
+            width: 150px;
+            border: 3px solid;
+            border-radius: 50%;
+            margin: auto;
+            background:;
+            transition: 1s;
+        }
+        .adv .adv_c .right_part .part_a .left_img .ico_n:hover{
+
+            background-color: black;
+            color: #fff;
+        }
+        .adv .adv_c .right_part .part_b .left_img .ico_n:hover{
+
+            background-color: black;
+            color: #fff;
+        }
+        .adv .adv_c .right_part .part_c .left_img .ico_n:hover{
+
+            background-color: black;
+            color: #fff;
+        }
+        .adv .adv_c .right_part .part_a .left_img .ico_n i{
+
+            font-size: 50px;
+            margin-top: 45px;
+            margin-left: 47px;
+        }
+        .adv .adv_c .right_part .part_b .left_img .ico_n i{
+
+            font-size: 50px;
+            margin-top: 45px;
+            margin-left: 47px;
+        }
+        .adv .adv_c .right_part .part_c .left_img .ico_n i{
+
+            font-size: 50px;
+            margin-top: 45px;
+            margin-left: 47px;
+        }
+        .adv .adv_c .right_part .part_b .left_img .ico_n{
+
+            height: 150px;
+            width: 150px;
+            border: 3px solid;
+            border-radius: 50%;
+            margin: auto;
+            background:;
+            transition: 1s;
+        }
+        .adv .adv_c .right_part .part_c .left_img .ico_n{
+
+            height: 150px;
+            width: 150px;
+            border: 3px solid;
+            border-radius: 50%;
+            margin: auto;
+            background:;
+            transition: 1s;
+        }
+        .adv .adv_c .right_part .part_a .right_detial{
+
+            height: 166px;
+            width: 70%;
+       
+            background:;
+        }
+        .adv .adv_c .right_part .part_b{
+
+            height:166px;
+            background:;
+            display: flex;
+       
+        }
+        .adv .adv_c .right_part .part_b .left_img{
+
+            height: 166px;
+            width: 30%;
+
+    
+            background:;
+        }
+        .adv .adv_c .right_part .part_b .right_detial{
+
+            height: 166px;
+            width: 70%;
+       
+            background:;
+        }
+        .adv .adv_c .right_part .part_c{
+
+            height:166px;
+            background:;
+            display: flex;
+       
+        }
+        .adv .adv_c .right_part .part_c .left_img{
+
+            height: 166px;
+            width: 30%;
+            background:;
+        }
+        .adv .adv_c .right_part .part_c .right_detial{
+
+            height: 166px;
+            width: 70%;
+            background:;
+        }
+.staff .staff_c .staff-1 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background:;
+    position: relative;
+}
+.staff .staff_c .staff-1 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-4.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+.staff .staff_c .staff-1 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.staff .staff_c .staff-2 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background: ;
+    position: relative;
+}
+.staff .staff_c .staff-2 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-1.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+.staff .staff_c .staff-2 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.staff .staff_c .staff-3 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background: ;
+    position: relative;
+}
+.staff .staff_c .staff-3 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-2.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+.staff .staff_c .staff-3 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.staff .staff_c .staff-4 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background:;
+    position: relative;
+}
+.staff .staff_c .staff-4 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-3.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+.staff .staff_c .staff-4 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.blog .blog_c .blog-1 .card_1{
+
+    height: 500px;
+    width: 100%;
+    background:;
+   
+    
+}
+.blog .blog_c .blog-1 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 3px solid;
+   background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-14.jpg);
+   background-size: 100% 100%;
+   
+}
+.blog .blog_c .blog-2 .card_1{
+
+    height: 500px;
+    width: 100%;
+    background: ;
+   
+    
+}
+.blog .blog_c .blog-2 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 3px solid;
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-2.jpg);
+    background-size: 100% 100%;
+   
+}
+.blog .blog_c .blog-3 .card_1{
+
+    height: 500px;
+    width: 100%;
+    background:;
+   
+    
+}
+.blog .blog_c .blog-3 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 3px solid;
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-20.jpg);
+    background-size: 100% 100%;
+   
+}
+.map .map_c .map-1{
+
+    height: 600px;
+    background: coral;
+}
+.soci {
+  
+    font-size: 40px;
+    margin-left: 50px;
+ 
+    
+}
+.gallery{
+
+    height: 200px;
+    width: 100%;
+    background:;
+}
+.gallery .gal1{
+
+    height: 100px;
+    width: 100%;
+    background:;
+}
+.gallery .gal1 .ig-1{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-1-180x180.jpg);
+    background-size: 100% 100%;
+}
+
+.gallery .gal1 .ig-2{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-2-180x180.jpg);
+    background-size: 100% 100%;
+}
+.gallery .gal1 .ig-3{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-3-180x180.jpg);
+    background-size: 100% 100%;
+}
+.gallery .gal2 .ig-1{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-4-180x180.jpg);
+    background-size: 100% 100%;
+}
+
+.gallery .gal2 .ig-2{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-5-180x180.jpg);
+    background-size: 100% 100%;
+}
+.gallery .gal2 .ig-3{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-6-180x180.jpg);
+    background-size: 100% 100%;
+}
+
+.gallery .gal2{
+
+    height: 100px;
+    width: 100%;
+    background:;
+}
+

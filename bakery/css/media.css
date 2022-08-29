@@ -1,0 +1,33 @@
+@media (max-width:1100px){
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+
+
+
+}
+@media (max-width:900px){
+    .cake .cake_c .cake-2 .left{width: 100%;}
+    .cake .cake_c .cake-2 .right{display: none;}
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+
+}
+@media (max-width:700px){
+    .cake .cake_c .cake-2 .left{width: 100%;}
+    .cake .cake_c .cake-2 .right{display: none;}
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+
+}
+@media (max-width:500px){
+    .cake .cake_c .cake-2 .left{width: 100%;}
+    .cake .cake_c .cake-2 .right{display: none;}
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+    form{width: 100%;}
+
+}
