@@ -1391,7 +1391,6 @@ background: red;
 .compny{
 
     height:auto;
-    background: coral;
     display: flex;
     flex-wrap: wrap;
 }
