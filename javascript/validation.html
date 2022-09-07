@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form>
+
+	<table>
+		<tr>
+			<th>Registration Form</th>
+		</tr>
+
+		<tr>
+			<td>Name:</td>
+			<td>
+
+				<input type="text" name="" id="nm" >
+				<span id="error"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td><input type="text" name="" id="em"></td>
+		</tr>
+		<tr>
+			<td>Password:</td>
+			<td><input type="text" name="" id="pwd"></td>
+		</tr>
+		<tr>
+			<td>Confirm Password:</td>
+			<td><input type="text" name="" id="cpwd"></td>
+		</tr>
+		<tr>
+			<td>Mobile:</td>
+			<td><input type="text" name="" id="mob"></td>
+		</tr>
+
+		<tr>
+			<td><input type="submit" name="" onclick="validateForm()"></td>
+		</tr>
+	</table>
+
+</form>
+
+<script type="text/javascript">
+	
+
+	function validateForm()
+	{
+		var name = document.getElementById('nm').value;
+		var email = document.getElementById('em').value;
+		var pass = document.getElementById('pwd').value;
+		var cpass = document.getElementById('cpwd').value;
+		var mobile = document.getElementById('mob').value;
+		console.log(name);
+
+		if(name=="")
+		{
+			alert("Name is required...!");
+		}
+		if(email=="")
+		{
+			alert("Email is required...!");
+		}
+		if(pass=="")
+		{
+			alert("Password is required...!");
+		}
+		if(pass!=cpass)
+		{
+			alert("Passwords do not match...!");
+		}
+		if(mobile=="")
+		{
+			alert("Mobile is required...!");
+		}
+
+		
+	}
+
+</script>
+
+</body>
+</html>

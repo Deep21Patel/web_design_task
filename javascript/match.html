@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    password:<input type="password" name="" id="pass" value=""><br><br>
+    cpassword:<input type="password" name="" id="cpass" value=""><br><br>
+
+    <button id="btn" onclick="match()">submit</button>
+
+    <b id="d"></b>
+
+    <script>
+
+        function match(){
+
+            var pass1=document.getElementById('pass').value;
+
+
+            var pass2=document.getElementById('cpass').value;
+
+            if(pass1==pass2)
+            {
+
+                    if(document.getElementById('d').innerHTML=="")
+                    {
+                        document.getElementById('d').innerHTML="ok"
+                    }
+                  
+
+
+            }
+            else{
+
+           
+
+                alert("do not match password...")
+                
+            }
+
+        }
+        
+    </script>
+    
+</body>
+</html>

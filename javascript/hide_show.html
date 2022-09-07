@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque vitae quasi et corrupti aspernatur pariatur consequuntur, quas quam asperiores eveniet dolores atque molestiae quos ipsam quisquam est illo? Atque?</p>
+    <button onclick="myf()">hide and show</button>
+
+    <script>
+        function myf(){
+            var p=document.getElementById("p1");
+            if(p.style.display=="none")
+            {
+                p.style.display="block"
+            }
+            else{
+
+                p.style.display="none";
+            }
+
+        }
+       
+
+    </script>
+</body>
+</html>

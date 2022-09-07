@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  entert the frist num: <input type="text" id="s1">  <br><br>
+  entert the seceond num: <input type="text" id="s2">  
+
+  <br><br>
+  <input type="submit" value="+" onclick="getSum()">
+<input type="submit" value="-" onclick="getSub()">
+<input type="submit" value="*" onclick="getMal()">
+
+<input type="submit" value="/" onclick="getDiv()">
+<input type="submit" value="%" onclick="getMul()">
+<br><br>
+  
+	<b id="sum"></b>
+
+
+  <script>
+
+    function getSum(){
+
+        var n1=document.getElementById('s1').value;
+        var n2=document.getElementById('s2').value;
+
+  
+        document.getElementById('sum').innerHTML = parseInt(n1)+parseInt(n2);
+
+
+    }
+
+    function getSub(){
+
+        var n1=document.getElementById('s1').value;
+        var n2=document.getElementById('s2').value;
+
+        document.getElementById('sum').innerHTML = parseInt(n1)-parseInt(n2)
+    }
+    function getMal(){
+
+var n1=document.getElementById('s1').value;
+var n2=document.getElementById('s2').value;
+
+document.getElementById('sum').innerHTML = parseInt(n1)*parseInt(n2)
+}
+function getDiv(){
+
+var n1=document.getElementById('s1').value;
+var n2=document.getElementById('s2').value;
+
+document.getElementById('sum').innerHTML = parseInt(n1)/parseInt(n2)
+}
+function getMul(){
+
+var n1=document.getElementById('s1').value;
+var n2=document.getElementById('s2').value;
+
+document.getElementById('sum').innerHTML = parseInt(n1)%parseInt(n2)
+}
+  </script>
+</body>
+</html>

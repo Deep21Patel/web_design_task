@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+
+            background: linear-gradient(white,pink);
+            height: 90vh;
+        }
+        .calculator{
+
+            height: 400px;
+            width: 500px;
+            background:#fff;
+            margin:100px auto;
+            border: 2px solid;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 500px black;
+        }
+        .display{
+
+            height: 100px;
+            background:black;
+            color: #fff;
+            font-size: 50px;
+            text-align: right;
+            line-height: 100px;
+            padding-right: 20px;
+        }
+        .keys .key1{
+            display: flex;
+        }
+        .x1{
+            width: 25%;
+            background:linear-gradient(white,lightgreen);
+            border-bottom: 2px solid;
+            font-size: 50px;
+            text-align: center;
+        }
+        .x1 a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .key2{
+            display:flex ;
+        }
+        .left_key{
+             width: 80%;
+             background:linear-gradient(pink,white);
+        }
+        .right_key{ 
+            width: 20%;
+            background:linear-gradient(white,gold);
+            text-align: center;
+            font-size: 50px;
+            line-height: 200px;
+            font-weight: bold;
+            border-bottom: 2px solid;
+        }
+        .right_key a{
+            text-decoration: none;   color: black; 
+        }
+        .x2{
+            width: 33.33%;
+            border-right: 2px solid;
+            border-bottom: 2px solid;
+            font-size: 50px;
+            text-align: center;
+            }
+      .x2 a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                }
+            .top{
+                display: flex;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="calculator">
+       <div class="display">0</div>
+        <div class="keys">
+            <div class="key1">
+                <div class=" x1" style="border-right: 2px solid;"><a href="">+</a></div>
+                <div class=" x1"style="border-right: 2px solid;"><a href="">-</a></div>
+                <div class=" x1"style="border-right: 2px solid;"><a href="">*</a></div>
+                <div class="x1"><a href="">/</a></div>
+            </div>
+            <div class="key2">
+                <div class="left_key y1">
+                    <div class="top">
+                        <div class="sum x2"><a href="">7</a></div>
+                    <div class="sub x2"><a href="">8</a></div>
+                    <div class="mul x2"><a href="">9</a></div>
+                    </div>
+                    <div class="top">
+                        <div class="sum x2"><a href="">4</a></div>
+                    <div class="sub x2"><a href="">5</a></div>
+                    <div class="mul x2"><a href="">6</a></div>
+                    </div>
+                    <div class="top">
+                        <div class="sum x2"><a href="">1</a></div>
+                    <div class="sub x2"><a href="">2</a></div>
+                    <div class="mul x2"><a href="">3</a></div>
+                    </div>
+                    <div class="top">
+                        <div class="sum x2"><a href="">0</a></div>
+                    <div class="sub x2"><a href="">.<div class=""></div></a></div>
+                    <div class="mul x2"><a href="">AC</a></div>
+                    </div>         
+                </div>
+                <div class="right_key y1"><a href="">=</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
