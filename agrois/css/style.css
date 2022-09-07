@@ -48,7 +48,36 @@
     margin-left: 10px;
     border-radius: 50%;
     transition: .5s;
+    position: relative;
 }
+.header .detial_1 .social .front{
+
+    position: absolute;
+    left: 9px;
+			backface-visibility: hidden;
+            transform: rotateY(180deg);
+            transition: 1s;
+
+
+}
+.header .detial_1 .social .bake{
+
+    position: absolute;
+    left: 9px;
+			backface-visibility: hidden;
+            transform: rotateY(0deg);
+            transition: 1s;
+
+
+}
+.header .detial_1 .social:hover .bake 
+		{
+			transform: rotateY(180deg);
+		}
+        .header .detial_1 .social:hover .front 
+		{
+			transform: rotateY(0deg);
+		}
 .header .detial_1 .social:hover{
 
     background: yellow;
@@ -70,10 +99,88 @@
 }
  .header .detial .detial_2 .phone{
 
-  text-align: center;
-  line-height: 100px;
-    color:lightgreen
+  
+    color:lightgreen;
+    position: relative;
 }
+.header .detial .detial_2 .phone .front{
+
+    position: absolute;
+    left:50px;
+    top:20px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.header .detial .detial_2 .phone .bake{
+
+    position: absolute;
+    left:50px;
+    top:20px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.header .detial .detial_2 .phone:hover .bake 
+		{
+			transform: rotateY(180deg);
+		}
+        .header .detial .detial_2 .phone:hover .front 
+		{
+			transform: rotateY(0deg);
+		}
+        .header .detial .detial_3 .phone .front{
+
+            position: absolute;
+            left:50px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(180deg);
+            transition: 1s;
+        }
+        .header .detial .detial_3 .phone .bake{
+        
+            position: absolute;
+            left:50px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(0deg);
+            transition: 1s;
+        }
+        .header .detial .detial_3 .phone:hover .bake 
+                {
+                    transform: rotateY(180deg);
+                }
+                .header .detial .detial_3 .phone:hover .front 
+                {
+                    transform: rotateY(0deg);
+                }
+                .header .detial .detial_4 .phone .front{
+
+                    position: absolute;
+                    left:50px;
+                    top:10px;
+                    backface-visibility: hidden;
+                    transform: rotateY(180deg);
+                    transition: 1s;
+                }
+                .header .detial .detial_4 .phone .bake{
+                
+                    position: absolute;
+                    left:50px;
+                    top:10px;
+                    backface-visibility: hidden;
+                    transform: rotateY(0deg);
+                    transition: 1s;
+                }
+                .header .detial .detial_4 .phone:hover .bake 
+                        {
+                            transform: rotateY(180deg);
+                        }
+                        .header .detial .detial_4 .phone:hover .front 
+                        {
+                            transform: rotateY(0deg);
+                        }
 .header .detial .detial_2 .phone i{
 
     font-size: 50px;
@@ -104,7 +211,9 @@
 
   text-align: center;
   line-height: 100px;
-    color:lightgreen
+    color:lightgreen;
+    position: relative;
+    
 }
 .header .detial .detial_3 .phone i{
 
@@ -135,7 +244,8 @@
 
   text-align: center;
   line-height: 100px;
-    color:lightgreen
+    color:lightgreen;
+    position: relative;
 }
 .header .detial .detial_4 .phone i{
 
@@ -469,13 +579,39 @@ font-size:30px;
 
     height:70px;
     width: 70px;
-    background: red;
+    background:greenyellow;
     border-radius: 10px;
     position: absolute;
     left:35%;
     top:80%;
     
 }
+.content .center_con .one_c .con_box .front{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.content .center_con .one_c .con_box .bake{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.content .center_con .one_c .con_box:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .content .center_con .one_c .con_box:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
 
 .content .center_con .two_c{
 
@@ -491,13 +627,40 @@ font-size:30px;
 
     height:70px;
     width: 70px;
-    background: red;
+    background: greenyellow;
     border-radius: 10px;
     position: absolute;
     left:35%;
     top:80%;
     
 }
+.content .center_con .two_c .con_box .front{
+
+    position: absolute;
+    left:15px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.content .center_con .two_c .con_box .bake{
+
+    position: absolute;
+    left:15px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.content .center_con .two_c .con_box:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .content .center_con .two_c .con_box:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+
 
 .content .center_con .three_c{
 
@@ -512,13 +675,40 @@ font-size:30px;
 
     height:70px;
     width: 70px;
-    background: red;
+    background: greenyellow;
     border-radius: 10px;
     position: absolute;
     left:35%;
     top:80%;
     
 }
+.content .center_con .three_c .con_box .front{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.content .center_con .three_c .con_box .bake{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.content .center_con .three_c .con_box:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .content .center_con .three_c .con_box:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+
 .detial_c{
 
     height:auto;
@@ -577,18 +767,23 @@ font-size:30px;
     background: url(https://tplabs.co/agrios/wp-content/uploads/2022/07/image-02.webp);
     background-size: 100% 100%;
     border-radius: 50%;
-    border: 10px solid white ;
+    border: 10px solid white;
     position: absolute;
-    top:66%;
+    top:50%;
+    z-index: 2;
+   
 }
 .detial_c .center_part .left_part .photo_round1 .grass_a{
 
     height: 400px;
     width: 300px;
     background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/plants-02.svg);
+
     background-size: 100% 100%;
     margin-top:-180%;
     margin-left: -50%;
+    z-index:-1 ;
+  
 }
 .detial_c .center_part .right_part{
 
@@ -608,15 +803,69 @@ font-size:30px;
 
     height: 100px;
     width: 50%;
-    background: lightcoral;
+    background:;
     display: flex;
 }
 .detial_c .center_part .right_part .veg .left_v .logo_v{
 
 height: 100px;
 width: 30%;
-background: red;
+background:;
+position: relative;
 }
+.detial_c .center_part .right_part .veg .left_v .logo_v .front{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.detial_c .center_part .right_part .veg .left_v .logo_v .bake{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.detial_c .center_part .right_part .veg .left_v .logo_v:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .detial_c .center_part .right_part .veg .left_v .logo_v:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+        .detial_c .center_part .right_part .veg .right_v .logo_v .front{
+
+            position: absolute;
+            left:10px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(180deg);
+            transition: 1s;
+        }
+        .detial_c .center_part .right_part .veg .right_v .logo_v .bake{
+        
+            position: absolute;
+            left:10px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(0deg);
+            transition: 1s;
+        }
+        .detial_c .center_part .right_part .veg .right_v .logo_v:hover .bake 
+                {
+                    transform: rotateY(180deg);
+                }
+                .detial_c .center_part .right_part .veg .right_v .logo_v:hover .front 
+                {
+                    transform: rotateY(0deg);
+                }
+
 .detial_c .center_part .right_part .veg .left_v .gro{
 
     height: 100px;
@@ -629,13 +878,14 @@ background: red;
     width: 50%;
     display: flex;
     margin-left: 50px;
-    background:pink;
+    background:;
 }
 .detial_c .center_part .right_part .veg .right_v .logo_v{
 
     height: 100px;
     width: 30%;
-    background: red;
+    background:;
+    position: relative;
     }
     .detial_c .center_part .right_part .veg .right_v .gro{
     
@@ -689,19 +939,23 @@ background: red;
 
         height: 300px;
         width: 22%;
-        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-01.webp);
-        background-size: 100% 100%;
+      background: red;
         border-radius: 10px;
+        position: relative;
+        
+    }
+    .ser_a .ser-c .ser-1:hover{
         
     }
     .ser_a .ser-c .ser-1 .card{
     
         height: 100px;
         width: 80%;
-        background:#fff;
-        margin: auto;
-        margin-top:250px;
-        position: relative;
+        background:#FFF;
+       
+       position: absolute;
+       left:30px;
+       bottom: -50px;
         border-radius: 10px;
         box-shadow: 0 0 10px black;
     }
@@ -714,9 +968,26 @@ background: red;
         left: 33%;
         top: -30px;
         border-radius: 10px;
+        transition: 1s;
         
     
         
+    }
+    .ser_a .ser-c .ser-1 .card .i_con:hover{
+
+        background: coral;
+    }
+    .ser_a .ser-c .ser-2 .card .i_con:hover{
+
+        background: coral;
+    }
+    .ser_a .ser-c .ser-3 .card .i_con:hover{
+
+        background: coral;
+    }
+    .ser_a .ser-c .ser-4 .card .i_con:hover{
+
+        background: coral;
     }
 
     .ser_a .ser-c .ser-2{
@@ -745,6 +1016,7 @@ background: red;
         height: 70px;
         width: 70px;
         background: yellow;
+        transition: 1s;
         position: absolute;
         left: 33%;
         top: -30px;
@@ -779,6 +1051,7 @@ background: red;
         height: 70px;
         width: 70px;
         background: yellow;
+        transition: 1s;
         position: absolute;
         left: 33%;
         top: -30px;
@@ -814,6 +1087,7 @@ background: red;
         height: 70px;
         width: 70px;
         background: yellow;
+        transition: 1s;
         position: absolute;
         left: 33%;
         top: -30px;
@@ -933,35 +1207,71 @@ background: red;
 
     height: 500px;
     width: 25%;
-    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-06-370x570.webp);
-    background-size: 100% 100%;
-    border-radius:20px;
+   
+
+  
     margin-left: ;
 }
+.ex_po .ex_c .ex-1 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-06-370x570.webp);
+        background-size: 100% 100%;
+    border-radius:20px;
+
+}
+.ex_po .ex_c .ex-2 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-05-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:20px;
+
+}
+.ex_po .ex_c .ex-3 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-04-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:10px;
+
+  
+
+}
+.ex_po .ex_c .ex-4 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-03-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:20px;
+}
+
+
 .ex_po .ex_c .ex-2{
 
     height: 500px;
     width: 25%;
-    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-05-370x570.webp);
-    background-size: 100% 100%;
-    border-radius:20px;
+    
     
 }
 .ex_po .ex_c .ex-3{
 
     height: 500px;
     width: 25%;
-    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-04-370x570.webp);
-    background-size: 100% 100%;
-    border-radius:10px;
-}
+}  
 .ex_po .ex_c .ex-4{
 
     height: 500px;
     width: 25%;
-    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-03-370x570.webp);
-    background-size: 100% 100%;
-    border-radius:20px;
+   
 }
 .about{
 
