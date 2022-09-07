@@ -25,7 +25,7 @@
     .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
     .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
     .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
-    .record_a{height: 500px;background: red;}
+    .record_a{height: 500px;background: #fff;}
     .record_a .rec_a{width: 80%;left:10%;top:0;}
     .record_a .rec_a .rec-1{width: 50%;}
     .record_a .rec_a .rec-2{width: 50%;}
@@ -34,9 +34,8 @@
     .ex_po .ex_c{width: 95%;margin: auto;}
     .ex_po .ex_c .ex-1{width: 50%;}
     .ex_po .ex_c .ex-2{width: 50%;}
-    .ex_po .ex_c .ex-3{width: 50%;}
-    .ex_po .ex_c .ex-4{width: 50%;}
-
+    .ex_po .ex_c .ex-3{width: 50%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 50%;margin-top: 30px;}
     .about{padding-top: 50px;}
     .about .about_c{width: 80%;margin: auto;}
     .about .about_c .about-1{width: 100%;}
@@ -66,7 +65,7 @@
     
 }
 @media(max-width:1014px){
-    .ser_a{height:700px;background:;}
+    .ser_a{height:700px;}
    .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
    .ser_a .ser-c .ser-1{width: 100%;margin-left:0;}
    .ser_a .ser-c .ser-2{width: 100%;margin-left:0;margin-top: 100px;}
@@ -103,7 +102,7 @@
     .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
     .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
     .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
-    .record_a{height: 600px;background: blue;}
+    .record_a{height: 600px;background:#fff;}
     /* .record_a .rec_a{width: 80%;left:10%;top:0;}
     .record_a .rec_a .rec-1{width: 50%;}
     .record_a .rec_a .rec-2{width: 50%;}
@@ -145,7 +144,7 @@
     .ser_a .ser-c .ser-2 .card .i_con{left: 45%;}
     .ser_a .ser-c .ser-3 .card .i_con{left:45%;}
     .ser_a .ser-c .ser-4 .card .i_con{left:45%;}
-    .record_a{height: 600px;background: red;}
+    .record_a{height: 600px;background:#fff;}
     .record_a .rec_a{width: 80%;left:10%;top:10%;}
    
     .record_a .rec_a .rec-1{width: 50%;}
@@ -155,8 +154,8 @@
     .ex_po .ex_c{width: 95%;margin: auto;}
     .ex_po .ex_c .ex-1{width: 50%;}
     .ex_po .ex_c .ex-2{width: 50%;}
-    .ex_po .ex_c .ex-3{width: 50%;}
-    .ex_po .ex_c .ex-4{width: 50%;}
+    .ex_po .ex_c .ex-3{width: 50%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 50%;margin-top: 30px;}
     .about{padding-top: 50px;}
     .about .about_c{width: 80%;margin: auto;}
     .about .about_c .about-1{width: 100%;}
@@ -209,15 +208,15 @@
 .ser_a{height:1500px;background:;}
 
 .ser_a .ser-c{width: 100%;}
-    .ser_a .ser-c .ser-1{width: 100%;margin-left: 0;margin-top: 0;}
-    .ser_a .ser-c .ser-2{width: 100%;margin-left: 0;margin-top: 0;}
-    .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 0;}
-    .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 0;}
+.ser_a .ser-c .ser-1{width: 100%;margin-left: 0;margin-top: 100px;}
+.ser_a .ser-c .ser-2{width: 100%;margin-left: 0;margin-top: 100px;}
+.ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+.ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
     .ser_a .ser-c .ser-1 .card .i_con{left: 40%;}
     .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
     .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
     .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
-    .record_a{height:800px;background: red;}
+    .record_a{height:800px;background:#fff;}
     .record_a .rec_a{width: 80%;left:10%;top:0;}
     .record_a .rec_a .rec-1{width: 100%;}
     .record_a .rec_a .rec-2{width: 100%;}
@@ -228,9 +227,9 @@
     .display .part_c .part-2a{width: 100%;}
     .ex_po .ex_c{width: 95%;margin: auto;}
     .ex_po .ex_c .ex-1{width: 100%;}
-    .ex_po .ex_c .ex-2{width: 100%;}
-    .ex_po .ex_c .ex-3{width: 100%;}
-    .ex_po .ex_c .ex-4{width: 100%;}
+    .ex_po .ex_c .ex-2{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-3{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 100%;margin-top: 30px;}
     .about{padding-top: 50px;}
     .about .about_c{width: 80%;margin: auto;}
     .about .about_c .about-1{width: 100%;}
@@ -299,9 +298,9 @@
     .display .part_c .part-2a{width: 100%;}
     .ex_po .ex_c{width: 95%;margin: auto;}
     .ex_po .ex_c .ex-1{width: 100%;}
-    .ex_po .ex_c .ex-2{width: 100%;}
-    .ex_po .ex_c .ex-3{width: 100%;}
-    .ex_po .ex_c .ex-4{width: 100%;}
+    .ex_po .ex_c .ex-2{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-3{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 100%;margin-top: 30px;}
     .about{padding-top: 50px;}
     .about .about_c{width: 80%;margin: auto;}
     .about .about_c .about-1{width: 100%;}

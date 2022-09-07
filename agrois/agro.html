@@ -1,0 +1,2915 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
+    <title>agrois</title>
+
+    <style>
+        *{box-sizing: border;margin: 0;padding: 0;}
+.header{
+
+    height:auto;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header .logo{
+
+    height:auto;
+    background:;
+    width:30%;
+}
+.header .logo .photo{
+
+    height: 100px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/logo@2x.png);
+    background-size: 100% 100%;
+    margin: auto;
+    width: 60%;
+}
+.header .detial{
+
+    height:auto;
+    width: 70%;
+    background-color:;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header .detial .detial_1{
+
+    height:auto;
+    width: 25%;
+    background:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header .detial_1 .social{
+
+    height: 30px;
+    width: 30px;
+    background:gray;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: .5s;
+    position: relative;
+}
+.header .detial_1 .social .front{
+
+    position: absolute;
+    left: 9px;
+			backface-visibility: hidden;
+            transform: rotateY(180deg);
+            transition: 1s;
+
+
+}
+.header .detial_1 .social .bake{
+
+    position: absolute;
+    left: 9px;
+			backface-visibility: hidden;
+            transform: rotateY(0deg);
+            transition: 1s;
+
+
+}
+.header .detial_1 .social:hover .bake 
+		{
+			transform: rotateY(180deg);
+		}
+        .header .detial_1 .social:hover .front 
+		{
+			transform: rotateY(0deg);
+		}
+.header .detial_1 .social:hover{
+
+    background: yellow;
+}
+.header .detial .detial_2{
+
+    height: 100px;
+    width: 25%;
+    display: flex;
+    background: yellow;
+    
+}
+.header .detial .detial_2 .phone
+{
+    height:auto;
+    width: 40%;
+    background:#fff;
+    
+}
+ .header .detial .detial_2 .phone{
+
+  
+    color:lightgreen;
+    position: relative;
+}
+.header .detial .detial_2 .phone .front{
+
+    position: absolute;
+    left:50px;
+    top:20px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.header .detial .detial_2 .phone .bake{
+
+    position: absolute;
+    left:50px;
+    top:20px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.header .detial .detial_2 .phone:hover .bake 
+		{
+			transform: rotateY(180deg);
+		}
+        .header .detial .detial_2 .phone:hover .front 
+		{
+			transform: rotateY(0deg);
+		}
+        .header .detial .detial_3 .phone .front{
+
+            position: absolute;
+            left:50px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(180deg);
+            transition: 1s;
+        }
+        .header .detial .detial_3 .phone .bake{
+        
+            position: absolute;
+            left:50px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(0deg);
+            transition: 1s;
+        }
+        .header .detial .detial_3 .phone:hover .bake 
+                {
+                    transform: rotateY(180deg);
+                }
+                .header .detial .detial_3 .phone:hover .front 
+                {
+                    transform: rotateY(0deg);
+                }
+                .header .detial .detial_4 .phone .front{
+
+                    position: absolute;
+                    left:50px;
+                    top:10px;
+                    backface-visibility: hidden;
+                    transform: rotateY(180deg);
+                    transition: 1s;
+                }
+                .header .detial .detial_4 .phone .bake{
+                
+                    position: absolute;
+                    left:50px;
+                    top:10px;
+                    backface-visibility: hidden;
+                    transform: rotateY(0deg);
+                    transition: 1s;
+                }
+                .header .detial .detial_4 .phone:hover .bake 
+                        {
+                            transform: rotateY(180deg);
+                        }
+                        .header .detial .detial_4 .phone:hover .front 
+                        {
+                            transform: rotateY(0deg);
+                        }
+.header .detial .detial_2 .phone i{
+
+    font-size: 50px;
+} 
+.header .detial .detial_2 .info{
+
+    height: 100px;
+    width: 60%;
+    background: #fff;
+    border-right: 1px solid black;
+}
+.header .detial .detial_3{
+
+    height:auto;
+    width: 25%;
+    background:;
+    display: flex;
+    
+}
+.header .detial .detial_3 .phone
+{
+    height: 100px;
+    width: 40%;
+    background:#fff;
+    
+}
+ .header .detial .detial_3 .phone{
+
+  text-align: center;
+  line-height: 100px;
+    color:lightgreen;
+    position: relative;
+    
+}
+.header .detial .detial_3 .phone i{
+
+    font-size: 50px;
+} 
+.header .detial .detial_3 .info{
+
+    height: 100px;
+    width: 60%;
+    background:;
+    border-right: 1px solid black;
+}
+.header .detial .detial_4{
+
+    height:auto;
+    width: 25%;
+    background:;
+    display: flex;
+}
+.header .detial .detial_4 .phone
+{
+    height: 100px;
+    width: 40%;
+    background:#fff;
+    
+}
+ .header .detial .detial_4 .phone{
+
+  text-align: center;
+  line-height: 100px;
+    color:lightgreen;
+    position: relative;
+}
+.header .detial .detial_4 .phone i{
+
+    font-size: 50px;
+} 
+.header .detial .detial_4 .info{
+
+    height: 100px;
+    width: 60%;
+    background: #fff;
+}
+.nav
+{
+    height: 100px;
+    background: coral;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav .left_nav{
+
+    height: 100px;
+    width: 70%;
+    background: rgb(216, 213, 213);
+    
+}
+.nav .left_nav ul{
+
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+.nav .left_nav ul li{
+
+    list-style: none;
+    margin-right:40px;
+}
+.nav .left_nav ul li a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    
+}
+.nav .left_nav ul li a:hover{
+
+    color: black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    transition: 1s;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }  
+   .home_a{
+
+    height: 200px;
+    width: 100%;
+    background:;
+  }
+  .home_a .home-1{
+
+    height: 66px;
+    width: 100%;
+    background:;
+    transition: 1s;
+  }
+  .home_a .home-1:hover{
+
+    background: greenyellow;
+    border-radius: 20px;
+  }
+
+  .home_a .home-2{
+
+    height:66px ;
+    width: 100%;
+    background:;
+    transition: 1s;
+  }
+  .home_a .home-2:hover{
+
+    background: greenyellow;
+    border-radius: 20px;
+  }
+  .home_a .home-3{
+
+    height:66px ;
+    width: 100%;
+    background:;
+    transition: 1s;
+  }
+  .home_a .home-3:hover{
+
+    background: greenyellow;
+    border-radius: 20px;
+  }
+.nav .right_nav{
+
+    height: 100px;
+    width: 30%;
+    background: pink;
+    display: flex;
+}
+.nav .right_nav .search{
+
+    height: 100px;
+    width: 50%;
+    background: rgb(216, 213, 213);
+    text-align: center;
+    line-height: 100px;
+}
+.nav .right_nav .search i{
+font-size:30px;
+
+}
+.nav .right_nav .buy{
+
+    height: 100px;
+    width: 50%;
+    background: rgb(216, 213, 213);
+    text-align: center;
+    line-height: 100px;
+}
+.nav .right_nav .buy i{
+
+    font-size:30px;
+}
+
+.bar{
+
+    display: none;
+    height: 100px;
+    background:red;
+    display: flex;
+    flex-wrap: wrap;
+    display: none; 
+}
+.bar .bar_ser{
+    
+    height: 100px;
+    width: 33.33%;
+    background: rgb(216, 213, 213);
+    text-align: center;
+    line-height: 100px;
+    display: none;
+}
+.bar .bar_ser i{
+
+    font-size: 50px;
+}
+.bar .bar_b{
+    
+    height: 100px;
+    width: 33.33%;
+    background: rgb(216, 213, 213);
+    display: none;
+    text-align: center;
+    line-height: 100px;
+
+}
+.bar .bar_b{
+
+    font-size: 50px;
+}
+.bar .bar_buy{
+    
+    height: 100px;
+    width: 33.33%;
+    background: rgb(216, 213, 213);
+    display: none;
+    text-align: center;
+    line-height: 100px;
+
+}
+.dropdown_1{
+
+    position: relative;
+    display: inline-block;
+  
+}
+.dropdown_1 .dropdown-content_1{
+
+    display: none;
+  position: absolute;
+  height: 300px;
+  width: ;
+  background-color:red;
+
+ left: ;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown_1:hover .dropdown-content_1 {
+    display: block;
+  }
+.bar .bar_buy i{
+
+    font-size: 50px;
+}
+.slideshow-container {
+    width: 100%;
+
+    position: relative;
+   
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+.content{
+
+    height:300px;
+    background:;
+    position: relative;
+}
+.content .center_con{
+
+    height: auto;
+    width: 70%;
+   
+    position: absolute;
+    left:17%;
+    top:-50px;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.content .center_con .one_c{
+
+    height: 200px;
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 0 30px black;
+    margin-right: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.content .center_con .one_c .con_box{
+
+    height:70px;
+    width: 70px;
+    background:greenyellow;
+    border-radius: 10px;
+    position: absolute;
+    left:35%;
+    top:80%;
+    
+}
+.content .center_con .one_c .con_box .front{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.content .center_con .one_c .con_box .bake{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.content .center_con .one_c .con_box:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .content .center_con .one_c .con_box:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+
+.content .center_con .two_c{
+
+    height: 200px;
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 0 30px black;
+    margin-right: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+.content .center_con .two_c .con_box{
+
+    height:70px;
+    width: 70px;
+    background: greenyellow;
+    border-radius: 10px;
+    position: absolute;
+    left:35%;
+    top:80%;
+    
+}
+.content .center_con .two_c .con_box .front{
+
+    position: absolute;
+    left:15px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.content .center_con .two_c .con_box .bake{
+
+    position: absolute;
+    left:15px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.content .center_con .two_c .con_box:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .content .center_con .two_c .con_box:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+
+
+.content .center_con .three_c{
+
+    height: 200px;
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 0 30px black;
+    border-radius: 20px;
+    position: relative;
+}
+.content .center_con .three_c .con_box{
+
+    height:70px;
+    width: 70px;
+    background: greenyellow;
+    border-radius: 10px;
+    position: absolute;
+    left:35%;
+    top:80%;
+    
+}
+.content .center_con .three_c .con_box .front{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.content .center_con .three_c .con_box .bake{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.content .center_con .three_c .con_box:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .content .center_con .three_c .con_box:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+
+.detial_c{
+
+    height:auto;
+    width: 100%;
+    background:;
+}
+.detial_c .center_part{
+
+    height:auto;
+    width: 80%;
+    background:;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.detial_c .center_part .left_part{
+
+    height: 800px;
+    width: 50%;
+    background:;
+}
+.detial_c .center_part .left_part .photo_far{
+
+    height: 500px;
+   margin-top: 100px;
+    background:;
+    position: relative;
+}
+.detial_c .center_part .left_part .photo_far .photo_round{
+
+    height: 400px;
+    width: 400px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/image-01.webp);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+.detial_c .center_part .left_part .photo_far .photo_round .grass{
+
+    height: 300px;
+    width: 200px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/plants-01.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    left:45%;
+    top: -10%;
+  
+}
+.detial_c .center_part .left_part .photo_round1{
+
+    height: 200px;
+    width: 200px;
+    background: url(https://tplabs.co/agrios/wp-content/uploads/2022/07/image-02.webp);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    border: 10px solid white;
+    position: absolute;
+    top:50%;
+    z-index: 2;
+   
+}
+.detial_c .center_part .left_part .photo_round1 .grass_a{
+
+    height: 400px;
+    width: 300px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/plants-02.svg);
+
+    background-size: 100% 100%;
+    margin-top:-180%;
+    margin-left: -50%;
+    z-index:-1 ;
+  
+}
+.detial_c .center_part .right_part{
+
+    height: 800px;
+    width: 50%;
+    background:;
+}
+.detial_c .center_part .right_part .veg{
+
+    height: 100px;
+    width: 100%;
+    background: ;
+    margin-top: 20px;
+    display: flex;
+}
+.detial_c .center_part .right_part .veg .left_v{
+
+    height: 100px;
+    width: 50%;
+    background:;
+    display: flex;
+}
+.detial_c .center_part .right_part .veg .left_v .logo_v{
+
+height: 100px;
+width: 30%;
+background:;
+position: relative;
+}
+.detial_c .center_part .right_part .veg .left_v .logo_v .front{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.detial_c .center_part .right_part .veg .left_v .logo_v .bake{
+
+    position: absolute;
+    left:10px;
+    top:10px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.detial_c .center_part .right_part .veg .left_v .logo_v:hover .bake 
+        {
+            transform: rotateY(180deg);
+        }
+        .detial_c .center_part .right_part .veg .left_v .logo_v:hover .front 
+        {
+            transform: rotateY(0deg);
+        }
+        .detial_c .center_part .right_part .veg .right_v .logo_v .front{
+
+            position: absolute;
+            left:10px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(180deg);
+            transition: 1s;
+        }
+        .detial_c .center_part .right_part .veg .right_v .logo_v .bake{
+        
+            position: absolute;
+            left:10px;
+            top:10px;
+            backface-visibility: hidden;
+            transform: rotateY(0deg);
+            transition: 1s;
+        }
+        .detial_c .center_part .right_part .veg .right_v .logo_v:hover .bake 
+                {
+                    transform: rotateY(180deg);
+                }
+                .detial_c .center_part .right_part .veg .right_v .logo_v:hover .front 
+                {
+                    transform: rotateY(0deg);
+                }
+
+.detial_c .center_part .right_part .veg .left_v .gro{
+
+    height: 100px;
+    width: 70%;
+    background:#fff;
+    }
+.detial_c .center_part .right_part .veg .right_v{
+
+    height: 100px;
+    width: 50%;
+    display: flex;
+    margin-left: 50px;
+    background:;
+}
+.detial_c .center_part .right_part .veg .right_v .logo_v{
+
+    height: 100px;
+    width: 30%;
+    background:;
+    position: relative;
+    }
+    .detial_c .center_part .right_part .veg .right_v .gro{
+    
+        height: 100px;
+        width: 70%;
+        background:#fff;
+        }
+        .detial_c .center_part .right_part button{
+
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: 50px;
+            font-size: 30px;
+            border-radius: 20px;
+            background: greenyellow;
+
+
+        }
+        .work_d{
+
+            height: 400px;
+            background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/wheats.webp);
+            background-size: 100% 100%;
+        }
+    .service{
+
+        height: 400px;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/wheats.webp);
+        background-size: 100% 100%;
+    }
+    .ser_a{
+
+        height: 500px;
+        background:;
+        position: relative;
+
+    }
+    .ser_a .ser-c{
+
+        height: auto;
+        width: 80%;
+        
+        position: absolute;
+        left: 10%;
+        top:-30%;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .ser_a .ser-c .ser-1{
+
+        height: 300px;
+        width: 22%;
+      background: red;
+        border-radius: 10px;
+        position: relative;
+        
+    }
+    .ser_a .ser-c .ser-1:hover{
+        
+    }
+    .ser_a .ser-c .ser-1 .card{
+    
+        height: 100px;
+        width: 80%;
+        background:#FFF;
+       
+       position: absolute;
+       left:30px;
+       bottom: -50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+    .ser_a .ser-c .ser-1 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+        transition: 1s;
+        
+    
+        
+    }
+    .ser_a .ser-c .ser-1 .card .i_con:hover{
+
+        background: coral;
+    }
+    .ser_a .ser-c .ser-2 .card .i_con:hover{
+
+        background: coral;
+    }
+    .ser_a .ser-c .ser-3 .card .i_con:hover{
+
+        background: coral;
+    }
+    .ser_a .ser-c .ser-4 .card .i_con:hover{
+
+        background: coral;
+    }
+
+    .ser_a .ser-c .ser-2{
+
+        height: 300px;
+        width: 22%;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-02.webp);
+        background-size: 100% 100%;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .ser_a .ser-c .ser-2 .card{
+    
+        height: 100px;
+        width: 80%;
+        background:#fff;
+        margin: auto;
+        margin-top:250px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+        
+    }
+    .ser_a .ser-c .ser-2 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        transition: 1s;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+        
+    
+        
+    }
+
+    .ser_a .ser-c .ser-3{
+
+        height: 300px;
+        width: 22%;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-03.webp);
+        background-size: 100% 100%;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .ser_a .ser-c .ser-3 .card{
+    
+        height: 100px;
+        width: 80%;
+        background: #fff;
+        margin: auto;
+        margin-top:250px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+    .ser_a .ser-c .ser-3 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        transition: 1s;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+        
+    
+        
+    }
+
+    .ser_a .ser-c .ser-4{
+
+        height: 300px;
+        width: 22%;
+        background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/service-04.webp);
+        background-size: 100% 100%;
+        margin-left: 20px;
+        border-radius: 10px;
+
+    }
+    .ser_a .ser-c .ser-4 .card{
+    
+        height: 100px;
+        width: 80%;
+        background:#fff;
+        margin: auto;
+        margin-top:250px;
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+    .ser_a .ser-c .ser-4 .card .i_con{
+        
+        height: 70px;
+        width: 70px;
+        background: yellow;
+        transition: 1s;
+        position: absolute;
+        left: 33%;
+        top: -30px;
+        border-radius: 10px;
+    
+        
+    }
+.record{
+
+    height:auto;
+    background:pink;
+}
+.record_a{
+
+    height:50px;
+    background:#fff;
+    position: relative;
+
+}
+.record_a .rec_a{
+
+    height: auto;
+    width: 80%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/wheats-2.webp);
+    background-size: 100% 100%;
+    position: absolute;
+    left:10%;
+    top:-50%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.record_a .rec_a .rec-1{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.record_a .rec_a .rec-2{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.record_a .rec_a .rec-3{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.record_a .rec_a .rec-4{
+
+    height: 200px;
+    width: 25%;
+    background:transparent;
+}
+.display{
+
+    height: 600px;
+    background:url(https://wallpaperaccess.com/full/1605750.jpg);
+    background-size: 100% 100%;
+    padding-top:300px;
+    background-attachment: fixed;
+ 
+}
+.display .part_c{
+
+    height:300px;
+    width: 80%;
+    background:;
+    margin: auto;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top: ;
+}
+.display .part_c .part-1a{
+
+    height: 300px;
+    width: 50%;
+    background:;
+}
+.display .part_c .part-2a{
+
+    height: 300px;
+    width: 50%;
+    background:;
+}
+.display .part_c .part-2a .play{
+
+    height: 150px;
+    width: 150px;
+    background:url(https://cdn.icon-icons.com/icons2/562/PNG/512/play-button_icon-icons.com_53922.png);
+    background-size: 100% 100%;
+    margin:70px auto;
+}
+.disp{
+
+    height: 200px;
+    width:100%;
+    background:#fff;
+}
+.ex_po{
+
+    height:auto;
+    background:#fff;
+}
+.ex_po .ex_c{
+
+    height:auto;
+    width: 95%;
+    background:#fff;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ex_po .ex_c .ex-1{
+
+    height: 500px;
+    width: 25%;
+   
+
+  
+    margin-left: ;
+}
+.ex_po .ex_c .ex-1 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-06-370x570.webp);
+        background-size: 100% 100%;
+    border-radius:20px;
+
+}
+.ex_po .ex_c .ex-2 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-05-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:20px;
+
+}
+.ex_po .ex_c .ex-3 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-04-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:10px;
+
+  
+
+}
+.ex_po .ex_c .ex-4 .i{
+
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/project-03-370x570.webp);
+    background-size: 100% 100%;
+    border-radius:20px;
+}
+
+
+.ex_po .ex_c .ex-2{
+
+    height: 500px;
+    width: 25%;
+    
+    
+}
+.ex_po .ex_c .ex-3{
+
+    height: 500px;
+    width: 25%;
+}  
+.ex_po .ex_c .ex-4{
+
+    height: 500px;
+    width: 25%;
+   
+}
+.about{
+
+    height:auto;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/farm-02.webp);
+    background-size: 100% 100%;
+    padding-top: 50px;
+    
+}
+.about .about_c{
+
+    height:auto;
+    width: 80%;
+    background:;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about .about_c .about-1{
+
+    height: 600px;
+    width: 40%;
+    background:;
+}
+.about-1 button{
+
+    padding: 20px;
+    margin-left: 99px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background: greenyellow;
+    border: none    ;
+}
+.about .about_c .about-2{
+
+    height: 600px;
+    width: 60%;
+    background:;
+}
+.about .about_c .about-2 .about-a{
+
+    height: 290px;
+    width: 100%;
+    background:#fff;
+    margin-top: 10px;
+    border-radius: 30px;
+    display: flex;
+    
+}
+.about .about_c .about-2 .about-a .ab-1{
+
+    height: 290px;
+    width: 70%;
+    background:;
+    
+}
+.about .about_c .about-2 .about-a .ab-1 .ab-a{
+
+    height: 200px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-a .ab-1 .ab-b{
+
+    height: 90px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-a .ab-2{
+
+    height: 290px;
+    width: 30%;
+    background:;
+}
+.about .about_c .about-2 .about-a .ab-2 .image-1{
+
+    height: 150px;
+    background: ;
+    margin-top:60px;
+   
+}
+.about .about_c .about-2 .about-a .ab-2 .image-1 .image-a{
+
+    height: 150px;
+    width: 150px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/avatar-02.webp);
+    background-size: 100% 100%;
+    margin: auto;
+    border-radius: 50%;
+   
+}
+
+.about .about_c .about-2 .about-b{
+
+    height: 290px;
+    width: 100%;
+    background:#fff;
+    margin-top: 5px;
+    border-radius: 30px;
+    display: flex;
+}
+.about .about_c .about-2 .about-b .ab-1{
+
+    height: 290px;
+    width: 70%;
+    background:;
+    
+}
+.about .about_c .about-2 .about-b .ab-1 .ab-a{
+
+    height: 200px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-b .ab-1 .ab-b{
+
+    height: 90px;
+    width: 100%;
+    background:;
+}
+.about .about_c .about-2 .about-b .ab-2{
+
+    height: 290px;
+    width: 30%;
+    background:;
+}
+.about .about_c .about-2 .about-b .ab-2 .image-1{
+
+    height: 150px;
+    background:;
+    margin-top:60px;
+   
+}
+.about .about_c .about-2 .about-b .ab-2 .image-1 .image-a{
+
+    height: 150px;
+    width: 150px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/avatar-01.webp);
+    background-size: 100% 100%;
+    margin: auto;
+    border-radius: 50%;
+   
+}
+.market
+{
+    height: autopx;
+    width: 100%;
+    background:#fff;
+}
+.market .market_c{
+
+    height: auto;
+    width: 80%;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.market .market_c .market-a{
+    height: 600px;
+    width: 40%;
+    background:;
+    padding-top: 40px;
+}
+.market .market_c .market-a .photo_a{
+
+    height: 550px;
+    width: 90%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/farmer.webp);
+    background-size: 100% 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+.market .market_c .market-b{
+    height:auto;
+    width: 60%;
+    background:;
+}
+.market .market_c .market-b .detial_mark{
+
+    height:auto;
+    width: 60%;
+    margin-left: 50px;
+    margin-top: 30px;
+    background:;
+}
+
+.market .market_c .market-b .detial_mark .dm-1{
+
+    height:;
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+}
+.market .market_c .market-b .detial_mark .dm-1 .part-w{
+
+    height: 50px;
+    width: 30%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-1 .part-e{
+
+    height: auto;
+    width: 70%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-2{
+
+    height:auto;
+    background:;
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+.market .market_c .market-b .detial_mark .dm-2 .part-w{
+
+    height: 50px;
+    width: 30%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-2 .part-e{
+
+    height:auto;
+    width: 70%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-3{
+
+    height: 100px;
+    background:;
+     display: flex;
+     display: flex;
+     flex-wrap: wrap;
+}
+.market .market_c .market-b .detial_mark .dm-3 .part-w{
+
+    height: 50px;
+    width: 30%;
+    background:;
+}
+.market .market_c .market-b .detial_mark .dm-3 .part-e{
+
+    height:auto;
+    width: 70%;
+    background:;
+}
+.market .market_c .market-b  button{
+
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    background: greenyellow;
+
+
+}
+.news{
+
+    height: 130px;
+    background:#fff;
+}
+.news_a{
+
+    height:auto;
+    background:#fff;
+    padding-top: 20px;
+}
+.news_a .news_c{
+
+    height:auto;
+    width: 80%;
+    margin: auto;
+
+    background:;
+    display: flex;
+    flex-wrap: wrap;
+}
+.news_a .news_c .news-1{
+
+    height: 600px;
+    width: 30%;
+    background:;
+    margin-left: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.news_a .news_c .news-1 .photo_d{
+
+    height:350px;
+    width: 100%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-06-370x300.webp);
+    background-size: 100% 100%;
+    position: relative;
+}
+.news_a .news_c .news-1 .photo_d .date{
+
+    height: 30px;
+    width: 100px;
+    background:greenyellow;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+}
+.news_a .news_c .news-2 .photo_d .date{
+
+    height: 30px;
+    width: 100px;
+    background:greenyellow;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+}
+.news_a .news_c .news-3 .photo_d .date{
+
+    height: 30px;
+    width: 100px;
+    background:greenyellow;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -15px;
+    left: 35%;
+}
+.news_a .news_c .news-1 .come{
+
+    height:100px;
+    width: 100%;
+    background:;
+    display: flex;
+}
+.news_a .news_c .news-1 .come .come-1{
+
+    height: 100px;
+    width: 50%;
+    background:;
+}
+.news_a .news_c .news-1 .deti_al{
+
+    height:150px;
+    width: 100%;
+    background:;
+}
+.news_a .news_c .news-2{
+
+    height: 600px;
+    width: 30%;
+    background:;
+    margin-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.news_a .news_c .news-2 .photo_d{
+
+    height:350px;
+    width: 100%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-05-370x300.webp);
+    background-size: 100% 100%;
+    position: relative;
+}
+.news_a .news_c .news-2 .come{
+
+    height:100px;
+    width: 100%;
+    background:;
+    display: flex;
+}
+.news_a .news_c .news-2 .come .come-1{
+
+    height: 100px;
+    width: 50%;
+    background:;
+}
+.news_a .news_c .news-2 .deti_al{
+
+    height:150px;
+    width: 100%;
+    background:;
+}
+.news_a .news_c .news-3{
+
+    height: 600px;
+    width: 30%;
+    background:;
+    margin-left: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+.news_a .news_c .news-3 .photo_d{
+
+    height:350px;
+    width: 100%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-04-370x300.webp);
+    background-size: 100% 100%;
+    position: relative;
+}
+.news_a .news_c .news-3 .come{
+
+    height:100px;
+    width: 100%;
+    background:;
+    display: flex;
+}
+.news_a .news_c .news-3 .come .come-1{
+
+    height: 100px;
+    width: 50%;
+    background:;
+}
+.news_a .news_c .news-3 .deti_al{
+
+    height:150px;
+    width: 100%;
+    background:;
+}
+.background{
+
+    height: 200px;
+    background: white;
+}
+.compny{
+
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.compny .comp-1{
+
+    height: 200px;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-01-1.webp);
+    background-size: 100% 100%;
+}
+.compny .comp-2{
+
+    height: 200px;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-02-1.webp);
+    background-size: 100% 100%;
+
+}
+.compny .comp-3{
+
+    height: 200px;
+    width: 25%;
+
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-04-1.webp);
+    background-size: 100% 100%;
+
+}
+.compny .comp-4{
+
+    height: 200px;
+    width: 25%;
+    width: 25%;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/partner-05-1.webp);
+    background-size: 100% 100%;
+
+}
+.footer{
+
+    height:auto;
+    background: black;
+    padding-top: 20px;
+}
+.footer .footer_c{
+
+    height:auto;
+    background:;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer .footer_c .footer-1{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-1 .logo_a{
+
+    height: 100px;
+    width: 100%;
+    background: url(https://tplabs.co/agrios/wp-content/uploads/2022/07/logo@2x-white-1.webp);
+    background-size:100% 100%;
+}
+.footer .footer_c .footer-1 .soc_ial{
+
+    height: 200px;
+    background:;
+    display:flex;
+}
+.footer .footer_c .footer-1 .soc_ial .social{
+
+    height: 60px;
+    width: 60px;
+    background: gray;
+    text-align: center;
+    line-height: 60px;
+    margin-left: 10px;
+    margin-top: 30px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.footer .footer_c .footer-1 .soc_ial .social:hover{
+
+    background: yellow;
+}
+.footer .footer_c .footer-2{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-2 ul{
+
+    margin-left: 50px;
+}
+.footer .footer_c .footer-2 li{
+
+    list-style: none;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer .footer_c .footer-2 a{
+
+    text-decoration: none;
+    color: gray ;
+    transition: 1s;
+}
+.footer .footer_c .footer-2 a:hover{
+
+    color:yellow;
+}
+.footer .footer_c .footer-3{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-3 .two{
+
+    height: 300px;
+    width: 100%;
+    background:;
+    margin-top:50px;
+}
+.footer .footer_c .footer-3 .two .one_a{
+
+    height: 150px;
+    width: 100%;
+    background:;
+    display: flex;
+}
+.footer .footer_c .footer-3 .two .one_a .hphoto{
+
+    height: 150px;
+    width: 30%;
+    background:;
+}
+.footer .footer_c .footer-3 .two .one_a .hphoto .l1{
+
+    height: 100px;
+    border-radius: 10px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-05-150x150.webp);
+    background-size: 100% 100%;
+}
+.footer .footer_c .footer-3 .two .one_a .foot_d{
+
+    height: 150px;
+    width: 70%;
+    background:;
+}
+
+.footer .footer_c .footer-3 .two .two_a{
+
+    height: 150px;
+    width: 100%;
+    background:;
+    display: flex;
+}
+.footer .footer_c .footer-3 .two .two_a .hphoto{
+
+    height: 150px;
+    width: 30%;
+    background:;
+}
+.footer .footer_c .footer-3 .two .two_a .hphoto .l1{
+
+    height: 100px;
+    border-radius: 10px;
+    background:url(https://tplabs.co/agrios/wp-content/uploads/2022/07/news-06-150x150.webp);
+    background-size: 100% 100%;
+}
+.footer .footer_c .footer-3 .two .two_a .foot_d{
+
+    height: 150px;
+    width: 70%;
+    background:;
+}
+
+
+
+.footer .footer_c .footer-4{
+
+    height: 500px;
+    width: 25%;
+    background:;
+
+
+}
+.footer .footer_c .footer-4 input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .copy{
+    height: 100px;
+    background:black;
+  }
+  
+@media (max-width:1100px)
+{
+    .header .logo{width: 30%;}
+    .header .detial{width: 70%;}
+    .header .detial .detial_1{width: 33.33%;}
+    .header .detial .detial_2{width: 33.33%;}
+    .header .detial .detial_3{width: 33.33%;}
+    .header .detial .detial_4{width: 33.33%;}
+    .nav .left_nav ul{
+
+        display: flex;
+        margin-left: 30px;
+        margin-top: 30px;
+        
+    }
+    .detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 0%;top:60%;}
+   .ser_a{height:700px;background: #fff;}
+    .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+    .ser_a .ser-c .ser-1{width: 48%;margin-left:20px;}
+    .ser_a .ser-c .ser-2{width: 48%;margin-left: 20px;}
+    .ser_a .ser-c .ser-3{width: 48%;margin-left: 20px;margin-top: 100px;}
+    .ser_a .ser-c .ser-4{width: 48%;margin-left: 20px;margin-top: 100px;}
+    .ser_a .ser-c .ser-1 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height: 500px;background: #fff;}
+    .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 50%;}
+    .ex_po .ex_c .ex-2{width: 50%;}
+    .ex_po .ex_c .ex-3{width: 50%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 50%;margin-top: 30px;}
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 48%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 48%;margin-left: 20px;}
+    .news_a .news_c .news-3{display: none;}
+    .news_a .news_c .news-1 .photo_d .date{left: 30%;}
+    .compny .comp-1{width: 50%;}
+    .compny .comp-2{width: 50%;}
+    .compny .comp-3{width: 50%;}
+    .compny .comp-4{width: 50%;}
+    .footer{padding-top: 20px;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 50%;}
+    .footer .footer_c .footer-2{width: 50%;}
+    .footer .footer_c .footer-3{width: 50%;}
+    .footer .footer_c .footer-4{width: 50%;}
+    
+
+
+    
+    
+}
+@media(max-width:1014px){
+    .ser_a{height:700px;}
+   .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+   .ser_a .ser-c .ser-1{width: 100%;margin-left:0;}
+   .ser_a .ser-c .ser-2{width: 100%;margin-left:0;margin-top: 100px;}
+   .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+   .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+   /* .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;} */
+}
+@media(max-width:1000px){
+
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+    .content .center_con .one_c .con_box{left: 40%;}
+    .content .center_con .two_c .con_box{left: 40%;}
+    .content .center_con .three_c .con_box{left: 40%;}
+    .detial_c .center_part{width: 100%;}
+.detial_c .center_part .left_part{width: 100%;}
+
+.detial_c .center_part .right_part{width: 100%;}
+    
+    .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+.content .center_con .three_c{width: 100%;margin-top: 30px;}
+   .content{height:700px;}
+   .detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 15%;top:35%;}
+   .ser_a{height:700px;background:;}
+   .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+   .ser_a .ser-c .ser-1{width: 100%;margin-left:0;}
+   .ser_a .ser-c .ser-2{width: 100%;margin-left:0;margin-top: 100px;}
+   .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+   .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+   .ser_a .ser-c .ser-1 .card .i_con{left: 40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height: 600px;background:#fff;}
+    /* .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;}
+ */
+}
+@media (max-width:900px){
+    .header .detial .detial_1{width: 100%;}
+    .header .detial .detial_2{display: none;}
+    .header .detial .detial_3{display: none;}
+    .header .detial .detial_4{display: none;}
+    .nav{display: none;}
+    .bar{display: block;display: flex;}
+    .bar .bar_ser{display: block;}
+    .bar .bar_b{display: block;}
+    .bar .bar_buy{display: block;}
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+    .content .center_con .one_c .con_box{left: 40%;}
+    .content .center_con .two_c .con_box{left: 40%;}
+    .content .center_con .three_c .con_box{left: 40%;}
+    
+    
+    .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+.content .center_con .three_c{width: 100%;margin-top: 30px;}
+.content{height:700px;}
+.detial_c .center_part{width: 100%;}
+.detial_c .center_part .left_part{width: 100%;}
+
+.detial_c .center_part .right_part{width: 100%;}
+.detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 15%;top:35%;}
+.ser_a{height:1500px;background:;}
+    .ser_a .ser-c{width: 100%;left: 0;top:-10%;}
+    .ser_a .ser-c .ser-1{width: 100%;margin-left:0;}
+    .ser_a .ser-c .ser-2{width: 100%;margin-left:0;margin-top: 100px;}
+    .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-1 .card .i_con{left: 45%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left: 45%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:45%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:45%;}
+    .record_a{height: 600px;background:#fff;}
+    .record_a .rec_a{width: 80%;left:10%;top:10%;}
+   
+    .record_a .rec_a .rec-1{width: 50%;}
+    .record_a .rec_a .rec-2{width: 50%;}
+    .record_a .rec_a .rec-3{width: 50%;}
+    .record_a .rec_a .rec-4{width: 50%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 50%;}
+    .ex_po .ex_c .ex-2{width: 50%;}
+    .ex_po .ex_c .ex-3{width: 50%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 50%;margin-top: 30px;}
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .market .market_c .market-b .detial_mark .dm-1 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-3 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-3 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-1 .part-e h1{font-size: 20px;}
+    .news_a {padding-top: 20px;}
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 48%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 48%;margin-left: 20px;}
+    .news_a .news_c .news-3{display: none;}
+    .compny .comp-1{width: 50%;}
+    .compny .comp-2{width: 50%;}
+    .compny .comp-3{width: 50%;}
+    .compny .comp-4{width: 50%;}
+    .footer{padding-top: 20px;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 50%;}
+    .footer .footer_c .footer-2{width: 50%;}
+    .footer .footer_c .footer-3{width: 50%;}
+    .footer .footer_c .footer-4{width: 50%;}
+   
+
+
+}
+@media (max-width:700px){
+    .header .detial .detial_1{width: 100%;}
+    .header .detial .detial_2{display: none;}
+    .header .detial .detial_3{display: none;}
+    .header .detial .detial_4{display: none;}
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+    .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+.content .center_con .three_c{width: 100%;margin-top: 30px;}
+.content{height:700px;}
+.detial_c .center_part{width: 100%;}
+.detial_c .center_part .left_part{width: 100%;}
+
+.detial_c .center_part .right_part{width: 100%;}
+
+
+.detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 10%;top:35%;}
+.ser_a{height:1500px;background:;}
+
+.ser_a .ser-c{width: 100%;}
+.ser_a .ser-c .ser-1{width: 100%;margin-left: 0;margin-top: 100px;}
+.ser_a .ser-c .ser-2{width: 100%;margin-left: 0;margin-top: 100px;}
+.ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+.ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-1 .card .i_con{left: 40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height:800px;background:#fff;}
+    .record_a .rec_a{width: 80%;left:10%;top:0;}
+    .record_a .rec_a .rec-1{width: 100%;}
+    .record_a .rec_a .rec-2{width: 100%;}
+    .record_a .rec_a .rec-3{width: 100%;}
+    .record_a .rec_a .rec-4{width: 100%;}
+    .display .part_c{width: 80%;margin: auto;}
+    .display .part_c .part-1a{width: 100%;font-size:30px;}
+    .display .part_c .part-2a{width: 100%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 100%;}
+    .ex_po .ex_c .ex-2{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-3{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 100%;margin-top: 30px;}
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+    .market .market_c .market-b .detial_mark .dm-1 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e{width: 100%;}
+    .market .market_c .market-b .detial_mark .dm-3 .part-e{width: 100%;}
+    .news_a {padding-top: 20px;}
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 100%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 100%;margin-left: 0px;margin-top: 20px;}
+    .news_a .news_c .news-3{display: none;}
+    .compny .comp-1{width: 100%;}
+    .compny .comp-2{width: 100%;}
+    .compny .comp-3{width: 100%;}
+    .compny .comp-4{width: 100%;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 100%;}
+    .footer .footer_c .footer-2{width: 100%;}
+    .footer .footer_c .footer-3{width: 100%;}
+    .footer .footer_c .footer-4{width: 100%;}
+   
+    
+
+
+   
+}
+@media (max-width:500px){
+
+    .header .detial .detial_1{width: 100%;}
+    .header .detial .detial_2{display: none;}
+    .header .detial .detial_3{display: none;}
+    .header .detial .detial_4{display: none;}
+    .content .center_con .one_c{width: 100%;margin-right: 0;}
+        .content .center_con .two_c{width: 100%;margin-right: 0;margin-top: 30px;}
+    .content .center_con .three_c{width: 100%;margin-top: 30px;}
+    .detial_c .center_part{width: 100%;}
+    .detial_c .center_part .left_part{width: 100%;}
+    
+    .detial_c .center_part .right_part{width: 100%;}
+    .detial_c .center_part .left_part .photo_round1{border: 10px solid white;left: 2%;top:45%;}
+    .ser_a{height:1500px;background:;}
+
+    .ser_a .ser-c{width: 100%;}
+    .ser_a .ser-c .ser-1{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-2{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-3{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-4{width: 100%;margin-left: 0;margin-top: 100px;}
+    .ser_a .ser-c .ser-1 .card .i_con{left: 40%;}
+    .ser_a .ser-c .ser-2 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-3 .card .i_con{left:40%;}
+    .ser_a .ser-c .ser-4 .card .i_con{left:40%;}
+    .record_a{height: 900px;}
+    .record_a .rec_a{width: 80%;left:10%;top:10%;}
+    .record_a .rec_a .rec-1{width: 100%;}
+    .record_a .rec_a .rec-2{width: 100%;}
+    .record_a .rec_a .rec-3{width: 100%;}
+    .record_a .rec_a .rec-4{width: 100%;}
+    .display .part_c{width: 80%;margin: auto;}
+    .display .part_c .part-1a{width: 100%;font-size:30px;}
+    .display .part_c .part-2a{width: 100%;}
+    .ex_po .ex_c{width: 95%;margin: auto;}
+    .ex_po .ex_c .ex-1{width: 100%;}
+    .ex_po .ex_c .ex-2{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-3{width: 100%;margin-top: 30px;}
+    .ex_po .ex_c .ex-4{width: 100%;margin-top: 30px;}
+    .about{padding-top: 50px;}
+    .about .about_c{width: 80%;margin: auto;}
+    .about .about_c .about-1{width: 100%;}
+    .about .about_c .about-2{width: 100%;}
+    .market .market_c{width: 80%;margin: auto;}
+    .market .market_c .market-a{width: 100%;}    
+    .market .market_c .market-b{width: 100%;}   
+   
+    .market .market_c .market-b .detial_mark .dm-3 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-2 .part-e h1{font-size: 20px;}
+    .market .market_c .market-b .detial_mark .dm-1 .part-e h1{font-size: 20px;}
+    .news_a {padding-top: 20px;}
+    .news_a .news_c{width: 80%;margin: auto;} 
+    .news_a .news_c .news-1{width: 100%;margin-left: 0px;}
+    .news_a .news_c .news-2{width: 100%;margin-left: 0px;margin-top: 20px;}
+    .news_a .news_c .news-3{display: none;}
+    .news_a .news_c .news-1 .photo_d .date{left: 35%;}
+    .news_a .news_c .news-2 .photo_d .date{left: 35%;}
+    .compny .comp-1{width: 100%;}
+    .compny .comp-2{width: 100%;}
+    .compny .comp-3{width: 100%;}
+    .compny .comp-4{width: 100%;}
+    .footer{padding-top: 20px;}
+    .footer .footer_c{width: 90%;margin: auto;}
+    .footer .footer_c .footer-1{width: 100%;}
+    .footer .footer_c .footer-2{width: 100%;}
+    .footer .footer_c .footer-3{width: 100%;}
+    .footer .footer_c .footer-4{width: 100%;}
+   
+  
+}
+    </style>
+</head>
+<body>
+<!-- start header -->
+
+<div class="header">
+    <div class="logo">
+        <div class="photo">
+
+        </div>
+    </div>
+    <div class="detial">
+        <div class="detial_1">
+                
+            <div class="social">
+                <div class="front"><i class="fa fa-facebook" aria-hidden="true" ></i></div>
+                <div class="bake"><i class="fa fa-facebook" aria-hidden="true" ></i></div>
+            
+            </div>
+            <div class="social">
+                <div class="front"><i class="fa fa-instagram" aria-hidden="true" ></i></div>
+                <div class="bake"><i class="fa fa-instagram" aria-hidden="true" ></i></div>
+            
+            </div>
+            <div class="social">
+                <div class="front"> <i class="fa fa-twitter" aria-hidden="true"></i></div>
+                <div class="bake"> <i class="fa fa-twitter" aria-hidden="true"></i></i></div>
+            
+            </div>
+            
+            <div class="social">
+                <div class="front">  <i class="fa fa-info" aria-hidden="true"></i></div>
+                <div class="bake"> <i class="fa fa-info" aria-hidden="true"></i></i></div>
+            
+            </div>
+               
+           
+            
+            
+        </div>
+        <div class="detial_2">
+            <div class="phone">
+                <div class="front"><i class="fa fa-phone" aria-hidden="true"></i></i></div>
+                <div class="bake"><i class="fa fa-phone" aria-hidden="true"></i></i></div>
+         
+            </div>
+            <div class="info">
+                <h4 style="text-align:center;line-height:50px; color: gray;">call any time</h4>
+                <h3 style="text-align:center;">0123456789</h3>
+            </div>
+        </div>
+        <div class="detial_3">
+            <div class="phone">
+                <div class="phone">
+                    <div class="front">   <i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="bake">   <i class="fa fa-envelope" aria-hidden="true"></i></div>
+             
+                </div>
+             
+                </div>
+                <div class="info">
+                    <h4 style="text-align:center;line-height:50px; color: gray;">call any time</h4>
+                    <h3 style="text-align:center;">0123456789</h3>
+                </div>
+        </div>
+        <div class="detial_4">
+            <div class="phone">
+                <div class="front">        <i class="fa fa-globe" aria-hidden="true"></i></i></div>
+                    <div class="bake">        <i class="fa fa-globe" aria-hidden="true"></i></div>
+           
+                </div>
+                <div class="info">
+                    <h4 style="text-align:center;line-height:50px; color: gray;">380 St Kilda Road
+                      </h4>
+                    <h3 style="text-align:center;font-size:15px;">
+                        Melbourne, Australia</h3>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- end header -->
+<!-- nav start -->
+<div class="nav">
+    <div class="left_nav">
+        <ul>
+            <div class="dropdown">
+                <li ><a href="#">Home</a></li>
+                <div class="dropdown-content">
+                <div class="home_a">
+                    <div class="home-1"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-2"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-3"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                </div>
+                </div>
+              </div>
+
+           
+            <li><a href="#">About</a></li>
+            <div class="dropdown">
+                <li><a href="#">Services</a></li>
+                <div class="dropdown-content">
+                <div class="home_a">
+                    <div class="home-1"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-2"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-3"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                </div>
+                </div>
+              </div>
+              <div class="dropdown">
+                <li><a href="#">Projects</a></li>
+                <div class="dropdown-content">
+                <div class="home_a">
+                    <div class="home-1"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-2"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-3"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                </div>
+                </div>
+              </div>
+              <div class="dropdown">
+                <li><a href="#">News</a></li>
+                <div class="dropdown-content">
+                <div class="home_a">
+                    <div class="home-1"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-2"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-3"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                </div>
+                </div>
+              </div>
+       
+          
+              <div class="dropdown">
+                <li><a href="#">shop</a></li>
+                <div class="dropdown-content">
+                <div class="home_a">
+                    <div class="home-1"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-2"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                    <div class="home-3"><h3 style="text-align: center;line-height: 66px;">home-1</h3></div>
+                </div>
+                </div>
+              </div>
+ 
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="right_nav">
+        <div class="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+        <div class="buy">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+<div class="bar">
+    <div class="bar_ser"><i class="fa fa-search" aria-hidden="true"></i></div>
+    <div class="bar_b">
+        <div class="dropdown_1">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+            <div class="dropdown-content_1">
+            
+         
+            </div>
+          </div>
+        
+       </div>
+    <div class="bar_buy">  <i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+</div>
+<!-- nav end -->
+<!-- slider strart -->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://w0.peakpx.com/wallpaper/737/1014/HD-wallpaper-paddy-fields-paddy-nature-fog-field-agriculture-rural-orange-sunset-rice-graphy-green.jpg" style="height:600px;width:100%">
+      <div class="text">Caption Text</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://wallpapercave.com/wp/wp3069392.jpg" style="height:600px; width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://w0.peakpx.com/wallpaper/790/344/HD-wallpaper-vietnam-farm-village-rice-fields-mountains-asia.jpg" style="height:600px;width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+<!-- slider end -->
+<!-- content start -->
+<div class="content">
+    <div class="center_con">
+        <div class="one_c">
+            <h1 style="text-align: center;font-family: 'Courier New', Courier, monospace;color:darkkhaki;line-height: 50px;">feature 01</h1>
+            <h1 class="p" style="text-align: center;">We are using new techonology</h1>
+            <div class="con_box">
+
+                <div class="front"><i class="fa-solid fa-tractor" style="font-size:40px;"></i></div>
+                
+                <div class="bake"><i class="fa-solid fa-tractor" style="font-size:40px;"></i></div>
+            </div>
+        </div>
+        <div class="two_c">
+            <h1 style="text-align: center;font-family: 'Courier New', Courier, monospace;color: darkkhaki;line-height: 50px;">feature 02</h1>
+            <h1 class="p" style="text-align: center;">Good in smart in oraganic service</h1>
+            <div class="con_box">
+                <div class="front"><i class="fa-solid fa-plant-wilt" style="font-size:40px;"></i></i></div>
+                
+                <div class="bake"><i class="fa-solid fa-plant-wilt" style="font-size:40px;"></i></div>
+            </div>
+        </div>
+        <div class="three_c">
+            <h1 style="text-align: center;font-family: 'Courier New', Courier, monospace;color: darkkhaki;line-height: 50px;">feature 03</h1>
+            <h1 class="p" style="text-align: center;">Reforming in the system</h1>
+            <div class="con_box">
+                <div class="front"><i class="fa-solid fa-tractor" style="font-size:40px;"></i></div>
+                
+                <div class="bake"><i class="fa-solid fa-tractor" style="font-size:40px;"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- content end -->
+<!-- content_C strat -->
+<div class="detial_c">
+<div class="center_part">
+    <div class="left_part">
+        <div class="photo_far">
+            <div class="photo_round">
+                <div class="grass"></div>
+              
+            </div>
+            
+        <div class="photo_round1">
+            <div class="grass_a">
+
+            </div>
+        </div> 
+
+        </div>
+            </div>
+    <div class="right_part">
+        <h2 style="margin-left:50px;margin-top: 100px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color:gold;">our introducation</h2>
+        <h1 style="margin-left:50px ;margin-top:20px;font-size:50px;">Agriculture & Organic <br> Product Farm</h1>
+        <h2 style="margin-left: 50px;margin-top:20px;color:darkgreen">Agrios is the largest global organic farm.</h2>
+        <p style="margin-left:50px; margin-top: 20px;font-size:20px;">There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humor or random word which don’t look even.</p>
+        <div class="veg">
+            <div class="left_v">
+                <div class="logo_v">
+                    <div class="front"><i class="fa-solid fa-tractor" style="font-size:40px;color: goldenrod;"></i></div>
+                
+                <div class="bake"><i class="fa-solid fa-tractor" style="font-size:40px;color: goldenrod;"></i></div>
+                </div>
+                <div class="gro" style="text-align: center;"><h2>Growing fruits
+                    vegetables</h2></div>
+            </div>
+            <div class="right_v">
+                <div class="logo_v">
+                    <div class="front"><i class="fa-solid fa-tractor" style="font-size:40px;color: goldenrod;"></i></div>
+                
+                    <div class="bake"><i class="fa-solid fa-tractor" style="font-size:40px;color: goldenrod;"></i></div>
+                </div>
+                <div class="gro" style="text-align: center;"><h2>Tips for ripening
+                    your fruits</h2></div>
+            </div>
+        </div>
+        <h3 style="margin-left: 50px;margin-top: 20px;">Lorem Ipsum is not simply random text.</h3>
+        <h3 style="margin-left: 50px;margin-top: px;">Making this the first true generator on the internet.</h3>
+        <button>Discover more</button>
+    </div>
+</div>
+</div>
+<!-- contenet_C end -->
+<!-- services started -->
+<div class="service">
+    
+    
+    <h3 style="text-align: center;padding-top:10px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">our service</h3>
+    <h1 style="text-align: center;">What We Offer</h1>
+</div>
+<div class="ser_a">
+    <div class="ser-c">
+        <div class="ser-1">
+            <img src="https://tplabs.co/agrios/wp-content/uploads/2022/07/service-01.webp" height="100%" width="100%">
+            
+            <div class="card">
+                <h3 style="text-align: center;padding:40px;">Agriculture
+                    Products</h3>
+                    <div class="i_con" style="text-align:center;line-height:80px;">
+                        <i class="fa-solid fa-tractor" style="font-size:40px;"></i>
+                    </div>
+            </div>
+        </div>
+        <div class="ser-2">
+            <div class="card">
+                <h3 style="text-align: center;padding:40px;">Organic
+                    Products</h3>
+                <div class="i_con" style="text-align:center;line-height:80px;">
+                    <i class="fa-solid fa-tractor" style="font-size:40px;"></i>
+                </div>
+            </div>
+       
+        </div>
+        <div class="ser-3">
+            <div class="card">
+                <h3 style="text-align: center;padding:40px;">Fresh
+                    Vegetables</h3>
+                    <div class="i_con" style="text-align:center;line-height:80px;">
+                        <i class="fa-solid fa-tractor" style="font-size:40px;"></i>
+                    </div>
+            </div>
+       
+        </div>
+        <div class="ser-4">
+            <div class="card">
+                 <h3 style="text-align: center;padding:40px;">Dairy<br>
+                    Products</h3>
+                    <div class="i_con" style="text-align:center;line-height:80px;">
+                        <i class="fa-solid fa-tractor" style="font-size:40px;"></i>
+                    </div>
+            </div>
+       
+        </div>
+    </div>
+
+</div>
+<!-- services end -->
+<!-- record start -->
+
+<div class="record"></div>
+<div class="record_a">
+    <div class="rec_a">
+        <div class="rec-1">
+            <h1 style="text-align: center;margin-top: 60px;font-size: 50px;font-family: Georgia, 'Times New Roman', Times, serif;">1620</h1>
+            <h3 style="text-align: center;">Agriculture Products</h3>
+        </div>
+        <div class="rec-2">
+            <h1 style="text-align: center;margin-top: 60px;font-size: 50px;font-family: Georgia, 'Times New Roman', Times, serif;">8800</h1>
+            <h3 style="text-align: center;">Projects Completed</h3>
+        </div>
+        <div class="rec-3">
+            <h1 style="text-align: center;margin-top: 60px;font-size: 50px;font-family: Georgia, 'Times New Roman', Times, serif;">2000</h1>
+            <h3 style="text-align: center;">Satisfied Clients</h3>
+        </div>
+        <div class="rec-4">
+            <h1 style="text-align: center;margin-top: 60px;font-size: 50px;font-family: Georgia, 'Times New Roman', Times, serif;">1000</h1>
+            <h3 style="text-align: center;">Experts Farmers
+            </h3>
+        </div>
+    </div>
+</div>
+<!-- record end -->
+<!-- disply show strat -->
+
+<div class="display">
+
+    <div class="part_c">
+        <div class="part-1a">
+            <h1 style="font-size: 50px;" >Agriculture Matters to the Future of Development
+                Watch our video</h1>
+        </div>
+        <div class="part-2a">
+            <div class="play"></div>
+        </div>
+    </div>
+
+</div>
+<!-- disply show end -->
+<!-- explore project start -->
+<div class="disp">
+    <h3 style="font-family:Verdana, Geneva, Tahoma, sans-serif;text-align: center;margin-top: 50px;">Recently Completed</h3>
+        <h1 style="font-family:Verdana, Geneva, Tahoma, sans-serif;text-align: center;margin-top: 50px;font-size: 50px;">Explore Projects</h1>
+</div>
+<div class="ex_po">
+    <div class="ex_c">
+        <div class="ex-1">
+            <div class="i"></div>
+        </div>
+        <div class="ex-2">
+            <div class="i"></div>
+        </div>
+        <div class="ex-3">
+            <div class="i"></div>
+        </div>
+        <div class="ex-4">
+            <div class="i"></div>
+        </div>
+    </div>
+</div>
+<!-- explore project end -->
+<!-- about of start -->
+<div class="about">
+    <div class="about_c">
+        <div class="about-1">
+            <h3 style="margin-left:50px;color:darkgoldenrod;margin-top:40px;">Our Testimonials</h3>
+            <h1 style="margin-left:50px;font-size: 60px;margin-top: 40px;">What They're Talking About Agrios</h1>
+            <h2 style="margin-left: 50px;margin-top:30px;color:gray;">There are many variations of passages of available but the majortity have sufferred alteration in some form by injected humor or random word which don't look even.</h2>
+            <button>View All Testimonials</button>
+        </div>
+
+        <div class="about-2">
+            <div class="about-a">
+                <div class="ab-1">
+                    <div class="ab-a">
+                    <h4 style="text-align:center;padding-top:50px">There are many variations of passages of available but the majortity have sufferred alteration in some form by injected humor or random word which don't look even.</h4>
+                    </div>
+                    <div class="ab-b">
+                        <h1 style="margin-left: 20px;">James Albert</h1>
+
+                       
+                    </div>
+
+                </div>
+                <div class="ab-2">
+                    <div class="image-1">
+                        <div class="image-a"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-b">
+                <div class="ab-1">
+                    <div class="ab-a">
+                    <h4 style="text-align:center;padding-top:50px">There are many variations of passages of available but the majortity have sufferred alteration in some form by injected humor or random word which don't look even.</h4>
+                    </div>
+                    <div class="ab-b">
+                        <h1 style="margin-left: 20px;">bonney Albert</h1>
+                        
+                       
+                    </div>
+
+                </div>
+                <div class="ab-2">
+                    <div class="image-1">
+                        <div class="image-a"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- about of end -->
+<!-- argo market start -->
+<div class="market">
+    <div class="market_c">
+        <div class="market-a">
+            <div class="photo_a"></div>
+        </div>
+        <div class="market-b">
+            <h3 style="margin-top:20px;margin-left:50px;">Our Farm Benefits</h3>
+            <h1 style="margin-top: 20px;margin-left: 50px;font-size: 50px;">Why Choose Agrios Market</h1>
+            <p style="margin-top: 20px;margin-left: 50px;">There are many variations of passages of available but the majortity have sufferred alteration in some form by injected humor or random word which don't look even.
+            </p>
+             <div class="detial_mark">
+                <div class="dm-1">
+                    <div class="part-w"></div>
+                    <div class="part-e">
+                        <h1>Quality Organic Food</h1>
+                        <p style="">There are variation You need to be sure there is anything hidden in the middle of text.</p>
+                    </div>
+                </div>
+                <div class="dm-2">
+                    <div class="part-w"></div>
+                    <div class="part-e">
+                        <h1>Professional Farmers</h1>
+                        <p style="">There are variation You need to be sure there is anything hidden in the middle of text.</p>
+                    </div>
+                </div>
+                <div class="dm-3">
+                    <div class="part-w"></div>
+                    <div class="part-e">
+                        <h1>Quality Products</h1>
+                        <p style="">There are variation You need to be sure there is anything hidden in the middle of text.</p>
+                    </div>
+                </div>
+             </div>
+             <button>Discover more</button>
+        </div>
+    </div>
+</div>
+
+<!-- argo market end -->
+<!-- news start -->
+<div class="news">
+
+    <h1 style="text-align:center ;">From the Blog</h1>
+    <h1 style="text-align:center ; font-size:60px;">News & Blogs</h1>
+    </div>
+<div class="news_a">
+    <div class="news_c">
+        <div class="news-1">
+            <div class="photo_d">
+                <div class="date"><h4 style="text-align:center ;line-height:30px">2 july 2022</h4></div>
+            </div>
+            <div class="come">
+                <div class="come-1"><h4 style="line-height: 100px;margin-left: 30px;"><i class="fa fa-user-circle" aria-hidden="true"></i> deep</h4></div>
+                <div class="come-2"><h4 style="line-height: 100px;margin-left: 30px;"><i class="fa fa-comment" aria-hidden="true"></i> 1 comment</h4></div>
+            </div>
+           <div class="deti_al"><h1 style="text-align: center;">Bringing Food production Back to cities</h1></div>
+        </div>
+        <div class="news-2">
+            <div class="photo_d">
+                <div class="date"><h4 style="text-align:center ;line-height:30px">2 july 2022</h4></div>
+            </div>
+            <div class="come">
+                <div class="come-1"><h4 style="line-height: 100px;margin-left: 30px;"><i class="fa fa-user-circle" aria-hidden="true"></i> deep</h4></div>
+                <div class="come-2"><h4 style="line-height: 100px;margin-left: 30px;"><i class="fa fa-comment" aria-hidden="true"></i> 1 comment</h4></div>
+            </div>
+           <div class="deti_al"><h1 style="text-align: center;">Bringing Food production Back to cities</h1></div>
+        </div>
+        <div class="news-3">
+            <div class="photo_d">
+                <div class="date"><h4 style="text-align:center ;line-height:30px">2 july 2022</h4></div>
+            </div>
+            <div class="come">
+                <div class="come-1"><h4 style="line-height: 100px;margin-left: 30px;"><i class="fa fa-user-circle" aria-hidden="true"></i> deep</h4></div>
+                <div class="come-2"><h4 style="line-height: 100px;margin-left: 30px;"><i class="fa fa-comment" aria-hidden="true"></i> 1 comment</h4></div>
+            </div>
+           <div class="deti_al"><h1 style="text-align: center;">Bringing Food production Back to cities</h1></div>
+        </div>
+    </div>
+</div>
+<div class="background"></div>
+<!-- news end -->
+<!-- compeny name start -->
+<div class="compny">
+    <div class="comp-1"></div>
+    <div class="comp-2"></div>
+    <div class="comp-3"></div>
+    <div class="comp-4"></div>
+</div>
+<!-- compeny end -->
+<!-- footer strat -->
+<div class="footer">
+    <div class="footer_c">
+        <div class="footer-1">
+            <div class="logo_a"></div>
+            <div class="det"><p style="text-align:center;margin-top: 20px;font-size: 20px;color:gray">There are many variations of passages of lorem ipsum available, but the majority suffered.</p></div>
+            <div class="soc_ial">
+              
+                
+                    <div class="social">
+                        <i class="fa fa-facebook" aria-hidden="true" ></i></div>
+                       <div class="social"><i class="fa fa-instagram" aria-hidden="true" ></i></div> 		
+                        <div class="social"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                    <div class="social">    <i class="fa fa-info" aria-hidden="true"></i></div>
+                    
+                    
+                
+            </div>
+        </div>
+        <div class="footer-2">
+            <h1 style="margin-left:50px;margin-top:20px;color:white;">Explore</h1>
+            <ul>
+                <li><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i> About</a></li>
+                <li><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i> Services</a></li>
+                <li><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i> Our Projects</a></li>
+                <li><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i> Meet the Farmer</a></li>
+                <li><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i> Letest News</a></li>
+                <li><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i> Contect</a></li>
+
+            </ul>
+        </div>
+        <div class="footer-3">
+            <h1 style="margin-left:50px;margin-top:20px;color:white;">News</h1>
+            <div class="two">
+                <div class="one_a">
+                    <div class="hphoto">
+                        <div class="l1"></div>
+                    </div>
+                    <div class="foot_d">
+                        <h3 style="margin-left:50px;color: white;">Bringing Food Production Back To Cities</h3>
+                        <h4 style="margin-left:50px;margin-top: 20px;color: yellow;">2 july 2022</h4>
+                    
+                    </div>
+
+                </div>
+                <div class="two_a">
+                    <div class="hphoto">
+                        <div class="l1"></div>
+                    </div>
+                    <div class="foot_d">
+                        <h3 style="margin-left:50px;color: white;">The Future of Farming, Smart Irrigation Solutions</h3>
+                        <h4 style="margin-left:50px;margin-top: 20px;color: yellow;">2 july 2022</h4>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-4">
+            <h1 style="margin-left:50px;margin-top:20px;color:white;">Contact</h1>
+            <h3 style="margin-left:50px;margin-top:20px;color:white;"><i style="color:yellow ;font-size:30px;" class="fa fa-phone" aria-hidden="true"></i>   000 888 121</h3>
+            <h3 style="margin-left:50px;margin-top:20px;color:white;"><i style="color:yellow ;font-size:30px;" class="fa  fa-envelope" aria-hidden="true"></i> needhelp@company.com</h3>
+            <h3 style="margin-left:50px;margin-top:20px;color:white;"><i style="color:yellow ;font-size:30px;" class="fa fa-map-marker" aria-hidden="true"></i>  80 broklyn golden street line
+                New York, USA</h3>
+
+             
+<form>
+    <input type="text" name="search" placeholder="your email...">
+  </form>
+     
+            
+        </div>
+    </div>
+</div>
+<div class="copy" style="text-align: center;line-height: 100px;font-size: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: gray;">© All Copyright 2022 by TPLabs.co</div>
+<!-- footer end -->
+</body>
+</html>
