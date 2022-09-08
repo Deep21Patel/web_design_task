@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+enter the amount: <input type="text" id="amu">
+<select id="des" onchange="usa()">
+    <option id="usa" value="79.73" >usa</option>
+    <option id="u.k" value="85.91">u.k</option>
+    <option id="dubai" value="258">dubai</option>
+
+   
+  </select>
+  
+  amount:<b id="mul"></b>
+  <script>
+
+   function usa()
+   {
+    var am1=document.getElementById('amu').value;
+    var am2=document.getElementById('des').value;
+
+    document.getElementById('mul').innerHTML = parseInt(am1)*parseInt(am2);
+   }
+
+
+  </script>
+</body>
+</html>
