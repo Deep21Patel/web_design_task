@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form>
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td>
+					<input type="text" name="" id="nm" value="dfetg">
+					<span id="errMsg"></span>
+
+				</td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="" id="em"></td>
+			</tr>
+			<tr>
+				<td>Mobile:</td>
+				<td><input type="text" name="" id="mb"></td>
+			</tr>
+
+			<tr>
+				
+				<td><input type="submit" name="" onclick="return validateForm()"></td>
+			</tr>
+		</table>
+	</form>
+
+
+<script type="text/javascript">
+	
+				function validateForm()
+				{
+					var name = document.getElementById('nm').value;
+					var email = document.getElementById('em').value;
+					var mobile = document.getElementById('mb').value;
+					
+
+					exp_nm = /^[a-zA-Z]+$/ ; //    /^  exp  $/
+
+					exp_mb = /^[0-9]{10}$/; //  /^[0-9]+$/
+
+					if(name=="")
+					{
+						sp1 = document.getElementById('errMsg');
+						sp1.innerHTML = "* Name is required...!";
+						sp1.style.color="red";
+
+						document.getElementById('nm').style.border= "3px solid red";
+					}
+					else
+					{
+						sp1.innerHTML = "ok";
+						sp1.style.color="green";
+						document.getElementById('nm').style.border= "3px solid green";
+					}
+
+					if(!exp_nm.test(name))
+					{
+						alert("Alphabets only...!");
+						return false;
+					}
+
+					if(email=="")
+					{
+						alert("Email is required...!");
+						return false;
+					}
+
+					if(mobile=="")
+					{
+						alert("Mobile is required...!");
+						return false;
+					}
+
+					if(!exp_mb.test(mobile))
+					{
+						alert("10 digits only...!");
+						return false;
+					}
+				}
+
+				console.log(name);
+</script>
+</body>
+</html>

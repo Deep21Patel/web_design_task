@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<form>
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="" id="nm">
+                    <span id="errMsg"></span>
+                </td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="text" name="" id="em">
+                    <span id="errMsg1"></span></td>
+			</tr>
+			<tr>
+				<td>Mobile:</td>
+				<td><input type="text" name="" id="mb">
+                    <span id="errMsg2"></span></td>
+			</tr>
+
+			<tr>
+				
+				<td><input type="submit" name="" onclick="return validateForm()"></td>
+			</tr>
+		</table>
+	</form>
+
+
+<script type="text/javascript">
+	
+				function validateForm()
+				{
+					var name = document.getElementById('nm').value;
+					var email = document.getElementById('em').value;
+					var mobile = document.getElementById('mb').value;
+
+
+					exp_nm = /^[a-zA-Z]+$/ ; //    /^  exp  $/
+                    exp_em=/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/;
+					exp_mb = /^[0-9]{10}$/; //  /^[0-9]+$/
+
+					if(name=="")
+					{
+						sp1 = document.getElementById('errMsg');
+						sp1.innerHTML = "* Name is required...!";
+						sp1.style.color="red";
+
+						document.getElementById('nm').style.border= "3px solid red";
+                        return false;
+                       
+					}
+                    else{
+                        sp1.innerHTML = "ok";
+						sp1.style.color="green";
+						document.getElementById('nm').style.border= "3px solid green";
+                    }
+
+					if(!exp_nm.test(name))
+					{
+						sp1 = document.getElementById('errMsg');
+						sp1.innerHTML = "only charctor";
+						sp1.style.color="red";
+
+						document.getElementById('nm').style.border= "3px solid red";
+                        return false;
+					}
+
+					if(email=="")
+					{
+                        sp1 = document.getElementById('errMsg1');
+                        sp1.innerHTML = "* email is required...!";
+						sp1.style.color="red";
+
+						document.getElementById('em').style.border= "3px solid red";
+                        return false;
+					}
+                    else{
+                        sp1.innerHTML = "ok";
+						sp1.style.color="green";
+						document.getElementById('em').style.border= "3px solid green";
+                    }
+                    
+                    if(!exp_em.test(email))
+                    {
+
+                        sp1 = document.getElementById('errMsg1');
+						sp1.innerHTML = "your email is worng";
+						sp1.style.color="red";
+
+						document.getElementById('em').style.border= "3px solid red";
+                        return false;
+
+                        
+                    }
+					if(mobile=="")
+					{
+                        sp1 = document.getElementById('errMsg2');
+                        sp1.innerHTML = "* mobile is required...!";
+						sp1.style.color="red";
+
+						document.getElementById('mb').style.border= "3px solid red";
+                        return false;
+					}
+                    else{
+                        sp1.innerHTML = "ok";
+						sp1.style.color="green";
+						document.getElementById('em').style.border= "3px solid green";
+                    }
+
+					if(!exp_mb.test(mobile))
+					{
+						
+                        sp1 = document.getElementById('errMsg2');
+						sp1.innerHTML = "only 10 digits";
+						sp1.style.color="red";
+
+						document.getElementById('mb').style.border= "3px solid red";
+                        return false;
+					}
+				}
+</script>
+</body>
+</html>
