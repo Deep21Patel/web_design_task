@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image_Slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <style>
+
+        body{
+
+            background: linear-gradient(coral,yellow);
+            height: 100vh;
+        }
+        div{
+
+            position: relative;
+            margin-left: 160px;
+        }
+        div img{
+
+            border: 10px solid red;
+            border-radius: 50px;
+
+        }
+        .btn{
+            position: absolute;
+            left: 30%;
+            bottom: 20px;
+        }
+        .btn i{
+
+            color: whitesmoke;
+            border: 2px solid black;
+            border-radius: 50%;
+            transition: 1s;
+        }
+        .btn i:hover{
+
+            color:black;
+            border: 2px solid white;
+            border-radius: 50%;
+        }
+        h1{
+
+            position: absolute;
+            left: 40px;
+            top: 0;
+            color: azure;
+        }
+    </style>
+</head>
+<body>
+    
+   <div> <img src="https://wallsdesk.com/wp-content/uploads/2018/03/Antelope-Canyon-Wallpapers.jpg" alt="" height="600px" width="90%" id="i1" style="margin: auto;">
+    <h1 id="h1">1/4</h1>
+   <div class="btn"> <i class="fa-sharp fa-solid fa-circle" onclick="img1()"></i>
+    <i class="fa-sharp fa-solid fa-circle" onclick="img2()"></i>
+    <i class="fa-sharp fa-solid fa-circle" onclick="img3()"></i>
+    <i class="fa-sharp fa-solid fa-circle" onclick="img4()"></i></div>
+</div>
+
+
+    <script>
+    
+    function img1(){
+        var img=document.getElementById('i1');
+        var h1=document.getElementById('h1');
+    img.src="https://wallsdesk.com/wp-content/uploads/2018/03/Antelope-Canyon-Wallpapers.jpg"
+    img.style.border="10px solid red"
+    h1.innerHTML="1/4"
+        
+
+    }
+    function img2(){
+        var img=document.getElementById('i1');
+        var h1=document.getElementById('h1');
+    img.src="https://i.pinimg.com/736x/92/0e/25/920e258281b95fdd2383308df19be0a4.jpg"
+    img.style.border="10px solid blue" 
+    h1.innerHTML="2/4"
+    }
+    function img3(){
+        var img=document.getElementById('i1');
+        var h1=document.getElementById('h1');
+    img.src="https://wallsdesk.com/wp-content/uploads/2017/01/White-Dandelion-Photos.jpg"
+    img.style.border="10px solid green"   
+    h1.innerHTML="3/4"
+
+}
+    function img4(){
+        var img=document.getElementById('i1');
+        var h1=document.getElementById('h1');
+    img.src="https://wallsdesk.com/wp-content/uploads/2017/01/Tel-Aviv-Photos.jpg"
+    img.style.border="10px solid pink"   
+    h1.innerHTML="4/4"
+    }
+   
+    </script>
+</body>
+</html>
