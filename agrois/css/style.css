@@ -1,4 +1,8 @@
 *{box-sizing: border;margin: 0;padding: 0;}
+body{
+
+    overflow-x: hidden;
+}
 .header{
 
     height:auto;
@@ -393,7 +397,7 @@ font-size:30px;
 
     display: none;
     height: 100px;
-    background:red;
+
     display: flex;
     flex-wrap: wrap;
     display: none; 
@@ -443,16 +447,12 @@ font-size:30px;
 }
 .dropdown_1 .dropdown-content_1{
 
-    display: none;
-  position: absolute;
-  height: 300px;
-  width: ;
-  background-color:red;
-
- left: ;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
+display: none;
+position: absolute;
+height: 300px;
+ width:100% ;
+  background:red;
+ z-index: 1;
 }
 .dropdown_1:hover .dropdown-content_1 {
     display: block;
@@ -727,7 +727,7 @@ font-size:30px;
 }
 .detial_c .center_part .left_part{
 
-    height: 800px;
+    height:auto;
     width: 50%;
     background:;
 }
@@ -925,7 +925,7 @@ position: relative;
     }
     .ser_a .ser-c{
 
-        height: auto;
+        height:500px;
         width: 80%;
         
         position: absolute;
@@ -939,7 +939,7 @@ position: relative;
 
         height: 300px;
         width: 22%;
-      background: red;
+      background:;
         border-radius: 10px;
         position: relative;
         
@@ -1292,9 +1292,9 @@ position: relative;
 }
 .about .about_c .about-1{
 
-    height: 600px;
+    height: auto;
     width: 40%;
-    background:;
+
 }
 .about-1 button{
 
@@ -1311,7 +1311,7 @@ position: relative;
 
     height: 600px;
     width: 60%;
-    background:;
+
 }
 .about .about_c .about-2 .about-a{
 
@@ -1326,7 +1326,7 @@ position: relative;
 .about .about_c .about-2 .about-a .ab-1{
 
     height: 290px;
-    width: 70%;
+    width: 60%;
     background:;
     
 }
@@ -1345,7 +1345,7 @@ position: relative;
 .about .about_c .about-2 .about-a .ab-2{
 
     height: 290px;
-    width: 30%;
+    width:auto;
     background:;
 }
 .about .about_c .about-2 .about-a .ab-2 .image-1{
@@ -1378,7 +1378,7 @@ position: relative;
 .about .about_c .about-2 .about-b .ab-1{
 
     height: 290px;
-    width: 70%;
+    width:60%;
     background:;
     
 }
@@ -1397,7 +1397,7 @@ position: relative;
 .about .about_c .about-2 .about-b .ab-2{
 
     height: 290px;
-    width: 30%;
+    width: auto;
     background:;
 }
 .about .about_c .about-2 .about-b .ab-2 .image-1{
@@ -1755,7 +1755,7 @@ position: relative;
 }
 .footer .footer_c .footer-1{
 
-    height: 500px;
+    height: auto;
     width: 25%;
     background:;
 
@@ -1792,7 +1792,7 @@ position: relative;
 }
 .footer .footer_c .footer-2{
 
-    height: 500px;
+    height: auto;
     width: 25%;
     background:;
 
@@ -1820,7 +1820,7 @@ position: relative;
 }
 .footer .footer_c .footer-3{
 
-    height: 500px;
+    height:auto;
     width: 25%;
     background:;
 
@@ -1891,7 +1891,7 @@ position: relative;
 
 .footer .footer_c .footer-4{
 
-    height: 500px;
+    height: auto;
     width: 25%;
     background:;
 
