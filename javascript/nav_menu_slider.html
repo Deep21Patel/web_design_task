@@ -15,7 +15,6 @@
         .menu{
 
             height:auto;
-            background:;
             position: relative;
             border: 10px double ;
         }
@@ -46,8 +45,8 @@
         }
         .roll-in-left{
       
-	-webkit-animation: roll-in-left 6s ease-out both;
-	        animation: roll-in-left 6s ease-out both;
+	-webkit-animation: roll-in-left 3s ease-out both;
+	        animation: roll-in-left 3s ease-out both;
 }
 
 /* ----------------------------------------------
@@ -86,7 +85,7 @@
          }
         @keyframes deep {
             from{width: 0%;}
-            to{width: 50%;}
+            to{width: 50%;} 
         } 
     </style>
 </head>
@@ -95,10 +94,7 @@
         <div class="menu">
             <ul>
                 <li><a href="#">home</a></li>
-                <li><a href="#" id="about" onclick="ab()">about</a>
-                
-                    
-                </li>
+                <li><a href="#" id="about" onclick="ab()">about</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#"  onclick="con()" id="cont">Contect</a>
                 </li>
@@ -114,10 +110,11 @@
           <div class="page" id="page"></div>
         <script>
 
-            function ab(){
+            function ab()
+            {
 
                 var ab1=document.getElementById('about')
-                var roll=document.getElementById('roll')
+                var roll=document.getElementById('roll') 
             
   
 
