@@ -2,10 +2,19 @@
 
 }
 @media(max-width:900px){
-
+   
 }
 @media(max-width:700px){
 
+    .header .blank1{width: 0;}
+    .header .singin{width: 50%;}
+    .header .singup{width: 50%;}
+    .header .call{width: 50%;}
+    .header .info{width: 50%;}
+    .header .blank2{width: 0;}
+    .subheader .search{width: 100%;}
+    .subheader .logo{width: 100%;}
+    .subheader .social{width: 100%;}
 }
 @media(max-width:500px){
 

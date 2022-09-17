@@ -1,5 +1,9 @@
 
 *{box-sizing: border-box; margin:0; padding:0;}
+body{
+
+	overflow-x: hidden;
+}
 .header{
 	height: auto;
 	width: 100%;
@@ -271,3 +275,160 @@ top:50px;
 	
 
  }
+ .contient{
+
+	height: 70px;
+	background: black;
+	width :100%;
+	display: flex;
+}
+
+.contient .menu1{
+	height: 70px;
+	width: 70%;
+	background: black;
+}
+.contient .menu1 ul{
+   margin: 0;
+   margin-left:25% ;
+   padding: 0;
+
+}
+.contient .menu1 ul li{
+
+   position: relative;
+}
+.contient .menu1 li{
+   list-style: none;
+
+display: inline;
+margin-right: 20px;
+}
+.contient .menu1 li::after{
+   content: "";
+   height:5px;
+   width: 0px;
+   background:  #25ffcd;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   bottom: 0;
+   transition: 1s;
+
+
+
+}
+.contient .menu1 ul li:hover::after
+	   {
+		   height: 5px;
+		   width: 100%;
+	   }
+
+.contient .menu1 li a{
+
+	   text-decoration: none;
+	   text-align: center;
+	   line-height: 70px;
+	   font-size: 20px;
+	   color: white;
+	   cursor: pointer;
+	   
+
+}
+.u1{
+
+   cursor: pointer;
+}
+/*dropdown*/
+.dropdown {
+ position: relative;
+ display: inline-block;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f1f1f1;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 1;
+}
+
+.dropdown-content .deep {
+ height: 300px;
+ width: 600px;
+ background: #fff;
+ display: flex;
+}
+.dropdown-content .deep .part-1{
+
+   height: 300px;
+   width: 50%;
+   background: #fff;
+   padding-top: 50px;
+   padding-left: 50px;
+
+}
+.dropdown-content .deep .part-2{
+
+   height: 300px;
+   width: 50%;
+   background: #fff;
+   display: flex;
+
+}
+.part-2 .s1{
+
+   height: 300px;
+   width: 50%;
+   background: #fff;
+}
+.part-2 .s2{
+
+   height: 300px;
+   width: 50%;
+   background: #fff;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/*dropend*/
+
+
+
+
+.contient .cart{
+	height: 70px;
+	width: 20%;
+	background: #25ffcd;
+
+}
+.contient .cart .crt{
+
+text-align: center;
+line-height: 70px;
+font-size: 40px;
+
+
+
+}
+.contient .cart .crt a{
+
+color: black;
+transition: 1s;
+
+}
+.contient .cart .crt a:hover{
+
+color: white;
+font-size: 30px;
+
+}
+.contient .bal{
+	height: 70px;
+	width: 10%;
+	background: black;
+}

@@ -9,9 +9,14 @@
 </head>
     <style>
         body{
+            
 
             background: linear-gradient(45deg,gray ,white,gray);
             height: 100vh;
+        }
+        .display{
+
+            width: 100%;
         }
         .cal{
             height:auto;
@@ -24,41 +29,92 @@
             font-size:40px;
             text-align: center;
             border: 2px solid;
-            background: linear-gradient(white,yellow);
+            background: linear-gradient(white,red);
             border-radius:20px;
+            cursor: pointer;
         }
         .key2{
             font-size:40px;
             text-align: center;
+            cursor: pointer;
         }
     </style>
 <body>
     <div class="cal">
-        <div class="display " style="height: 100px;background: black;border-radius: 20px;text-align: right;color: azure;font-size: 70px;padding-right: 20px;">0</div>
+        <input class="display " id="display" placeholder="0" style="height: 100px;background: black;border-radius: 20px;text-align: right;color: azure;font-size: 70px;padding-right: 20px;">
         <div class="key row" style="margin-left:0px;margin-right:0px;">
-            <div class="key1 col-xl-3 ">+</div>
-            <div class="key1  col-xl-3 ">-</div>
-            <div class="key1  col-xl-3 ">*</div>
-            <div class="key1  col-xl-3 ">/</div>
+            <div class="key1 col-xl-3 "onclick="add('+')">+</div>
+            <div class="key1  col-xl-3 "onclick="add('-')">-</div>
+            <div class="key1  col-xl-3 "onclick="add('*')">*</div>
+            <div class="key1  col-xl-3 "onclick="add('/ ')">/</div>
         </div>
         <div class="key_a row">
             <div class="left_key col-xl-10  row "  style="margin-left: 0px">
-                <div class="key1 col-xl-4 ">7</div>
-                <div class="key1  col-xl-4 ">8</div>
-                <div class="key1  col-xl-4 ">9</div>
-                <div class="key1 col-xl-4 ">4</div>
-                <div class="key1  col-xl-4 ">5</div>
-                <div class="key1  col-xl-4 ">6</div>
-                <div class="key1 col-xl-4 ">1</div>
-                <div class="key1  col-xl-4 ">2</div>
-                <div class="key1  col-xl-4 ">3</div>
-                <div class="key1 col-xl-4 ">0</div>
-                <div class="key1  col-xl-4 ">.</div>
-                <div class="key1  col-xl-4 ">AC</div>
+                <div class="key1 col-xl-4 " onclick="add(7)">7</div>
+                <div class="key1  col-xl-4 "onclick="add(8)" >8</div>
+                <div class="key1  col-xl-4 "onclick="add(9)">9</div>
+                <div class="key1 col-xl-4 "onclick="add(4)">4</div>
+                <div class="key1  col-xl-4 "onclick="add(5)">5</div>
+                <div class="key1  col-xl-4 "onclick="add(6)">6</div>
+                <div class="key1 col-xl-4 "onclick="add(1)">1</div>
+                <div class="key1  col-xl-4" onclick="add(2)">2</div>
+                <div class="key1  col-xl-4 "onclick="add(3)">3</div>
+                <div class="key1 col-xl-4 "onclick="add(0)">0</div>
+                <div class="key1  col-xl-4 "onclick="add('.')">.</div>
+                <div class="key1  col-xl-4 "onclick="bclear()">AC</div>
             </div>
             <div class="right_key col-xl-2 " style="text-align: center;line-height:300px;border: 2px solid;  border-radius:20px;background:linear-gradient(white,blue);">
-            <div class="key2">=</div>
+            <div class="key2"onclick="ans()">=</div>
         </div> 
     </div>
+    <script>
+        
+        
+
+        function add(a){
+
+            document.getElementById("display").value+=a; 
+        }
+    
+        function sol(){
+
+            var num=[]
+    
+            if(document.getElementById("display").value.includes("+"))
+            {
+                    num = document.getElementById("display").value.split('+');
+                    return parseInt(num[0]) + parseInt(num[1]);
+            }
+            else if(document.getElementById("display").value.includes("-"))
+            {
+
+                num = document.getElementById("display").value.split('-');
+                    return parseInt(num[0]) - parseInt(num[1]);
+            }
+            else if(document.getElementById("display").value.includes("*"))
+            {
+
+                num = document.getElementById("display").value.split('*');
+                    return parseInt(num[0]) * parseInt(num[1]);
+            }
+            else if(document.getElementById("display").value.includes("/"))
+            {
+
+                num = document.getElementById("display").value.split('/');
+                    return parseInt(num[0]) / parseInt(num[1]);
+            }
+            
+    }
+    function ans(){	
+    var a = sol()
+    document.getElementById('display').value = a; 
+}
+
+        function bclear()
+	{
+		document.getElementById('display').value=" ";	
+	}
+          
+          </script>
 </body>
 </html>
