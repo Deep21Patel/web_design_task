@@ -305,11 +305,11 @@ margin-right: 20px;
 }
 .contient .menu1 li::after{
 	content: "";
-	height:5px;
+	height:2px;
 	width: 0px;
 	background:  #25ffcd;
 	position: absolute;
-	top: 100%;
+	top: 200%;
 	left: 0;
 	bottom: 0;
 	transition: 1s;
@@ -319,7 +319,7 @@ margin-right: 20px;
 }
 .contient .menu1 ul li:hover::after
 		{
-			height: 5px;
+			height: 2px;
 			width: 100%;
 		}
 
@@ -513,8 +513,7 @@ font-family: 'Cormorant SC',monospace;
 	width: 50%;	
 	margin-right: 30px;
 	border: 12px solid rgba(255, 255,255, 0.4);
-	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);*/
-	
+	background:url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
 	background-origin: border-box;	
 	background-size:110% 100%;
 	margin-left: -0px;  

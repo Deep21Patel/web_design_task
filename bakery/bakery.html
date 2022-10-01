@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bakery</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<style>
+    *{box-sizing: border-box;margin: 0;padding: 0;}
+.header .info li 
+		{
+			list-style: none;
+			display: inline;
+			margin-right: 35px;
+            margin-left: 10px;
+            color:#fff;
+            padding-top: 20px;
+         
+            
+		}
+        .header .icons 
+		{
+			/*float: right;*/
+
+			text-align: right; 
+        }
+        .header .icons a{
+
+            font-size:30px;
+            color:white;
+            margin-right: 20px;
+            transition: 0.5s;
+        }
+        .header .icons a:hover{
+
+            color:greenyellow;
+        }
+        .header .icons 
+		{
+			/*float: right;*/
+
+			text-align: right; 
+        }
+        .box .l1 li{
+
+            display: inline;
+            margin-right: 20px;
+            font-size: 13px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:brown ;
+            transition: 1s;
+            cursor: pointer;
+         
+        }
+        
+        .box .l1 li:hover{
+
+            color:gold
+        }
+
+        .box .l2 li{
+
+            display: inline;
+            margin-right: 15px;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:brown ;
+            transition: 1s;
+            cursor: pointer;
+            
+        }
+        .box .l2 li:hover{
+
+            color:gold
+        }
+			.logo
+			{
+				text-align: center;
+			} 
+
+			.slider
+			{
+				height: auto;
+				border-top: 2px solid;
+				border-bottom: 2px solid;
+			}
+        .content .content_c .card-1 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-1.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-1 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-1 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-1 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content .content_c .card-2 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-2.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-2 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-2 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-2 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content .content_c .card-3 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-1.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-3 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-3 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-3 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content .content_c .card-4 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-1.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-4 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-4 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-4 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content .content_c .card-5 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-1.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-5 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-5 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-5 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content .content_c .card-6 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-1.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-6 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-6 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-6 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content .content_c .card-7 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-1.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-7 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-7 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-7 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content .content_c .card-8 .card_a{
+
+            height: 400px;
+            width:100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-1.jpg);
+            background-size: 100% 100%;
+            position: relative;
+            border: 3px solid;
+            margin-top: 20px;
+        }
+        .card-8 .card_a .half{
+          
+            height: 200px;
+            width:100%;
+            background: gold;
+            position: absolute;
+            bottom: 0;
+            opacity: 0;
+            transition: 1s;
+
+        }
+        .card-8 .card_a .half .ser{
+
+                height: 50px;
+                width:50%;
+                background:;
+                display: flex;
+                
+                position: absolute;
+                top:-20px;
+                left:70px;
+        }
+        .card-8 .card_a .half:hover{
+
+            opacity: 1;
+        }
+        .content button{
+
+            padding: 10px;
+            margin-top: 20px;
+            font-weight: bold;
+            color: brown;
+            transition: 1s;
+        }
+        .content button:hover{
+
+            color: white;
+            background: darkred;
+        }
+        .owner{
+
+            background: gold;
+            overflow: hidden;
+            margin-top: 100px;
+        }
+        .owner .owner_c{
+
+            width: 80%;
+            margin: auto;
+        }
+        .owner .owner_c .owner-1{
+            
+            height: 400px;
+            width: 100%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-1.png);
+            background-size: 100% 100%;
+            clip-path: polygon(10% 0%,0% 0%,100% 0%,90% 100%,0% 100%)
+        }
+        .owner .owner_c .owner-2{
+
+            height: 400px;
+            width: 100%;
+            background:;
+        }
+        .service .ser_vice .ser-1 .box-1{
+
+            height: 500px;
+            width: 100%;
+            background:;
+        }
+        .service .ser_vice .ser-1 .box-1 .round{
+
+            height: 250px;
+            width: 250px;
+            background: ;
+            border: 4px solid;
+            margin: auto;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 250px;
+           
+
+        }
+        .service .ser_vice .ser-2 .box-1 .round{
+
+            height: 250px;
+            width: 250px;
+            background: ;
+            border: 4px solid;
+            margin: auto;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 250px;
+           
+           
+
+        }
+        .service .ser_vice .ser-3 .box-1 .round{
+
+            height: 250px;
+            width: 250px;
+            background:;
+            border: 4px solid;
+            margin: auto;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 250px;
+           
+           
+
+        }
+        .service .ser_vice .ser-4 .box-1 .round{
+
+            height: 250px;
+            width: 250px;
+            background: ;
+            border: 4px solid;
+            margin: auto;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 250px;
+           
+           
+
+        }
+        .center_p{
+
+            position: relative;
+        }
+        .center_p .food{
+
+            position: absolute;
+            left: 38%;
+            top: -250px;
+        }
+        .cake .cake_c .cake-1{
+
+            height: 600px;
+            width: 100%;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-1{
+
+            height:200px;
+            width: 100%;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-1 .round_a{
+
+            height: 180px;
+            width: 180px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            border: 3px solid darkgoldenrod;
+            margin:auto;
+        }
+        .cake .cake_c .cake-1 .part-2{
+
+            height:200px;
+            width: 100%;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-2 .round_a{
+
+            height: 180px;
+            width: 180px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/danish-1.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            border: 3px solid;
+            margin:auto;
+        }
+        .cake .cake_c .cake-1 .part-3{
+
+            height:200px;
+            width: 100%;
+            background: ;
+        }
+        .cake .cake_c .cake-1 .part-3 .round_a{
+
+            height: 180px;
+            width: 180px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/bread-3.jpg);
+            background-size: 100% 100%;
+            border-radius: 50%;
+            border: 3px solid;
+            margin:auto;
+        }
+        .cake .cake_c .cake-2{
+
+            height: 600px;
+            width: 100%;
+            background:;
+            border: 3px solid;
+            display: flex;
+        }
+        .cake .cake_c .cake-2 .left{
+
+            height: 600px;
+            width: 50%;
+            background:;
+        }
+        .cake .cake_c .cake-2 .left button:hover{
+
+            background: ;
+        }
+        .cake .cake_c .cake-2 .right{
+
+            height: 580px;
+            width: 50%;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-3.jpg);
+            background-size: 100% 100%;
+        }
+        .adv .adv_c .left_part{
+
+            height: 500px;
+            background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-bakery-mobile.png);
+            background-size: 100% 100%;
+        }
+        .adv .adv_c .right_part{
+
+            height: 500px;
+            background:;
+       
+        }
+        .adv .adv_c .right_part .part_a{
+
+            height:166px;
+            background:;
+       display: flex;
+        
+        }
+        .adv .adv_c .right_part .part_a .left_img{
+
+            height: 166px;
+            width: 30%;
+    
+            background:;
+        }
+        .adv .adv_c .right_part .part_a .left_img .ico_n{
+
+            height: 150px;
+            width: 150px;
+            border: 3px solid;
+            border-radius: 50%;
+            margin: auto;
+            background:;
+            transition: 1s;
+        }
+        .adv .adv_c .right_part .part_a .left_img .ico_n:hover{
+
+            background-color: black;
+            color: #fff;
+        }
+        .adv .adv_c .right_part .part_b .left_img .ico_n:hover{
+
+            background-color: black;
+            color: #fff;
+        }
+        .adv .adv_c .right_part .part_c .left_img .ico_n:hover{
+
+            background-color: black;
+            color: #fff;
+        }
+        .adv .adv_c .right_part .part_a .left_img .ico_n i{
+
+            font-size: 50px;
+            margin-top: 45px;
+            margin-left: 47px;
+        }
+        .adv .adv_c .right_part .part_b .left_img .ico_n i{
+
+            font-size: 50px;
+            margin-top: 45px;
+            margin-left: 47px;
+        }
+        .adv .adv_c .right_part .part_c .left_img .ico_n i{
+
+            font-size: 50px;
+            margin-top: 45px;
+            margin-left: 47px;
+        }
+        .adv .adv_c .right_part .part_b .left_img .ico_n{
+
+            height: 150px;
+            width: 150px;
+            border: 3px solid;
+            border-radius: 50%;
+            margin: auto;
+            background:;
+            transition: 1s;
+        }
+        .adv .adv_c .right_part .part_c .left_img .ico_n{
+
+            height: 150px;
+            width: 150px;
+            border: 3px solid;
+            border-radius: 50%;
+            margin: auto;
+            background:;
+            transition: 1s;
+        }
+        .adv .adv_c .right_part .part_a .right_detial{
+
+            height: 166px;
+            width: 70%;
+       
+            background:;
+        }
+        .adv .adv_c .right_part .part_b{
+
+            height:166px;
+            background:;
+            display: flex;
+       
+        }
+        .adv .adv_c .right_part .part_b .left_img{
+
+            height: 166px;
+            width: 30%;
+
+    
+            background:;
+        }
+        .adv .adv_c .right_part .part_b .right_detial{
+
+            height: 166px;
+            width: 70%;
+       
+            background:;
+        }
+        .adv .adv_c .right_part .part_c{
+
+            height:166px;
+            background:;
+            display: flex;
+            flex-wrap: wrap;
+       
+        }
+        .adv .adv_c .right_part .part_c .left_img{
+
+            height: 166px;
+            width: 30%;
+            background:;
+        }
+        .adv .adv_c .right_part .part_c .right_detial{
+
+            height: 166px;
+            width: 70%;
+            background:;
+        }
+.staff .staff_c .staff-1 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background:;
+    position: relative;
+}
+.staff .staff_c .staff-1 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-4.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+
+
+
+.staff .staff_c .staff-1 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.staff .staff_c .staff-2 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background: ;
+    position: relative;
+}
+.staff .staff_c .staff-2 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-1.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+.staff .staff_c .staff-2 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.staff .staff_c .staff-3 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background: ;
+    position: relative;
+}
+.staff .staff_c .staff-3 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-2.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+.staff .staff_c .staff-3 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.staff .staff_c .staff-4 .card_1{
+
+    height: 300px;
+    width: 100%;
+    border: 3px solid;
+    background:;
+    position: relative;
+}
+.staff .staff_c .staff-4 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/09/m-personnel-3.png);
+    background-size: 100% 100%;
+    left:13px;
+    top:-50px;
+}
+.staff .staff_c .staff-4 .card_1 h3{
+    margin-top: 250px;
+    text-align: center;
+}
+.blog .blog_c .blog-1 .card_1{
+
+    height: 500px;
+    width: 100%;
+    background:;
+   
+    
+}
+.blog .blog_c .blog-1 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 3px solid;
+   background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-14.jpg);
+   background-size: 100% 100%;
+   
+}
+.blog .blog_c .blog-2 .card_1{
+
+    height: 500px;
+    width: 100%;
+    background: ;
+   
+    
+}
+.blog .blog_c .blog-2 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 3px solid;
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-2.jpg);
+    background-size: 100% 100%;
+   
+}
+.blog .blog_c .blog-3 .card_1{
+
+    height: 500px;
+    width: 100%;
+    background:;
+   
+    
+}
+.blog .blog_c .blog-3 .card_1 .img_s{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    border: 3px solid;
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-20.jpg);
+    background-size: 100% 100%;
+   
+}
+.map .map_c .map-1{
+
+    height: 600px;
+    background: coral;
+}
+.soci {
+  
+    font-size: 40px;
+    margin-left: 50px;
+ 
+    
+}
+.gallery{
+
+    height: 200px;
+    width: 100%;
+    background:;
+}
+.gallery .gal1{
+
+    height: 100px;
+    width: 100%;
+    background:;
+}
+.gallery .gal1 .ig-1{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-1-180x180.jpg);
+    background-size: 100% 100%;
+}
+
+.gallery .gal1 .ig-2{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-2-180x180.jpg);
+    background-size: 100% 100%;
+}
+.gallery .gal1 .ig-3{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-3-180x180.jpg);
+    background-size: 100% 100%;
+}
+.gallery .gal2 .ig-1{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-4-180x180.jpg);
+    background-size: 100% 100%;
+}
+
+.gallery .gal2 .ig-2{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-5-180x180.jpg);
+    background-size: 100% 100%;
+}
+.gallery .gal2 .ig-3{
+
+    background: url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/12/img-6-180x180.jpg);
+    background-size: 100% 100%;
+}
+
+.gallery .gal2{
+
+    height: 100px;
+    width: 100%;
+    background:;
+}
+
+/* media  */
+@media (max-width:1100px){
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+
+
+
+}
+@media (max-width:900px){
+    .cake .cake_c .cake-2 .left{width: 100%;}
+    .cake .cake_c .cake-2 .right{display: none;}
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+
+}
+@media (max-width:700px){
+    .cake .cake_c .cake-2 .left{width: 100%;}
+    .cake .cake_c .cake-2 .right{display: none;}
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+
+}
+@media (max-width:500px){
+    .cake .cake_c .cake-2 .left{width: 100%;}
+    .cake .cake_c .cake-2 .right{display: none;}
+    .staff .staff_c .staff-2 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-3 .card_1{margin-top: 100px;}
+    .staff .staff_c .staff-4 .card_1{margin-top: 100px;}
+    form{width: 100%;}
+    .adv .adv_c .right_part .part_c .right_detial{font-size: 10px;}
+    .adv_c{width: 100%;}
+
+}
+
+</style>
+<body>
+  <!--header start  -->
+  <div class="header container-fluid  row" style="background:rgb(43, 42, 42);">
+    <div class="info  col-xl-6">
+		
+		<li><i class="fa-solid fa-phone"></i> +1 0123 456 789</li>
+		<li><i class="fa-solid fa-clock"></i> Mon - Sat: 7:00 - 17:00</li>
+		<li><i class="fa-regular fa-envelope"></i> info@bakerytheme.com</li>
+
+	</div>
+    <div class="icons col-xl-6">
+		<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+		<a href=""><i class="fa-brands fa-twitter"></i></a>
+		<a href=""><i class="fa-brands fa-youtube"></i></a>
+		<a href=""><i class="fa-brands fa-instagram"></i></a>
+
+	</div>
+    
+  </div>
+  <!-- header end -->
+  <!-- nav start -->
+  <div class="navi container-fluid  ">
+
+	<div class="box  row" style="width: 70%;margin:auto;line-height: 100px;">
+			
+			<div class="l1   col-xl-4">
+				<li>HOME</li>
+		<li>PAGES</li>
+		<li>PRODUCTS</li>
+
+			</div>
+			<div class="logo  col-xl-3">
+				<img src="https://preview.milingona.co/themes/bakery/main/wp-content/themes/bakery/assets/img/bakery-logo-dark.png" height="100px" width="100px">
+			</div>
+			<div class="l2  col-xl-5">
+				<li>elements</li>
+		<li>blog</li>
+		<li>buy now</li>
+		<li><i class="fa fa-search"></i></li>
+		<li><i class="fa fa-shopping-cart"></i></li>
+			</div>
+
+	</div>
+	
+</div>
+
+  <!-- nav end -->
+  <!-- slider start -->
+
+  <div class="container-fluid slider " style="height:550px;">
+
+	<div id="demo" class="carousel slide" data-ride="carousel">
+
+<!-- Indicators -->
+<ul class="carousel-indicators">
+<li data-target="#demo" data-slide-to="0" class="active"></li>
+<li data-target="#demo" data-slide-to="1"></li>
+<li data-target="#demo" data-slide-to="2"></li>
+</ul>
+
+<!-- The slideshow -->
+<div class="carousel-inner">
+<div class="carousel-item active" style="margin-top: 20px;">
+  <img src="https://wallpapercave.com/wp/wp2004021.jpg" style="height:500px;" alt="Los Angeles" height="100%" width="100%">
+</div>
+<div class="carousel-item" style="margin-top: 20px;">
+  <img src="https://www.w3schools.com/bootstrap4/chicago.jpg" alt="Chicago" height="100%" width="100%">
+</div>
+<div class="carousel-item">
+  <img src="https://www.w3schools.com/bootstrap4/ny.jpg" alt="New York" height="100%" width="100%">
+</div>
+</div>
+
+<!-- Left and right controls -->
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</a>
+<a class="carousel-control-next" href="#demo" data-slide="next">
+<span class="carousel-control-next-icon"></span>
+</a>
+
+</div>
+	
+</div>
+
+
+  <!-- slider end -->
+  <!-- content start -->
+  <div class="content container-fluid  ">
+	<h3 style="text-align:center;padding-top:10px;color: brown;">OUR LATEST BAKERY PRODUCTS</h3>
+	<p style="text-align:center;padding-top:10px;">Check some of our best products and feel the great passion for food</p>
+	<div class="content_c  row" style="width:90%;margin:auto;" >
+		<div class="card-1  col-xl-3" >
+			<div class="card_a">
+				<div class="half">
+					<div class="ser">
+						<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+						<div class="buy" style="height:50px;width:50px;background:pink;border: 3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+					</div>
+					<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+					<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<h3 style="text-align: center;">3.39$</h3>
+				</div>
+			</div>
+		</div>
+		<div class="card-2  col-xl-3" >
+			<div class="card_a">
+				<div class="half">
+					<div class="ser">
+						<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+						<div class="buy" style="height:50px;width:50px;background:pink;border: 3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+					</div>
+					<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+					<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<h3 style="text-align: center;">3.39$</h3>
+				</div>
+			</div></div>
+		<div class="card-3  col-xl-3"><div class="card_a">
+			<div class="half">
+				<div class="ser">
+					<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+					<div class="buy" style="height:50px;width:50px;background:pink;border: 3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+				</div>
+				<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+				<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3 style="text-align: center;">3.39$</h3>
+			</div>
+		</div></div>
+		<div class="card-4  col-xl-3" ><div class="card_a">
+			<div class="half">
+				<div class="ser">
+					<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+					<div class="buy" style="height:50px;width:50px;background:pink;border: 3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+				</div>
+				<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+				<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3 style="text-align: center;">3.39$</h3>
+			</div>
+		</div></div>
+		<div class="card-5  col-xl-3" ><div class="card_a">
+			<div class="half">
+				<div class="ser">
+					<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+					<div class="buy" style="height:50px;width:50px;background:pink;border: 3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+				</div>
+				<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+				<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3 style="text-align: center;">3.39$</h3>
+			</div>
+		</div></div>
+		<div class="card-6  col-xl-3"><div class="card_a">
+			<div class="half">
+				<div class="ser">
+					<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+					<div class="buy" style="height:50px;width:50px;background:pink;border: 3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+				</div>
+				<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+				<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3 style="text-align: center;">3.39$</h3>
+			</div>
+		</div></div>
+		<div class="card-7  col-xl-3"><div class="card_a">
+			<div class="half">
+				<div class="ser">
+					<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+					<div class="buy" style="height:50px;width:50px;background:pink;border:3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+				</div>
+				<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+				<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3 style="text-align: center;">3.39$</h3>
+			</div>
+		</div></div>
+		<div class="card-8  col-xl-3" ><div class="card_a">
+			<div class="half">
+				<div class="ser">
+					<div class="ser_a" style="height:50px;width:50px;background:pink;margin: auto;border: 3px solid;border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-magnifying-glass"></i></div>
+					<div class="buy" style="height:50px;width:50px;background:pink;border: 3px solid; border-radius: 50%;text-align: center;line-height: 40px;font-size: 20px;"><i class="fa-solid fa-cart-shopping"></i></div>
+				</div>
+				<h3 style="text-align: center;margin-top:50px;">sourdough</h3>
+				<p style="text-align: center;">orem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<h3 style="text-align: center;">3.39$</h3>
+			</div>
+		</div></div>
+		<button>See All Products</button>
+
+
+	</div>
+  </div>
+  <!-- content end -->
+  <!-- owner strat -->
+  <div class="owner container-fluid ">
+	<div class="owner_c row">
+		<div class="owner-1 col-xl-3">
+
+			<div class="photo">
+
+			</div>
+
+		</div>
+		<div class="owner-2 col-xl-9">
+			<p style="text-align: right;margin-top:20px;">We just wanted to thank you for the beautiful cake you created for our wedding.<br>It was simply delicious and meticulously decorated. You made the process easy,<br> and put us at ease. You are a true professional and a talented baker and we are forever thankful for helping our dream wedding come true.</p>
+			<h4 style="text-align: right;margin-top:80px;">Deep Ramani</h4>
+			<p style="text-align: right;margin-top:10px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Business Owner</p>
+		</div>
+	</div>
+
+
+  </div>
+  <!-- owner end -->
+  <!-- service start -->
+  <div class="service container-fluid  ">
+	<h1 style="text-align:center;padding-top:10px;color: brown;">MAIN SERVICES WE PROVIDE</h1>
+	<p style="text-align:center;padding-top:10px;font-size:30px;" >Our services are the best in town, we provide great quality baked products</p>
+	<p style="text-align:center;padding-top:0;font-size:30px;" >and ensure you enjoy a memorable food experience every time.</p>
+	<div class="ser_vice  row" style="width:100%">
+	<div class="ser-1 col-xl-3 ">
+		<div class="box-1">
+			<div class="round"><i class="fa-solid fa-cake-candles" style="font-size: 70px;"></i></div>
+			<h2 style="text-align: center;color: gold;">LOST OF BORD</h2>
+			<p style="text-align: center;font-size: 20px;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<p style="text-align: center;font-size: 20px;">Read More</p>
+		</div>
+	</div>
+	<div class="ser-2 col-xl-3"><div class="box-1">
+		<div class="round"><i class="fa-solid fa-cake-candles" style="font-size: 70px;"></i></div>
+		<h2 style="text-align: center;color: gold;">CAKES</h2>
+		<p style="text-align: center;font-size: 20px;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p style="text-align: center;font-size: 20px;">Read More</p>
+	</div></div>
+	<div class="ser-3 col-xl-3 "><div class="box-1">
+		<div class="round"><i class="fa-solid fa-cake-candles" style="font-size: 70px;"></i></div>
+		<h2 style="text-align: center;color: gold;">COOKIES</h2>
+		<p style="text-align: center;font-size: 20px;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p style="text-align: center;font-size: 20px;">Read More</p>
+	</div></div>
+	<div class="ser-4 col-xl-3"><div class="box-1">
+		<div class="round"><i class="fa-solid fa-cake-candles" style="font-size: 70px;"></i></div>
+		<h2 style="text-align: center;color: gold;">MUFFINS</h2>
+		<p style="text-align: center;font-size: 20px;" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p style="text-align: center;font-size: 20px;">Read More</p>
+	</div></div>
+
+	</div>
+  </div>
+  <!-- service end -->
+   <!-- products start -->
+   <div class="product bg-info" style="height: 500px;background: url(https://images.alphacoders.com/103/thumb-1920-1036345.jpg);background-size: 100% 100%;background-attachment: fixed;">
+	<h1 style="text-align: center;color:gold">DIFFERENT TYPES OF BREAD PRODUCTS</h1>
+	<h3 style="text-align: center;color:whitesmoke">YOU WILL FIND THEM ONLY THE BEST PRODUCTS IN OUR STORES</h3>
+</div>
+<!-- <div class="center_p ">
+	<div class="food" style="height:300px;width:300px;background:url(https://preview.milingona.co/themes/bakery/main/wp-content/uploads/2017/11/muffin-2.jpg);background-size: 100% 100%;" ></div>
+</div> -->
+   <!-- products end -->
+   <!-- offer -->
+   <div class="offer  container-fluid">
+	
+	<h2 style="text-align: center;padding-top: 20px;">This Week Offer</h2>
+	<p style="text-align: center;padding-top: 20px;">We offer something different to local and foreign patrons <br>
+		and ensure you enjoy a memorable food experience every time.</p>
+	<div class="cake">
+		<div class="cake_c  row" style="width:90%; margin: auto;">
+		<div class="cake-1 col-xl-3">
+			<div class="part-1">
+				<div class="round_a"></div>
+			</div>
+			<div class="part-2">
+				<div class="round_a"></div>
+			</div>
+			<div class="part-3">
+				<div class="round_a"></div>
+			</div>
+		</div>
+		<div class="cake-2 col-xl-9">
+			<div class="left">
+				<h1 style="text-align:center;">MAPLE OAT MUFFIN</h1>
+				<p style="margin-left:50px; margin-top: 20px;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				<p style="margin-left:50px; margin-top: 20px;">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+				<h3 style="margin-left:50px; margin-top: 20px;">5.50$</h3>
+				<button style="padding: 10px;margin-left: 50px;margin-top: 10px;border: none;background: gold;">Order Now</button>
+			</div>
+			<div class="right"></div>
+		</div>
+		</div>
+	</div>
+
+
+   </div>
+   <!-- offer end -->
+   <!-- adv start -->
+   <div class="adv container-fluid " style="background:gold;">
+	<div class="adv_c  row" style="width:80%;margin:auto;padding-top: 50px;">
+		<div class="left_part col-xl-6"></div>
+		<div class="right_part col-xl-6">
+			<div class="center_r"><div class="part_a">
+				<div class="left_img">
+					<div class="ico_n"><i class="fa-solid fa-gift"></i></div>
+				</div>
+				<div class="right_detial">
+					<h4 style="margin-left:70px;">BAKED WITH LOVE</h4>
+					<p style="margin-left:70px;font-size: 10px;">We are passionate about baking. Each of our handmade items are carefully baked with love.</p>
+				</div>
+			</div>
+			<div class="part_b">
+				<div class="left_img">
+					<div class="ico_n">
+						<i class="fa-solid fa-arrows-rotate"></i>
+					</div>
+				</div>
+				<div class="right_detial">
+					<h4 style="margin-left: 70px;margin-top: 20px;">FRESH INGREDIENTS</h4>
+					<p style="margin-left: 70px; margin-top:5px; font-size: 10px;">We are passionate about baking. Each of our handmade items are carefully baked with love.</p>
+					</div>
+			</div>
+			<div class="part_c">
+				<div class="left_img">
+					<div class="ico_n"><i class="fa-solid fa-clock"></i></div>
+				</div>
+				<div class="right_detial">
+					<h4 style="margin-left: 70px;margin-top: 35px;">ON TIME DELIVERY</h4>
+					<p style="margin-left: 70px;margin-top: 20px; margin-top:20px;font-size: 10px;">We are passionate about baking. Each of our handmade items are carefully baked with love.</p>
+					</div>
+			</div>
+		</div></div>
+	</div>
+   </div>
+   <!-- adv end -->
+   <!-- staf start -->
+   <div class="staff container-fluid ">
+	<h1 style="text-align: center;padding-top:30px;color:darkred">STAFF</h1>
+	<h4 style="text-align: center;padding-top:30px;color:">Main core of our company is our staff</h4>
+	<div class="staff_c  row" style="width:80%;margin: auto;margin-top: 100px;">
+		<div class="staff-1 col-xl-3">
+			<div class="card_1">
+				<div class="img_s">
+					<div class="img_h"></div>
+				</div>
+				<h3>MIKKIE RUKE</h3>
+			</div>
+		</div>
+		<div class="staff-2 col-xl-3"><div class="card_1">
+			<div class="img_s"></div>
+			<h3>MIKKIE RUKE</h3>
+		</div></div>
+		<div class="staff-3 col-xl-3"><div class="card_1">
+			<div class="img_s"></div>
+			<h3>MIKKIE RUKE</h3>
+		</div></div>
+		<div class="staff-4 col-xl-3"><div class="card_1">
+			<div class="img_s"></div>
+			<h3>MIKKIE RUKE</h3>
+		</div></div>
+
+	</div>
+	<div class="white" style="height:50px;background:;"></div>
+
+   </div>
+   <!-- staf end -->
+   <!-- blog star -->
+   <div class="blog container-fluid">
+		<h2 style="text-align:center;padding-top: 30px;">Blog</h2>
+		<h4 style="text-align: center;margin-top: 20px;">Check our latest articles, what we are talking about</h4>
+		
+			<div class="blog_c  row" style="width: 80%;margin: auto;margin-top: 30px;">
+			<div class="blog-1 col-xl-4">
+				<div class="card_1">
+					<div class="img_s"></div>
+					<h3 style="text-align: center;margin-top:20px;">very fast and good</h3>
+					<p  style="text-align: center;margin-top:20px;">good food for health</p>
+
+					
+				</div>
+			</div>
+			<div class="blog-2 col-xl-4"><div class="card_1">
+				<div class="img_s"></div>
+				<h3 style="text-align: center;margin-top:20px;">very fast and good</h3>
+					<p  style="text-align: center;margin-top:20px;">good food for health</p>
+
+			</div></div>
+			<div class="blog-3 col-xl-4"><div class="card_1">
+				<div class="img_s"></div>
+				<h3 style="text-align: center;margin-top:20px;">very fast and good</h3>
+					<p  style="text-align: center;margin-top:20px;">good food for health</p>
+
+				
+			</div></div>
+
+		
+		</div>
+		</div>
+		</div>
+   </div>
+   <!-- blog end -->
+   <!-- map start -->
+   <div class="map container-fluid bg-info" style="background: url(https://th.bing.com/th/id/OIP.V_pBFv600avDSASh8I8dagHaDV?pid=ImgDet&rs=1);background-size:100% 100%;">
+	<div class="map_c" style="width: 80%; margin:auto;">
+		<div class="map-1 col-xl-4" style="">
+			<h3 style="text-align: center;padding-top: 20px;">Contact Us</h3>
+			<h6 style="text-align: center;padding-top: 20px;">Meet the creative team that never sleeps. Say something to us we will answer to you.
+
+			</h6>
+			<form action="/action_page.php">
+				<div class="mb-3 mt-3">
+				  <label for="Name" class="form-label">Name:</label>
+				  <input type="name" class="form-control" id="email" placeholder="Enter Name" name="email">
+				</div>
+				<div class="mb-3 mt-3">
+					<label for="email" class="form-label">Email:</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+				  </div>
+				<div class="mb-3">
+				  <label for="pwd" class="form-label">Phone no:</label>
+				  <input type="number" class="form-control" id="pwd" placeholder="Enter Phone no" name="num">
+				</div>
+				<div class="mb-3">
+					<label for="pwd" class="form-label">Address:</label>
+					<input type="ADDRESS" class="form-control" id="pwd" placeholder="Enter Address" name="">
+				  </div>
+				<div class="form-check mb-3">
+				  <label class="form-check-label">
+					<input class="form-check-input" type="checkbox" name="remember"> Remember me
+				  </label>
+				</div>
+				<button type="submit" class="btn btn-primary" style="width: 100%;background: gold;color: black;">Send</button>
+			  </form>
+		</div>
+	</div>
+   </div>
+   <!-- map end -->
+   <!-- about -->
+   <div class="about container-fluid " style="background:gray ;">
+	<div class="about_c row " style="width: 80%;margin:auto">
+		<div class="about-1 col-xl-5">
+			<h4 style="margin-left: 50px;">About</h4>
+			<p  style="margin-left: 50px;margin-top: 20px;">Bakery is a premium WordPress theme with over 2,000 active users around the globe. It prides itself on being incredibly easy to use and powerful through its advanced options that allow you to build professional and stunning website without any coding knowledge.</p>
+		</div>
+		<div class="about-2 col-xl-2">
+			<img src="https://preview.milingona.co/themes/bakery/main/wp-content/themes/bakery/assets/img/bakery-logo-dark.png" height="100%" width="100%">
+
+		</div>
+		<div class="about-3 col-xl-5">
+			<h3 style="margin-left:50px;">NEWSLETTER</h3>
+			<p style="margin-left:50px;margin-top: 20px;">Subscribe to get regular updates for new stuff and events.
+				<form action="">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Your Email" style="background:gary;">
+						<span class="input-group-text">SUBSCRIBE</span>
+					  </div>
+				</form>
+			</p>
+		</div>
+	</div>
+   </div>
+<!-- about end -->
+<!-- footer start -->
+<div class="footer container-fluid " style="background:black ;">
+	<div class="footer_c row " style="width: 80%;margin:auto;">
+		<div class="footer-1 col-xl-3">
+			<h3 style="margin-left: 50px;padding-top:20px;color: #fff;">Happy Hours</h3>
+			<p style="margin-left: 50px;padding-top:20px;color: #fff;">If you are near our shop, you are in luck. You can have that cookie WARMED UP! Oh, happy day. Pick your happiness!</p>
+			<h5 style="margin-left: 50px;padding-top:20px;color: #fff;">3:00 pm – 5:00 pm daily</h5>
+		
+			<div class="soci">
+			<a href=""><i class="fa-brands fa-facebook-f"></i></a>
+		<a href=""><i class="fa-brands fa-twitter"></i></a>
+		<a href=""><i class="fa-brands fa-youtube"></i></a>
+		<a href=""><i class="fa-brands fa-instagram"></i></a>
+		</div>
+		</div>
+		<div class="footer-2 col-xl-3">
+			<h3 style="margin-left: 50px;padding-top:20px;color: #fff;">OUR GALLERY</h3>
+			<div class="gallery">
+				<div class="gal1" style="display:flex ;">
+					<div class="ig-1" style="height:100px ;width: 32%;"></div>
+					<div class="ig-2"  style="height:100px ;width: 32%;margin-left: 5px;"></div>
+					<div class="ig-3"  style="height:100px ;width: 32%; margin-left: 5px;"></div>
+				</div>
+				<div class="gal2"  style="display:flex ;margin-top: 5px;">
+					<div class="ig-1" style="height:100px ;width: 32%;"></div>
+					<div class="ig-1"  style="height:100px ;width: 32%;margin-left: 5px;"></div>
+					<div class="ig-1"  style="height:100px ;width: 32%; margin-left: 5px;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-3 col-xl-3">
+			<h3 style="margin-left: 50px;padding-top:20px;color: #fff;">Oping Hours</h3>
+			<p style="margin-top: 20px;color: #fff;">Monday <span style="float: right;"> 8:00 - 16:00</span></p>
+			<p style="margin-top: 20px;color: #fff;" >tuesday <span style="float: right;color: #fff;"> 8:00 - 16:00</span></p>
+			<p style="margin-top: 20px;color: #fff;">wednesday <span style="float: right;color: #fff;"> 8:00 - 16:00</span></p>
+			<p style="margin-top: 20px;color: #fff;">thrusday <span style="float: right;color: #fff;"> 8:00 - 16:00</span></p>
+			<p style="margin-top: 20px;color: #fff;">friday <span style="float: right;color: #fff;"> 8:00 - 16:00</span></p>
+			<p style="margin-top: 20px;color: #fff;">saturady <span style="float: right;color: #fff;"> 8:00 - 16:00</span></p>
+			<p style="margin-top: 20px;color: #fff;">sunday <span style="float: right;color: #fff;">Closed</span></p>
+		</div>
+		<div class="footer-4 col-xl-3">
+			<h3 style="margin-left: 50px;padding-top:20px;color: #fff;">Contact US</h3>
+			<h4 style="margin-left: 50px; margin-top: 20px;color: #fff;"><i class="fa-solid fa-phone"></i> 0123456789</h4>
+			<h5 style="margin-left: 50px; margin-top: 20px;color: #fff;"><i class="fa-solid fa-envelope"></i> deep@gmail.com</h5>
+			<h5 style="margin-left: 50px; margin-top: 20px;color: #fff;"><i class="fa-solid fa-location-dot"></i> 30 Hampton Road Southampton, NY 11968</h5>
+
+		</div>
+	</div>
+	
+</div>
+<!-- footer end -->
+</body>
+</html>

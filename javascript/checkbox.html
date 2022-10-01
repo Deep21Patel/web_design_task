@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+    <input type="checkbox" name="x">a
+    <input type="checkbox" name="x">b
+    <input type="checkbox" name="x">c
+    <input type="checkbox" name="x">d<br>
+<button onclick="clk()">submit</button>
+</form>
+   
+<script>
+
+   function clk(){
+
+    var che_arr=document.getElementsByName('x');
+    if(che_arr[0] .checked == true||che_arr[1].checked==true||che_arr[2].checked==true||che_arr[3].checked==true)
+    {
+
+    }
+    else{
+
+        alert("SELECT ANY BOX");
+    }
+   }
+
+</script>
+</body>
+</html>

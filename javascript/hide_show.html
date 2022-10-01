@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque vitae quasi et corrupti aspernatur pariatur consequuntur, quas quam asperiores eveniet dolores atque molestiae quos ipsam quisquam est illo? Atque?</p>
+    <p id="p1"></p>
     <button onclick="myf()">hide and show</button>
 
     <script>
@@ -16,6 +16,7 @@
             if(p.style.display=="none")
             {
                 p.style.display="block"
+                p.innerHTML="deep"
             }
             else{
 

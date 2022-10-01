@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .body{
+
+        height: 500px;
+        width: 100%;
+        background:coral;
+        margin: 100px auto;
+    
+    
+    }
+    .body h1{
+
+        text-align: center;
+    }
+    .box{
+ō
+        width: 30%;
+        margin: auto;
+    }
+    li{
+
+        font-size: 30px;
+    }
+</style>
+<body>
+    <div class="body">
+       
+    <h1>To Do List</h1>
+        <div class="box">
+            <h2 style="border-bottom:3px solid; ">Add Item</h2>
+            <input type="text" id="add"><button onclick="addmore()">add</button>
+            <span id="error"></span>
+            <h2 style="border-bottom:3px solid; ">TO DO list</h2>
+            
+           <ul id="op"></ul>
+            <h2 style="border-bottom:3px solid; ">Completed</h2> 
+            
+        </div>
+       
+    </div>
+
+    <script>
+function addmore(){
+
+   
+var name=document.getElementById('add').value;
+    if(name=='')
+    {
+            document.getElementById('error').innerHTML="enter the value";
+    }
+    else{
+
+        var box=document.getElementById('op');
+        var li=document.createElement('li');
+        li.textContent=name;
+        op.appendChild(li); 
+    }
+}
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@media (max-width:1100px)
+{
+
+}
+@media (max-width:900px)
+{
+
+    .bar{display: block;}
+    .right-part{display: none;}
+}
+@media (max-width:700px)
+{
+    .bar{display: block;}
+    .right-part{display: none;}
+
+
+}
+@media (max-width:500px)
+{
+    .bar{display: block;}
+    .right-part{display: none;}
+}
+@media (max-width:300px)
+{
+    .bar{display: block;}
+    .right-part{display: none;}
+}
+@media (max-width:100px)
+{
+    .bar{display: block;}
+    .right-part{display: none;}
+}
