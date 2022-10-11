@@ -1,0 +1,219 @@
+*{box-sizing: border-box;margin: 0;padding: 0;}
+.header{
+
+    display: grid;
+    grid-template-columns: 5fr 3fr 2fr;
+    grid-template-rows:50px;
+    border-bottom: 1px solid;
+}
+.header .part_1{
+
+    
+}
+.header .part_1 .truck{
+
+    text-align: center;
+    font-size: 10px;    
+    line-height:50px;
+}
+.header .part_1 .menu{
+
+    text-align: center;
+    line-height:50px;
+}
+.header .part_1 .menu li a{
+    
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.social ul li{
+
+    font-size: 30px;
+    list-style: none;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.nav_c{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    
+
+}
+.nav_c .x{
+
+    
+    grid-template-rows:50px;
+    
+}
+.nav_c .x ul{
+
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+
+}
+.nav_c .x ul li{
+    list-style: none;
+    margin-left: 20px;
+    
+
+
+}
+.nav_c .x ul li a{
+
+    font-size: 20px;
+    text-decoration: none;
+  
+}
+.nav_1{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: none;
+
+}
+.header1 .header_a{
+
+    display:grid;
+    width:80%;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows:380px;
+    margin: auto;
+
+}
+.header1 .header_a .slider_l{
+
+
+    background:url(https://demo4.drfuri.com/razzi10/wp-content/uploads/sites/29/2021/10/slider_v18.jpg);
+    background-size: 100% 100%;
+}
+
+.header1 .header_a .slider_r .up{
+
+   height: 200px;
+  
+}
+.header1 .header_a .slider_r .down{
+
+    height: 200px;
+   
+ }
+ .con .con_a{
+    display:grid;
+    width:80%;
+    grid-template-columns:3fr 3fr 3fr 3fr;
+    margin: auto;
+ }
+ 
+ .con .con_a .item1 .photo{
+
+    height:auto;
+    width: 100%;
+ }
+ .con .con_a .item1 .detial{
+
+    height:auto;
+    width: 100%;
+ }
+ .part_c{
+
+    display:grid;
+    width:80%;
+    grid-template-columns:3fr 3fr ;
+    margin: auto;
+    margin-top: 50px;
+
+ }
+
+ .part_c .part_a .card{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+background: url(https://demo4.drfuri.com/razzi10/wp-content/uploads/sites/29/2021/10/banner_v1802.jpg);
+background-size: 100% 100%;
+
+ }
+ .part_c .part_a .card{
+
+    height: 300px;
+    width: 90%;
+    margin: auto;
+    background: red;
+
+ }
+ .pro_c{
+
+    display:grid;
+    width:80%;
+    grid-template-columns:3fr 3fr 3fr 3fr ;
+    margin: auto;
+    margin-top: 50px;
+
+ }
+ .search_c{
+    display:grid;
+    width:80%;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 300px;
+    margin: auto;
+    margin-top: 50px;
+    background:url(https://demo4.drfuri.com/razzi10/wp-content/uploads/sites/29/2021/10/banner_v1805.jpg);
+    background-size: 100% 100%;
+ }
+ .search_c .a h1{
+
+    margin-top: 100px;
+    margin-left: 50px;
+
+    
+ }
+ .search_c .a p{
+ 
+    margin-left: 50px;
+
+}
+input[type=text]{
+
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 20px 40px;
+    
+}
+button{
+    padding: 20px;
+    margin-left: 10px;
+}
+.about_c{
+    display:grid;
+    width:80%;
+    grid-template-columns:4fr 6fr;
+    grid-template-rows: auto;
+ 
+    margin: auto;
+    margin-top: 50px;
+  
+ }
+ .footer_c{
+    display:grid;
+    width:80%;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+ 
+    margin: auto;
+    margin-top: 50px;
+  
+ }
+ .footer .x{
+
+    margin-top: 50px;
+    margin-left: 40px;
+ }
+ .footer .x p{
+
+    margin-top: 10px;
+ }

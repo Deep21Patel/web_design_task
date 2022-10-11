@@ -1,0 +1,116 @@
+
+body{
+	background: linear-gradient(pink,white);
+	height: 100vh;
+	overflow: hidden;
+	
+	
+}
+
+.smcricle{
+	position: relative;
+  left: 55%;
+  top: 40%;
+  height:100px;
+  width: 100px;
+  border-radius: 50%;
+  padding: 50px;
+  background: linear-gradient(pink,orange,lightpink,pink);
+}
+.bcricle{
+
+	position: absolute;
+  left:-200%;
+  top:20%;
+  height: 100px;
+  width: 100px;
+  padding: 40px;
+  border-radius: 50%;
+   background: linear-gradient(pink,orange,lightpink,pink);
+  }
+
+.center{
+
+	position: absolute;
+	right: 70%;
+	top:-100%;
+	height:500px;
+	width: 300px;
+	padding-top: 50px;
+	padding-left: 40px;
+	border: 1px solid #fff;
+	box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(6px) saturate(200%) contrast(40%) brightness(140%);
+	border-radius: 10px;
+
+	
+	
+	}
+	.hed{
+		font-size: 30px;
+		font-family: monospace;
+		color: #DA6385;
+	}
+	.sin{
+		font-family: unset;
+		color: #da6385;
+
+	}
+	.fild input{
+	width: 80%;
+	outline: none;
+	border: none;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
+	padding: 8px 10px;
+	padding-left: 40px;
+	border-radius: 15px;
+	margin-top: 40px;
+	color:blue;
+	font-size:16px ;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+
+
+}	
+.fi input{
+	
+	width: 80%;
+		outline: none;
+	border: none;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.2);
+	padding: 8px 10px;
+	padding-left: 40px;
+	border-radius: 15px;
+	margin-top: 20px;
+	color: black;
+	font-size:16px ;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+
+
+}
+ 
+.pass_link{
+
+	position: relative;
+	left: 48%;
+	top: 10px;
+}
+
+.sub input{
+
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 15px;
+	color:#da6385;
+	width: 100%;
+	padding: 8px 10px;
+	padding-left:10px;
+	border-radius: 15px;
+	margin-top: 20px;
+	box-shadow: blue;
+	letter-spacing: 1px;
+	
+	
+}
+
