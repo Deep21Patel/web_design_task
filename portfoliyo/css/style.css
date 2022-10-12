@@ -185,6 +185,7 @@ body{
   position: absolute;
   display: none;
   border-radius: 30px;
+  margin-left: -49px;
 
 }
 /* .nav_menu:hover{

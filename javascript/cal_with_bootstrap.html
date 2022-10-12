@@ -47,7 +47,7 @@
         </div>
         <div class="key_a row">
             <div class="left_key col-xl-10  row "  style="margin-left: 0px">
-                <div class="key1 col-xl-4 " onclick="add(778)">7</div>
+                <div class="key1 col-xl-4 " onclick="add(7)">7</div>
                 <div class="key1  col-xl-4 "onclick="add(8)" >8</div>
                 <div class="key1  col-xl-4 "onclick="add(9)">9</div>
                 <div class="key1 col-xl-4 "onclick="add(4)">4</div>
@@ -80,25 +80,25 @@
             if(document.getElementById("display").value.includes("+"))
             {
                     num = document.getElementById("display").value.split('+');
-                    return parseInt(num[0]) + parseInt(num[1]);
+                    return parseFloat(num[0]) + parseFloat(num[1]);
             }
             else if(document.getElementById("display").value.includes("-"))
             {
 
                 num = document.getElementById("display").value.split('-');
-                    return parseInt(num[0]) - parseInt(num[1]);
+                    return  parseFloat(num[0]) -  parseFloat(num[1]);
             }
             else if(document.getElementById("display").value.includes("*"))
             {
 
                 num = document.getElementById("display").value.split('*');
-                    return parseInt(num[0]) * parseInt(num[1]);
+                    return  parseFloat(num[0]) *  parseFloat(num[1]);
             }
             else if(document.getElementById("display").value.includes("/"))
             {
 
                 num = document.getElementById("display").value.split('/');
-                    return parseInt(num[0]) / parseInt(num[1]);
+                    return  parseFloat(num[0]) /  parseFloat(num[1]);
             }
             
     }
